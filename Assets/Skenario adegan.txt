@@ -1,0 +1,675 @@
+Scene 0  Layar Hitam
+Narator: "Setiap kursi punya cerita. Tapi tidak semua cerita layak didengar."
+(Layar perlahan muncul: gambar kota dengan cerobong asap kecil dan tumpukan kayu)
+Scene 1 Kota BOLO
+Narator:
+"Kota BOLO. Namanya mungkin terdengar lucu, tapi jangan salah – dari sinilah perabot kayu terbaik di nusantara lahir. Meja, kursi, lemari... semua diukir oleh tangan-tangan yang tak pernah lelah."
+"Namun, dibalik serbuk kayu yang berhamburan, ada satu hal yang tak pernah bisa diukir dengan mudah “keadilan."
+(Gambar para tukang kayu sedang bekerja, lalu beralih ke papan pengumuman yang penuh dengan aturan baru)
+Narator:
+"Pejabat di BOLO bisa mempermudah hidup rakyat dan jika sedang takut kehilangan kursi jabatan, pejabat bisa membuat segalanya berhenti, Izin macet, Hutan ditutup, Pasar dibubarkan, sehingga  para tukang kayu harus turun menyuarakan kekesalan mereka. yahh… walaupun tidak di dengarkan juga"
+"Maka setiap lima tahun, para tukang kayu itu turun ke jalan. Bukan untuk mogok, tapi untuk memilih. Sayangnya, pilihan selalu antara... dua jenis buaya."
+(Sindiran halus: gambar dua kandidat dengan topeng tersenyum)
+Scene 2 Raka, Pemuda yang Tak Pernah Berniat
+Narator:
+Di tengah kebisingan itu, hiduplah seorang pria bernama Raka. Berusia 37 tahun yang Ambisius dan Jenius. Baru saja lulus sebagai lulusan terbaik dari 'Pendidikan Calon Pemimpin' institut yang katanya melahirkan presiden ke-7 negara ini.
+"Tapi jangan bayangkan Raka sedang berkhayal jadi walikota. Cita-citanya sederhana: menjadi Dewan Perwakilan Daerah. Cukup duduk di kursi yang lebih rendah, menyuarakan keluh kesah para tukang kayu. Itu saja."
+(Gambar Raka sedang membaca buku di ruangan sederhana, ditemani bapaknya yang memegang pahat kayu)
+Bapak Raka : "Nak, kamu sudah hebat. Tapi lihatlah sekeliling. Tidak ada satupun kandidat yang pantas untuk BOLO. Mereka semua... sama saja."
+Raka: "Aku tidak ingin jadi walikota, Pak. Aku cukup jadi DPD."
+Bapak: "DPD? Untuk apa? Suaramu akan tenggelam. Lebih baik kamu yang memegang kursi itu. Kami para tukang kayu... akan mendukungmu."
+(Gambar sekelompok tukang kayu berkumpul di balai desa, mengacungkan tangan)
+Scene 3 Keputusan yang Tak Terduga
+Narator:
+"Malam itu, Raka tidak bisa tidur. Dukungan dari bapaknya, dari para tukang kayu yang setiap hari ia temui... itu bukan sekadar tepuk tangan. Itu beban."
+"Di satu sisi, ia tahu jalannya sulit. Di sisi lain, jika bukan dia, siapa lagi?"
+(Gambar Raka berdiri di depan cermin, raut wajah berubah dari ragu menjadi mantap)
+Raka (dalam hati):
+"Baik. Aku akan maju. Akan kuambil kursi itu. Tapi... aku tidak akan menjadi seperti mereka."
+(Layar gelap sejenak)
+Pilihan Awal
+Membulatkan tekad lalu mencalonkan diri
+Melupakan angan angan tersebut karena takut terjerumus ke sistem yang korup (end)
+Narator:
+"Esoknya, pengumuman mengejutkan: Raka, lulusan terbaik institut calon pemimpin, resmi mencalonkan diri sebagai Walikota BOLO."
+"Para tukang kayu bersorak. Media menyebutnya 'angin segar'. Tapi di sudut ruangan yang gelap, seorang pengusaha mebel besar tersenyum kecil. Ia sudah menyiapkan godaan terbesar."
+(Gambar amplop coklat dengan uang terselip, diterangi cahaya remang)
+Scene 4 Awal Permainan
+Narator:
+"Selamat datang, Raka. Atau lebih tepatnya... selamat datang di mimpi buruk paling indah dalam hidupmu."
+"Kursi itu kosong. Rakyat menunggumu. Dan godaan... sudah di depan mata."
+"Bisakah kamu tetap menjadi Raka yang dulu? Atau kamu akan menjadi Raka yang lain?"
+Awal permainan
+Scene 5 Gemuruh Dukungan
+(Gambar: Rumah Raka berubah menjadi pusat kegiatan. Orang datang dan pergi. Spanduk dukungan mulai bermunculan.)
+Narator:
+"Kabar pencalonan Raka menyebar cepat. Lebih cepat dari yang ia duga. Keesokan harinya, rumahnya yang sederhana berubah menjadi samudera suara. Ada yang datang membawa harapan. Ada yang datang membawa hitungan."
+(Layar menampilkan antrean orang di depan rumah Raka. Ada tukang kayu dengan pahat di tangan, ada pengusaha rapi membawa koper, ada ibu-ibu dengan surat, dan ada oknum berpakaian dinas.)
+Scene 6 Gelombang Pertama: Keluh Kesah Rakyat
+Narator:
+"Sebelum Raka sempat menyeduh kopi, pintu rumahnya sudah diketuk puluhan pasang tangan. Mereka bukan pembawa amplop. Mereka pembawa luka."
+(Gambar: Seorang tukang kayu tua, tangan kapalan, berdiri di depan Raka.)
+Tukang Kayu 1 (dengan suara parau):
+"Pak Raka, kami dukung Bapak. Tapi tolong... izin tebang kayu kami macet sudah setahun. Anak-anak saya nganggur. Pejabat sekarang minta 'uang pelicin' setiap kali kami mengurus berkas."
+(Gambar: Ibu-ibu pedagang pasar dengan keranjang kosong.)
+Ibu Pedagang:
+"Pak, pasar kami mau dibubarkan karena 'penataan kota'. Tapi kami tidak diberi tempat baru. Katanya ada proyek mal. Tapi kami rakyat kecil... mau ke mana?"
+(Gambar: Sekelompok pemuda membawa spanduk bertuliskan "Lapangan Kerja".)
+Pemuda:
+"Pak Raka, kami lulusan SMK perkayuan. Tapi pabrik-pabrik lebih suka impor kayu. Tolong... hidupkan lagi industri kami."
+Narator:
+"Satu per satu cerita mengalir. Raka mendengarkan. Wajahnya serius. Tapi di sudut ruangan, ia melihat bapaknya menggeleng pelan. Bukan karena tidak setuju, tapi karena tahu... semua janji butuh kuasa, dan kuasa butuh pengorbanan."
+Scene 7 Gelombang Kedua: Dukungan Bermodal Imbalan
+(Gambar: Setelah rakyat mulai berkurang, giliran para pengusaha dan 'kawan baik' yang masuk. Penampilan mereka rapi, senyumnya lebar, dan mapnya tebal.)
+Narator:
+"Hari mulai gelap. Raka lelah, tapi pintu belum tertutup. Kali ini, tamunya berbeda. Mereka tidak datang dengan keluhan. Mereka datang dengan... penawaran."
+(Gambar: Pengusaha mebel bernama Hartono (dari skenario sebelumnya) masuk dengan senyum paling manis.)
+Hartono (Pengusaha Mebel Besar):
+"Pak Raka, selamat! Saya Hartono. Saya dengar Bapak maju. Saya dan rekan-rekan pengusaha ingin 'mendukung penuh'. Ada dana segar untuk kampanye, tim sukses, bahkan... konsultan media. Tentu saja, kami hanya berharap... nanti setelah terpilih, Bapak bisa 'memperhatikan' kebijakan ekspor kayu dan perizinan pabrik. Saling menguntungkan, bukan?"
+(Gambar: Seorang kontraktor proyek dengan helm dan tas tebal.)
+Kontraktor:
+"Saya dengar Bapak punya visi membangun jalan dan jembatan. Saya sudah siap menjadi mitra. Anggaran proyek bisa kita atur bersama. Yang penting... ada 'kesepakatan' di awal."
+(Gambar: Seorang oknum dinas perizinan dengan kumis tebal, merokok sambil tersenyum.)
+Oknum Dinas:
+"Pak Raka, Bapak butuh izin kampanye? Izin rapat umum? Saya bisa 'mempermudah'. Cuma titip pesan: nanti kalau sudah jadi walikota, jangan lupa... bagi-bagi 'jatah' ya. Sistem sudah berjalan seperti ini sejak lama."
+Narator:
+"Raka tersenyum sopan pada satu per satu. Tapi hatinya berdesir. Ia sadar: setiap dukungan yang datang hari ini... suatu saat akan menagih."
+(Gambar: Raka berdiri di tengah ruangan, dikelilingi bayangan samar para pengusaha. Pilihan pertama muncul untuk pemain.)
+Scene 8 Pilihan Awal: Sikap Raka di Hari Pertama
+Narator:
+"Raka tidak bisa menolak semua tamu. Tapi ia juga tidak bisa menerima semua. Malam itu, sebelum tidur, ia menulis tiga catatan kecil di buku hariannya. Itu akan menjadi kompas perjalanannya atau justru rantai pertama?"
+(Muncul pilihan interaktif pertama yang menentukan awal dari 'sistem skor' Integritas vs Pencitraan vs Hubungan dengan Kelompok Kepentingan.)
+Pilihan Dampak Awal
+1. Dengarkan rakyat lebih dulu janjikan solusi riil 
+meski kampanye lambat (+) Integritas, (+) Kepercayaan Rakyat, (-) Dana Kampanye, (-) Hubungan dengan Pengusaha
+2. Terima semua dukungan pengusaha  janjikan 'kemudahan' nanti 
+(-)Integritas, (+) Dana Kampanye, (+) Hubungan Pengusaha, (-) Kepercayaan Rakyat (mulai curiga)
+Narator 
+“Tantangan yang sebenarnya akan dimulai, bagaimanakah cara Raka untuk mengambil hati rakyat untuk memilihnya,... ”
+
+Pilihan 1 : Ending 1 -------------------------------------------------------------------------------------------------
+MINGGU KE-1
+(Gambar: Pagi hari di pasar tradisional BOLO. Lantai basah, aroma ikan dan sayur. Raka berjalan tanpa rompi kampanye mencolok, hanya kemeja lusuh dan sandal jepit.)
+Narator:
+"Raka memulai kampanyenya dari tempat paling sederhana: pasar. Tanpa panggung, tanpa janji-janji besar. Hanya telinga yang mau mendengar dan mulut yang bicara apa adanya."
+(Gambar: Raka duduk di pinggir lapak, berbicara dengan seorang nenek penjual tahu.)
+Nenek:
+"Nak Raka, saya sudah 20 tahun jualan di sini. Tapi tahun depan katanya pasar ini mau direlokasi. Saya tidak punya tempat baru."
+Pemain (pilih cara Raka merespon):
+"Bu, soal relokasi pasar, saran saya: warga bisa diikutsertakan dalam musyawarah perencanaan. Pemerintah kota punya dana untuk lahan pengganti, tapi butuh usulan dari pedagang. Iya, hal ini lebih mudah jika mendapat dukungan dari walikota yang mau mendengar. Saya akan pastikan tim pembangunan datang ke sini, bukan hanya mengirim surat."
+"Bu, saya perlu pelajari dulu detail relokasinya. Setahu saya, ada opsi untuk merenovasi pasar lama atau mencari lahan yang lebih dekat. Saya akan kumpulkan data dan ajak pedagang berdiskusi dengan dinas. Tidak ada keputusan tanpa melibatkan Ibu dan teman-teman."
+(Setelah memilih, narator melanjutkan.)
+(Gambar: Raka berjalan ke sebuah gang, berhenti di depan gorong-gorong mampet yang menggenangi jalan.)
+Narator:
+"Di sudut gang, Raka menemukan masalah yang sudah bertahun-tahun dikeluhkan warga: gorong-gorong tersumbat. Setiap hujan, air naik ke rumah-rumah."
+(Gambar: Raka menyingsingkan lengan baju, mencoba membersihkan sampah di gorong-gorong dengan tongkat kayu. Warga sekitar memperhatikan.)
+Warga 1:
+"Sudah tiga tahun kami lapor ke lurah, Pak. Tidak pernah ada tindakan."
+Ini bukan proyek besar. Saluran air ini bisa dibersihkan gotong royong minggu ini juga. Tapi memang perlu perbaikan saluran di hulu. Saran saya, Dinas PU bisa menganggarkan normalisasi sungai kecil. Lebih murah dari banjir tahunan. Iya, hal ini akan lebih cepat jika ada walikota yang mengingatkan dinas setiap bulan."
+
+"Sebaiknya saya cari tahu dulu apakah laporan warga sudah benar-benar sampai ke tingkat kota. Kadang masalah seperti ini butuh koordinasi, dan sebagai calon, saya akan usahakan untuk membawa keluhan ini ke dalam debat publik nanti. Saya catat ini sebagai prioritas, dan jika saya terpilih, saya akan pastikan Dinas PU segera menindak lanjuti."
+(Setelah itu, warga lain bertanya.)
+Warga 2:
+"Jadi Bapak janji akan perbaiki?"
+Pemain (pilih jawaban penutup):
+"Saya tidak janji, karena janji bisa diingkari. Saya coba jelaskan: kalau saya terpilih, saya akan masukkan masalah ini ke prioritas teknis tahun pertama. Anggarannya ada di pos drainase. Saya akan minta laporannya setiap tiga bulan. Itu yang bisa saya lakukan. Selebihnya, kita lihat hasilnya."
+"Saya akan berusaha maksimal. Tidak bisa instan, tapi akan ada progres. Yang penting sekarang, kita mulai dengan gotong royong dulu. Nanti setelah saya terpilih, akan saya tindak lanjuti dengan regulasi."
+(Gambar: Beberapa warga saling berpandangan, ada yang mengangguk pelan.)
+Narator (akhir scene):
+"Tidak ada tepuk tangan meriah. Tidak ada spanduk besar. Tapi ada sesuatu yang lain: kepercayaan kecil, perlahan tumbuh. Raka tahu, politik bukan soal siapa paling pandai bicara. Tapi siapa paling tahan diperiksa kata-katanya."
+(Layar transisi ke kalender kampanye dengan pilihan kegiatan: "Diskusi harga kayu di koperasi", "Gotong royong perbaikan gorong-gorong", "Pendampingan warga mengurus izin pasar".)
+MINGGU KE-2
+Layar menampilkan kalender kampanye. Teks: "Minggu ke-2 – Koperasi Mekar Jaya"
+(Gambar: Sebuah koperasi sederhana di pinggir kota. Papan kayu bertuliskan "Koperasi Mekar Jaya". Di dalam, para tukang kayu dan pengrajin duduk melingkar. Raka duduk di kursi kayu tanpa sandaran.)
+Narator:
+"Minggu kedua kampanye. Raka memenuhi undangan dari koperasi setempat. Para tukang kayu mengeluhkan harga kayu yang tidak stabil dan tengkulak yang kerap memainkan harga."
+Ketua Koperasi (Pak Darmo):
+"Pak Raka, kami sudah lama berjuang. Harga kayu ditentukan oleh tengkulak. Kalau kami jual murah, mereka beli. Kalau kami naikkan, mereka tidak mau. Pabrik juga lebih suka impor. Apa solusinya?"
+Pemain (pilih cara Raka merespon):
+"Pak Darmo, saran saya: koperasi bisa membentuk badan usaha bersama dengan pabrik lokal. Pemerintah punya program kemitraan UMKM, tapi syaratnya koperasi harus punya proposal usaha. Saya akan bantu menyusun proposal jika diperlukan. Iya, hal ini lebih mudah jika ada walikota yang mendorong dinas perindustrian untuk memberi akses pasar. Tidak bisa instan, tapi ini langkah konkret."
+"Saya paham keluhan Bapak. Saran saya, kita kumpulkan data dulu tentang rantai pasok kayu di BOLO. Nanti akan saya bawa ke forum diskusi dengan DPRD jika saya terpilih. Yang penting sekarang, saya catat aspirasinya. Saya yakin ada jalan asal kita bersama-sama."
+(Setelah memilih, narator melanjutkan.)
+(Layar berganti: "Hari berikutnya – Pendampingan warga mengurus izin pasar")
+(Gambar: Sebuah ruang pelayanan publik yang kumuh. Antrean panjang warga. Raka menemani seorang ibu pedagang yang sedang mengurus izin pasar yang akan digusur.)
+Narator:
+"Raka menepati janjinya untuk mendampingi warga yang terkena relokasi pasar. Proses birokrasi berbelit-belit. Ibu Surti sudah tiga kali datang, tapi selalu diminta melengkapi berkas yang sama."
+Ibu Surti:
+"Pak Raka, ini sudah kali keempat saya kesini. Katanya izin saya belum lengkap. Padahal semua sudah. Mungkin karena saya tidak punya 'uang pelicin'."
+(Gambar: Seorang pegawai di balik meja dengan wajah cuek.)
+Pegawai Dinas (berbicara ke Raka):
+"Maaf, pak. Ini sudah aturan. Harus ada surat keterangan dari kelurahan. Tidak bisa paksa."
+Pemain (pilih respon Raka):
+"Baik. Saya akan bantu Ibu Surti mengurus surat kelurahan besok. Untuk kedepannya, jika saya terpilih, saya akan dorong digitalisasi perizinan agar tidak ada pemerasan. Tapi sekarang, mari kita ikuti prosedur dulu. Saya catat nama petugas ini. Bukan untuk melapor, tapi untuk mengecek apakah prosedurnya memang seperti ini atau ada yang salah."
+"Saya dengar, Pak. Baik, saya akan minta waktu untuk koordinasi dengan kelurahan. Mungkin memang ada persyaratan yang terlewat. Ibu Surti, sabar ya. Saya akan bantu uruskan. Tidak perlu uang pelicin, saya akan pastikan sesuai prosedur. Tapi jangan konfrontasi dulu."
+(Setelah memilih, narator melanjutkan.)
+(Gambar: Raka dan Ibu Surti keluar dari kantor. Hari mulai sore.)
+Narator:
+"Raka sadar, perubahan tidak akan terjadi dalam semalam. Tapi langkah-langkah kecil ini, meski melelahkan, mulai membangun reputasi. Di media sosial, warga mulai membagikan cerita tentang calon walikota yang mau turun ke lapangan. Namun, tanpa dana besar, popularitasnya masih kalah jauh dengan kandidat lain yang balihonya di mana-mana."
+(Layar transisi ke kalender kampanye. Terlihat dua pilihan kegiatan untuk minggu ke-3: "Dialog dengan LSM antikorupsi" atau "Kunjungan ke pabrik kayu".)
+Minggu ke-3
+(Layar: Kalender kampanye  "Minggu ke-3". Teks latar: "Tekanan mulai terasa. Tim sukses kecil Raka kewalahan. Survei internal menunjukkan Raka masih tertinggal 12% dari incumbent. LSM Antikorupsi 'Matahari BOLO' mengundang Raka dalam acara 'Uji Publik Calon Bersih'. Hadir akan disiarkan langsung oleh radio komunitas.")*
+(Gambar: Sebuah ruang pertemuan sederhana di sekretariat LSM. Meja panjang, kursi kayu. Di hadapan Raka duduk 4 aktivis LSM, 2 jurnalis warga, dan seorang moderator. Ada satu mikrofon. Di sudut ruangan, seorang sukarelawan merekam dengan ponsel. Suasana tegang namun terhormat.)
+Moderator (Ibu Anik, aktivis senior):
+"Selamat malam, Pak Raka. Terima kasih bersedia hadir. Acara ini akan berlangsung sekitar 2 jam, dengan tiga segmen. Pertama, klarifikasi latar belakang Bapak. Kedua, pertanyaan dari panel. Ketiga, pertanyaan dari warga yang hadir. Semua akan jadi bahan rekomendasi LSM untuk publik. Apakah Bapak siap?"
+Raka: "Siap, Bu."
+Moderator: "Baik. Pertanyaan pertama dari panel. Silakan, Pak Joko."
+Segmen 1: Latar Belakang & Hubungan dengan Pengusaha
+Panel 1 (Pak Joko, mantan aktivis mahasiswa):
+"Pak Raka, Bapak lulusan terbaik dari 'Pendidikan Calon Pemimpin' – institut yang didirikan oleh konglomerat kayu. Bahkan, salah satu pendirinya adalah Hartono, pengusaha mebel besar di BOLO. Sebagai calon yang mengusung 'anti korupsi', bagaimana Bapak meyakinkan publik bahwa Bapak tidak akan menjadi boneka mereka?"
+Pemain (pilih respon Raka):
+"Saya paham kekhawatiran itu. Benar, institut itu didirikan oleh kalangan pengusaha, termasuk Hartono. Saya tidak bisa memilih sejarah. Tapi yang bisa saya buktikan adalah sekarang: saya menolak tawaran dana kampanye dari Hartono. Saya juga memilih kampanye dari bawah, bukan dengan panggung megah. Saya tidak akan berbohong demi suara. Jika publik mau memantau, silakan buka seluruh rekening kampanye saya. Tidak ada uang haram."
+(Raka membuka setumpuk kertas: laporan donasi kecil, pengeluaran sederhana.)
+"Saya tidak bisa menolak fakta bahwa institut itu didirikan oleh pengusaha. Namun, pendidikan yang saya terima justru mengajarkan pentingnya etika dan pelayanan publik. Saya tidak pernah menerima instruksi dari siapapun. Saya juga tidak menerima dana kampanye dari Hartono. Biarlah publik menilai dari sikap saya selama ini. Saya akan terus menjaga independensi. Tidak mudah, tapi saya akan buktikan."
+(Jawaban sedikit mengambang. Jurnalis mencatat "tidak se-tajam yang diharapkan".)
+(Setelah jawaban, moderator lanjut ke panel kedua.)
+Segmen 2: Komitmen Pemberantasan Korupsi
+Panel 2 (Bu Dewi, mantan jurnalis investigasi):
+"Pak Raka, di BOLO sudah lama terkenal 'pungli' di hampir semua layanan: izin usaha, KTP, bahkan surat keterangan tidak mampu. Kalau Bapak jadi walikota, langkah konkret pertama yang akan Bapak lakukan untuk menghentikan ini? Jangan jawab normatif."
+Pemain (pilih):
+"Saya akan lakukan tiga hal dalam 100 hari pertama: (1) Membentuk layanan perizinan online gratis di tingkat kecamatan, sehingga warga tak perlu berurusan dengan calo. (2) Memasang papan pengaduan di setiap kantor kelurahan dengan nomor WA khusus yang saya pantau langsung. (3) Memberi sanksi tegas bagi pegawai yang terbukti memungut – mulai dari teguran tertulis hingga pemecatan, tergantung bukti. Saya akan minta aparat penegak hukum untuk ikut memantau. Anggarannya kecil, efeknya besar."
+(Raka mengeluarkan catatan kecil dengan poin-poin. Panel mengangguk.)
+"Langkah pertama, saya akan melakukan assessment internal di semua dinas untuk memetakan titik rawan pungli. Lalu, saya akan membentuk tim sapu bersih yang terdiri dari aparat dan LSM. Setelah itu, sosialisasi ke warga tentang hak mereka. Sanksi akan diberikan secara bertahap, dengan peringatan terlebih dahulu. Saya tidak ingin menghakimi tanpa bukti. Yang penting, sistem perbaikannya berkelanjutan."
+(Panel sedikit kecewa karena terkesan lambat. Jurnalis mencatat "prosedural, kurang berani".)
+(Setelah jawaban, moderator mengizinkan pertanyaan dari warga yang hadir – beberapa tukang kayu, pedagang pasar.)
+Segmen 3: Pertanyaan Terbuka dari Warga
+Warga 1 (Tukang kayu yang dulu protes):
+"Pak Raka, saya kenal Bapak dari gotong royong gorong-gorong. Saya percaya Bapak baik. Tapi saya takut kalau Bapak jadi walikota, nanti dipengaruhi oleh pengusaha kayu yang selama ini menindas kami. Bagaimana Bapak menjamin tidak akan berkhianat?"
+Pemain (pilih respon emosional namun tetap berintegritas):
+"Saudara, saya tidak bisa memberi jaminan dengan kata-kata. Yang bisa saya lakukan adalah membuat sistem yang transparan. Saya akan buka laporan keuangan walikota setiap bulan di papan pengumuman desa. Saya juga akan bentuk dewan pengawas yang terdiri dari warga dan LSM. Jika suatu saat saya melenceng, saya minta Anda dan teman-teman untuk mengingatkan, bahkan melaporkan saya ke KPK. Saya tanda tangan kontrak politik dengan rakyat, bukan dengan pengusaha."
+(Raka menarik napas. Beberapa warga bertepuk tangan. Aktivis LSM terkesan.)
+"Saya paham ketakutan itu. Saya akan selalu ingat bahwa saya berasal dari rakyat, bukan dari pengusaha. Saya akan menjalankan amanah sebaik mungkin. Tolong pantau saya. Jika ada kejanggalan, sampaikan langsung. Saya tidak sempurna, tapi saya akan berusaha tidak mengecewakan."
+(Jawaban ini mengharukan tapi kurang konkret. Sebagian warga puas, sebagian masih ragu.)
+(Setelah semua segmen, moderator menutup.)
+Moderator:
+"Terima kasih, Pak Raka. LSM akan merilis rekomendasi dalam dua hari. Apapun hasilnya, kami hargai keberanian Bapak datang ke sini."
+Narator:
+"Raka keluar dari ruangan dengan keringat dingin. Ia merasa telah melakukan yang terbaik. Namun, di luar kantor LSM, seorang staf Hartono sudah menunggu dengan wajah cemberut. Ia hanya berkata, 'Bapak terlalu berani malam ini.' Lalu pergi."
+(Layar transisi ke kalender "Minggu ke-3 selesai. Efek dari pilihan akan terbawa ke minggu ke-4.")
+Minggu Ke-4
+(Layar: "Minggu ke-4 – Tersisa 5 hari menuju pemilihan. Pabrik kayu milik kelompok Hartono sedang memanas. Sejak insiden minggu lalu, para pekerja mogok. Raka memutuskan datang kembali, kali ini dengan membawa seorang pengacara LSM dan dua jurnalis warga.")*
+(Gambar: Pagi hari. Gerbang pabrik dijaga lebih ketat. Di luar, puluhan pekerja berkumpul membawa spanduk. Raka tiba dengan mobil sewaan. Manajer Toni sudah menunggu dengan ekspresi masam, tapi kali ini ia tidak berani menghalang karena ada jurnalis.)
+Manajer Toni (tersenyum paksa):
+"Pak Raka, silakan masuk ke kantor. Pimpinan kami, Pak Hartono, ingin bicara empat mata. Tidak perlu ribut-ribut di depan pekerja."
+Raka (menoleh ke jurnalis):
+"Teman-teman, tunggu di sini dulu. Saya akan bicara sebentar."
+(Raka masuk ke ruang kantor pabrik yang mewah. Di dalam, Hartono sudah duduk di kursi empuk. Di meja, terlihat sebuah amplop coklat tebal dan selembar cek.)
+Adegan Suap: Hartono Menawarkan "Jalan Tengah"
+Hartono (sambil merokok cerutu):
+"Raka, duduk. Mari kita bicara seperti orang dewasa. Saya tahu kamu idealis. Saya juga dulu begitu. Tapi politik itu bukan surga. Ini bisnis. Naikkan harga, turunkan harga, bagi-bagi kue."
+Raka: "Apa maksud Bapak, Pak Hartono?"
+Hartono (menggeser amplop dan cek ke arah Raka):
+"Ini. Dua milyar. Cukup untuk biaya kampanye dan hidup kamu beberapa tahun ke depan. Yang saya minta sederhana: hentikan dulu 'aksi pahlawan' kamu di pabrik ini. Jangan ikut campur urusan pekerja. Biarkan pasar bekerja. Nanti setelah kamu jadi walikota, kita bisa kerja sama. Atau... kamu bisa ambil ini sekarang dan mundur dari pemilu. Saya beri jaminan posisi bagus di perusahaan saya. Pilih mana: jadi pejabat miskin yang mungkin kalah, atau jadi kaya sekarang."
+(Raka menatap amplop, lalu ke Hartono. Ruangan sunyi. Hanya suara AC dan detak jantung Raka.)
+Narator:
+"Ini saat yang ditunggu-tunggu. Godaan terbesar. Dua milyar. Cukup untuk mengubah hidup. Tapi jika Raka menerima, ia akan menjadi bagian dari sistem korup yang selama ini ia kritik. Jika menolak, Hartono akan menggunakan seluruh kekuatannya untuk menghancurkan karier Raka."
+Pemain (pilih cara Raka menolak, namun tetap menolak):
+Raka berdiri. Ia mengambil amplop itu, membukanya, mengeluarkan uangnya, lalu meletakkannya kembali di meja."Pak Hartono, ini adalah bukti percobaan penyuapan. Saya akan serahkan ke KPK sebagai barang bukti. Dua milyar? Harga diri saya lebih mahal dari itu. Saya tidak akan berhenti membela pekerja. Saya juga tidak akan mundur dari pemilu. Saya bahkan akan mengatakan di depan publik bahwa Bapak mencoba menyuap saya. Silakan Bapak gunakan seluruh uang Bapak untuk melawan saya. Rakyat yang akan menilai."
+(Raka mengambil ponsel, memotong amplop dan cek sebagai bukti, lalu berbalik pergi.)
+Hartono (marah, terbata-bata): "Kamu... kamu gila, Raka!"
+Raka menarik napas. Ia tidak menyentuh amplop. "Pak Hartono, saya hargai tawaran Bapak. Tapi saya tidak bisa. Saya memilih jalur ini bukan karena uang. Tolong jangan tawar saya lagi. Saya akan tetap membela pekerja sesuai hukum. Saya tidak akan mengungkapkan tawaran Bapak ke publik asalkan Bapak berhenti mencoba menyuap saya dan mulai memenuhi hak-hak pekerja. Itu saja. Saya pergi."
+(Raka berdiri, menatap Hartono dengan tegas namun tidak memotret bukti. Ia meninggalkan ruangan tanpa amplop.)
+Hartono (tersenyum kecut): "Kamu akan menyesal, Raka. Bukan saya yang rugi."
+(Setelah Raka keluar kantor, ia dihadang jurnalis yang penasaran.)
+Jurnalis 1: "Pak Raka, apa yang dibicarakan? Wajah Bapak pucat."
+Narator: "Raka harus memutuskan: maukah ia membuka tawaran suap Hartono ke publik? Resikonya besar, tapi bisa menjadi bom politik."
+Pemain (pilih tindakan Raka setelah keluar kantor):
+Buka ke publik (hanya jika memilih cara Realistis atau Hati-hati dengan konsekuensi berbeda)
+Jika sebelumnya Realistis (punya bukti foto): Raka menunjukkan foto amplop dan cek ke jurnalis. "Hartono mencoba menyuap saya dengan dua milyar agar saya diam dan mundur. Saya tolak. Ini buktinya." (terjadi keributan dan viral dimana-mana)[berita penangkapan pak hartono oleh LSM/KPK] 
+Jika sebelumnya Hati-hati (tanpa bukti foto): Raka hanya berkata, "Hartono menawarkan dana kampanye dengan imbalan. Saya tolak. Tidak ada bukti fisik. Tapi percayalah." (end pencemaran nama baik di laporkan)
+Diam dan laporkan ke LSM/KPK secara tertutup (jalan tengah). Raka menjawab jurnalis, "Tidak ada yang perlu diberitakan sekarang. Nanti setelah pemilu, akan saya jelaskan."
+(Namun, Raka diam-diam menghubungi LSM dan KPK untuk melaporkan percobaan suap, meski tanpa bukti kuat jika ia memilih cara Hati-hati.)[berita penangkapan pak hartono oleh LSM/KPK]
+Penutup Minggu ke-4
+(Gambar: Sore hari. Raka duduk di rumahnya. Ia lelah tapi lega. Telepon berdering. Sebuah pesan masuk dari nomor tak dikenal: "Kamu sudah memilih menjadi musuh. Selamat bertarung, Raka.")
+Narator:
+"Raka telah melewati ujian terberat. Ia menolak suap, berpihak pada rakyat, dan mengukuhkan integritasnya. Tapi konsekuensinya, ia sekarang memiliki musuh yang kaya dan kuat. Pemilu dalam dua hari. Apakah rakyat akan menghargai keberaniannya? Atau justru Hartono akan berhasil mengubur suara Raka dengan uang dan fitnah?"
+(Layar transisi ke Hari Pemilihan. Kemudian muncul ending berdasarkan akumulasi pilihan dari seluruh kampanye, termasuk keberanian menolak suap dan cara meresponnya. Ada beberapa kemungkinan ending untuk Alur Baik:)
+Alur Baik – Hari Pemilihan (Lengkap: Dari TPS hingga Kemenangan)
+Bagian 1 Pagi Hari: Raka dan Warga Mencoblos di TPS
+(Layar: Pagi-pagi buta. Langit BOLO cerah, matahari baru saja muncul. Suara azan subuh sayup-sayup. Raka sudah mandi dan mengenakan kemeja putih polos – kemeja yang sama saat ia membersihkan gorong-gorong. Tidak ada rompi kampanye, tidak ada atribut berlebihan.)
+Narator:
+“Pagi itu, Raka tidak bicara banyak. Ia sarapan sepiring nasi goreng buatan ibunya. Ia makan dengan lahap, tapi matanya kosong. Hari penentuan. Setelah berminggu-minggu kampanye bersih, saatnya rakyat bicara di bilik suara.”
+(Gambar: Raka berjalan kaki menuju TPS di ujung gang. Sepatu sandal jepit. Jaket tipis. Di belakangnya, bapaknya berjalan diam-diam, memegang tasbih.)
+Narator:
+“Raka memilih berjalan kaki, tanpa pengawalan, tanpa mobil mewah. Ia ingin merasakan apa yang dirasakan warganya: antre, sabar, dan percaya bahwa satu suara berarti.”
+(Gambar: TPS sederhana di lapangan desa. Bendera merah putih. Petugas KPPS sudah siap. Antrean warga – para tukang kayu, pedagang pasar, ibu-ibu, pak RT, dan pemuda – sudah mengular. Mereka tersenyum melihat Raka datang.)
+
+Seorang ibu (berteriak kecil):
+“Pak Raka! Semangat! Kami sudah siap coblos Bapak!”
+Raka (tersenyum malu, melambai):
+“Ibu, jangan bilang-bilang. Yang penting rakyat memilih sesuai hati nurani. Saya tidak ingin memaksa.”
+(Gambar: Raka mengambil tempat di ujung antrean. Ia tidak menyela, tidak minta didahulukan. Ia antre seperti warga biasa. Beberapa warga menyuruhnya maju, ia menolak dengan halus.)
+Narator:
+“Raka memilih antre. Ia ingin merasakan sendiri bagaimana rasanya menjadi rakyat yang harus sabar demi hak pilihnya. Di belakangnya, seorang kakek tua berseragam lusuh menepuk pundaknya.”
+Kakek (suara parau):
+“Nak, saya sudah 70 tahun mencoblos. Baru kali ini ada calon yang antre seperti saya. Kamu memang berbeda.”
+Raka (menunduk): "Terima kasih, Kek. Doakan saya."
+(Gambar close-up: Raka memasuki bilik suara. Tangannya sedikit gemetar. Ia menatap surat suara, membaca nama-nama, lalu dengan mantap mencoblos kolom bergambarnya sendiri. Ia tidak melihat ke kiri-kanan. Ia yakin.)
+Narator:
+“Raka mencoblos namanya sendiri – sebuah keanehan yang hanya terjadi pada calon pemimpin. Tangannya tidak gemetar karena takut, tapi karena sadar bahwa satu centang ini adalah amanah yang sangat berat.”
+(Gambar: Raka keluar dari bilik, menunjukkan jari bertinta. Warga bersorak kecil. Ia tersenyum, lalu berjalan ke tempat pemantauan – sebuah aula terbuka tempat relawan mulai menyiapkan papan penghitungan suara.)
+Bagian 2 – Siang hingga Sore: Penghitungan Suara Dimulai
+(Layar: Aula terbuka. Papan penghitungan suara dari kertas karton besar. Relawan dan pendukung Raka mulai berdatangan. Bapak Raka duduk di kursi kayu. Raka berdiri di sudut, menatap papan kosong.)
+Narator:
+“Siang itu, penghitungan suara dimulai. Dari TPS demi TPS, amplop suara dikirimkan. Aula perlahan dipenuhi pendukung Raka – para tukang kayu yang ikut gotong royong, para pedagang pasar yang pernah didampinginya, dan pemuda yang percaya pada perubahan.”
+
+(Gambar: Petugas KPPS membacakan hasil TPS pertama. Suara Raka: 112. Suara incumbent: 231. Selisih 119.)
+Narator:
+“TPS pertama, Raka kalah telak. Wilayah itu basis incumbent, tempat baliho besar berjejer setiap lima meter. Pendukung Raka terdiam. Beberapa mulai gelisah. Bapak Raka memejamkan mata, bibir komat-kamit.”
+(Gambar: Beberapa TPS berikutnya – Raka terus tertinggal. Selisih membesar: 200, lalu 350. Wajah Raka pucat. Ia memegang ponsel, ingin menelpon tim saksi, tapi urung.)
+Relawan 1 (berbisik):
+“Pak, sepertinya berat. Daerah kota banyak yang sudah masuk. Suara incumbent masih unggul jauh.”
+Raka (suara parau): “Kita tunggu sampai selesai. Apapun hasilnya, saya sudah berjuang.”
+Narator:
+“Hening menyelimuti aula. Hanya suara petugas yang membacakan angka. Raka memilih berdiri di dekat pintu – mungkin agar cepat keluar jika kalah, atau agar bisa menyambut kabar baik dari daerah terpencil.”
+Bagian 3 – Balik Arah dari Daerah Terpencil (Menjelang Maghrib)
+(Gambar: Seorang petugas KPPS muda berlari masuk aula, wajahnya merah, membawa amplop besar dari Kecamatan Lembah Hijau – daerah pegunungan yang hanya bisa ditempuh dengan motor trail. Raka pernah ke sana dua kali, duduk di tanah, makan singkong bersama petani kayu.)
+Petugas (membaca dengan suara bergetar):
+“Dari Kecamatan Lembah Hijau, tiga TPS – total suara: Raka 890, incumbent 340. Raka unggul 550 suara.”
+(Aula langsung ramai. Pendukung Raka bersorak kecil, ada yang menangis. Bapak Raka membuka mata, tersenyum tipis. Raka masih tegang – belum cukup.)
+Narator:
+“Suara dari daerah terpencil menjadi titik balik. Di wilayah yang tidak terjangkau baliho dan sound system, warga mengingat Raka yang datang sendiri, naik motor butut, duduk di tanah bersama mereka, mendengar keluhan tanpa janji muluk. Mereka memilih bukan karena terpaksa, tapi karena percaya.”
+
+(Gambar demi gambar cepat: TPS di pasar tradisional – Raka unggul tipis. TPS di pabrik kayu – buruh memilih Raka karena ia membela mereka saat konflik. TPS di gang-gang sempit yang gorong-gorongnya ia bersihkan – warga menangis haru karena calon mereka tidak lupa.)
+Narator:
+“Perlahan, angka di papan mulai berbalik. Selisih mengecil: dari 350 menjadi 200, lalu 100, lalu 50, lalu... imbang. Aula hening total. Semua mata tertuju pada satu TPS terakhir: Kelurahan Pelabuhan.”
+(Gambar close-up wajah Raka: keringat dingin, tangan sedikit gemetar. Ia menatap pintu aula, menunggu kurir terakhir. Di luar, matahari mulai tenggelam.)
+Bagian 4 – Kemenangan Tipis yang Membuat Haru
+(Gambar: Seorang petugas tua dengan seragam lusuh masuk tergopoh-gopoh. Semua berdiri. Ia membacakan dengan suara lantang, meski napas tersengal:)
+Petugas:
+“TPS 27 – Kelurahan Pelabuhan. Jumlah pemilih terdaftar: 1.500. Suara sah: Raka 742, incumbent 698. Tidak ada suara rusak. Selisih... 44 suara untuk Raka.”
+(Aula meledak. Pendukung Raka menangis, tertawa, berpelukan. Bapak Raka menunduk, menangis tersedu-sedu. Raka diam membatu, tidak bergerak. Matanya berkaca-kaca, tapi ia menahan.)
+Narator:
+“Raka menang dengan 52% suara. Selisih tipis – hanya 2% di atas incumbent. Tapi selisih itu adalah lautan perjuangan: bersih dari suap, tanpa pencitraan, hanya kerja nyata dan hati nurani.”
+(Gambar: Raka berjalan perlahan ke tengah aula. Pendukungnya mengelilinginya. Seorang nenek – Ibu Surti, pedagang pasar yang pernah didampinginya saat mengurus izin – memeluk Raka sambil menangis.)
+Ibu Surti:
+“Nak, saya sudah tua. Saya pilih Bapak bukan karena sembako. Saya pilih karena Bapak tidak pernah janji muluk, tapi Bapak selalu ada ketika kami susah. Akhirnya... ada pemimpin yang jujur.”
+(Raka tidak bisa berkata apa-apa. Ia menangis. Air mata kegembiraan, juga air mata kelegaan. Di sudut aula, para tukang kayu mengangkat pahat kayu mereka sebagai bentuk hormat.)
+
+Bagian 5 – Malam Kemenangan: Angin Segar untuk BOLO
+(Layar berganti ke suasana malam. Raka berdiri di atas panggung kecil di alun-alun – panggung kayu bekas kampanye, tanpa lampu sorot mewah. Ribuan warga berkumpul memegang lilin atau senter ponsel. Spanduk bertuliskan: “SELAMAT, RAKA! HARAPAN BARU BOLO!”)
+Narator:
+“Malam itu, media lokal dan nasional memberitakan kemenangan Raka sebagai ‘angin segar’ bagi demokrasi BOLO. Seorang walikota yang terpilih tanpa politik uang, yang turun ke got, dan menolak suap.”
+(Kutipan berita di layar:)
+“KOMPAS: ‘Raka, Pembawa Perubahan di BOLO – Kemenangan Tipis yang Bermakna.’”
+“BOLO TV: ‘Dari Gorong-gorong ke Kursi Walikota; Kisah Raka Menginspirasi.’”
+“Tempo: ‘Warga BOLO Pilih Integritas – Tekuk Petahana dengan Selisih Tipis.’”
+(Gambar: Raka naik ke panggung. Ia tidak membawa naskah. Ia memegang mikrofon seadanya. Suaranya parau, tapi jelas.)
+Raka (berpidato singkat, penuh haru):
+“Saudara-saudara, saya tidak akan pernah melupakan hari ini. Bukan karena saya menang, tapi karena kalian memilih untuk percaya pada orang yang tidak punya uang, tidak punya baliho besar, hanya punya tekad. Tugas saya baru dimulai. Saya tidak bisa bekerja sendiri. Saya butuh kalian – mengawasi, mengingatkan, dan jika saya keliru, katakan dengan jujur. BOLO bukan milik saya. BOLO milik kita semua. Mari kita bangun bersama, bukan dengan janji, tapi dengan kerja.”
+(Penonton meneriakkan “Raka! Raka! Raka!”. Seorang anak kecil naik ke panggung, memberi Raka setangkai bunga turi. Raka berlutut, menerima, dan menangis lagi. Penonton ikut menangis haru.)
+(Layar perlahan memudar ke hitam.)
+Narator (penutup akhir):
+“Kota BOLO tidak berubah dalam semalam. Pungli masih ada, gorong-gorong masih mampet di sana-sini, dan harga pasar tetap fluktuatif. Tapi sesuatu yang lebih penting telah berubah: harapan. Raka menjadi walikota pertama dalam satu dekade yang tidak pernah dipanggil KPK. Ia sering direpotkan sistem, ditekan pengusaha, dimusuhi birokrat nakal. Tapi ia bertahan. Karena di belakangnya, ada ibu-ibu pasar yang mendoakannya, ada tukang kayu yang rela jaga malam di kantor kelurahan, dan ada anak-anak yang kini bercita-cita menjadi pemimpin – bukan karena kekuasaan, tapi karena kejujuran.”
+
+(Layar terakhir: Sebuah papan nama di pintu kantor walikota: “KANTOR WALIKOTA BOLO – RAKA.” Di bawahnya, tulisan kecil dengan spidol: “MELAYANI, BUKAN DILAYANI.”)
+Narator (kalimat pamungkas):
+“Setiap kursi punya cerita. Kursi Raka adalah cerita tentang orang biasa yang memilih untuk tidak biasa: tetap jujur di tengah tawaran milyaran rupiah. Di BOLO, perubahan tidak pernah instan. Tapi bibitnya telah tertanam. Dan benih itu bernama... keberanian untuk tidak menjadi seperti mereka.”
+(Layar fade to black. Musik instrumental sederhana – tidak dramatis, hanya haru – mengiringi teks:
+“TERIMA KASIH TELAH BERMAIN. ALUR BAIK – SELESAI.”
+
+Pilihan 2 : Ending 2 -----------------------------------------------------------------------------------------------------
+Minggu ke-1
+(Gambar: Sebuah lapangan terbuka. Panggung besar bertuliskan "RAKA UNTUK BOLO – MASA DEPAN CERAH". Lampu sorot, sound system menggelegar, puluhan baliho bergambar Raka yang sudah diedit profesional.)
+
+Narator:
+"Hartono menepati janjinya. Dana mengalir deras. Kampanye Raka dimulai dengan pesta besar. Ada undangan untuk seluruh RT, doorprize, dan yang paling ditunggu: bingkisan sembako."
+
+(Gambar: Raka berdiri di atas panggung, mengenakan kemeja batik baru, mikrofon di tangan. Di bawah panggung, ratusan warga antre.)
+
+Pembawa Acara:
+"Hadirin sekalian, mari kita sambut calon walikota kita, Bapak Raka!"
+
+(Raka tersenyum lebar, melambaikan tangan.)
+
+Pemain (pilih gaya Raka berpidato):
+
+"Assalamu'alaikum, saudara-saudara! Saya Raka, anak BOLO asli. Saya lahir di antara tumpukan kayu dan serbuk gergaji. Hati saya selalu bersama rakyat. Hari ini, saya tidak datang dengan janji-janji muluk. Saya datang membawa sedikit bingkisan. Bukan apa-apa, hanya bentuk syukur karena saya diberi kesempatan untuk melayani. Insyaallah, jika saya diberi amanah, semua akan saya perjuangkan. Tolong doakan saya ya, Bu, Pak. Karena saya hanya manusia biasa yang ingin BOLO maju."
+(Raka menunduk sebentar, berpura-pura terharu. Penonton bertepuk tangan.)
+
+"Saudara-saudara, mari kita jujur. Politik itu mahal. Tapi saya tidak akan membebani rakyat. Hari ini, relawan saya menyediakan bingkisan. Saya tidak bilang ini dari uang pribadi, karena jujur, saya juga butuh dukungan. Tapi yang penting, niat saya baik: saya ingin BOLO berubah. Kalau Anda percaya, silakan dukung. Kalau tidak, ya tidak apa-apa. Tapi bingkisan tetap boleh diambil, namanya juga berbagi."
+(Senyum sinis tapi tetap ramah. Beberapa warga bingung, yang lain tetap antre.)
+
+(Setelah pidato, Raka turun panggung. Hartono menghampiri, tersenyum puas.)
+
+Hartono (berbisik):
+*"Bagus, Pak. Rakyat senang. Saya sudah siapkan pertemuan dengan rekanan proyek kayu besok. Mereka minta komitmen 'administrasi' 15% untuk dana kampanye kita. Tidak usah disebut mark-up, sebut saja 'efisiensi'. Rakyat tidak perlu tahu detail."*
+
+Pemain (pilih respons Raka):
+
+"Baik, Pak Hartono. Tapi tolong atur dengan rapi. Jangan sampai ada yang bocor. Nanti di depan publik, saya tetap akan bicara soal transparansi. Tapi ya... itu untuk konsumsi publik saja. Yang penting proyek jalan, rakyat senang, kita juga senang."
+(Raka tersenyum manis.)
+
+"Pak Hartono, saya tidak suka basa-basi. Tapi jangan terlalu rakus. 15% itu terlalu tinggi nanti ketahuan. Coba 10% saja. Saya juga harus menjaga reputasi. Kalau ada yang bertanya, bilang saja itu biaya operasional. Saya akan diam, asalkan tidak ada surat menyurat. Cukup perjanjian lisan."
+
+
+(Gambar: Raka kembali ke atas panggung untuk membagikan bingkisan. Seorang wartawan mendekat.)
+
+Wartawan:
+"Pak Raka, apakah bingkisan ini berasal dari sumbangan pengusaha? Apakah ada ikatan politik di baliknya?"
+
+Pemain (pilih jawaban):
+
+"Oh, tidak sama sekali. Ini murni dari saya dan relawan yang peduli. Saya dulu juga hidup susah, jadi saya tahu rasanya. Saya tidak pernah berhutang budi kepada siapapun, kecuali kepada rakyat BOLO."
+(Raka tersenyum teduh. Padahal di dalam hati tahu ini bohong.)
+
+"Wah, wartawan ya? Baik, saya jawab jujur: semua dana kampanye berasal dari donatur yang tidak ingin disebut namanya. Mereka percaya pada visi saya. Tidak ada ikatan politik, hanya ikatan hati. Tapi ya, Anda kan tahu sendiri bagaimana politik. Yang penting saya tidak merugikan rakyat. Oke?"
+(Senyum kecut. Wartawan mencatat.)
+
+(Gambar: Hari mulai gelap. Acara selesai. Raka duduk di ruang tamu rumahnya yang kini penuh dengan map dan dokumen. Ia merenung.)
+
+Narator:
+"Hari pertama kampanye ala pengusaha usai. Raka tersenyum di depan kamera, bicara manis di panggung, tapi di belakang ia sudah mulai bermain api. Apakah ini yang ia inginkan? Entahlah. Yang jelas, kursi itu semakin dekat. Dan rakyat? Mereka hanya melihat wajah yang tersenyum."
+
+(Layar transisi ke kalender kampanye dengan pilihan kegiatan ala "Jalan Pintas": "Bagi-bagi sembako sambil foto", "Rapat tertutup dengan kontraktor", "Wawancara media dengan skrip sudah diatur".)
+
+Minggu ke-2
+
+(Layar: Kalender kampanye. Teks: "Minggu ke-2 – Pilih kegiatan: "
+Adegan: Bagi-bagi Sembako dengan Latar Foto
+(Gambar: Sebuah lapangan desa. Dua truk penuh sembako. Sebuah spanduk besar: "RAKA PEDULI RAKYAT". Ada fotografer profesional yang siap mengabadikan momen. Raka berdiri di samping tumpukan beras, minyak goreng, dan gula. Antrean panjang warga.)
+
+Narator:
+"Minggu kedua, Hartono mengatur 'aksi sosial' yang difoto dari berbagai sudut. Setiap bingkisan diberikan dengan senyum lebar, lalu difoto, lalu diunggah ke media sosial dengan caption menyentuh. Rata-rata waktu kontak dengan warga: 30 detik. Cukup untuk foto."
+
+(Gambar: Raka menyerahkan sembako kepada seorang nenek. Fotografer menyuruh Raka tersenyum dan menatap kamera.)
+
+Fotografer: "Pak, sedikit miring ke kiri. Ya, senyum lebih lebar. Bagus. Sekarang pegang tangan neneknya. Ya... satu, dua, tiga. CROP!"
+
+Nenek (bingung): "Nak, ini sembakonya gratis ya? Saya tidak perlu bayar?"
+
+Raka (dengan senyum kamera): "Gratis, Bu. Ini dari hati saya. Tolong doakan ya."
+
+(Setelah foto, Raka beranjak ke warga berikutnya. Asistennya mencatat nama dan alamat untuk database politik.)
+
+Pemain (pilih cara Raka merespon saat ada warga yang bertanya lebih lanjut):
+
+Warga 2 (Bapak RT, agak curiga):
+"Pak Raka, saya dengar Bapak dekat dengan Hartono. Katanya bingkisan ini pakai uang pengusaha. Apa benar?"
+
+Raka tersenyum teduh. "Pak RT, uang dari mana pun, yang penting sampai ke rakyat. Saya hanya perantara kebaikan. Hartono juga anak BOLO, beliau ingin membantu. Tidak ada ikatan apa-apa. Yang penting niatnya baik. Insyaallah kalau saya jadi walikota, semua akan saya prioritaskan. Doakan saja, Pak."
+(Raka menepuk bahu Pak RT, lalu cepat beralih ke antrean berikutnya.)
+
+Raka mendekat, bicara setengah berbisik. "Pak RT, jujur saja: semua dana kampanye ada sumbernya. Tapi yang penting kan hasilnya? Hari ini warga dapat sembako gratis. Besok kalau saya jadi, mereka dapat perhatian. Tidak usah terlalu banyak bertanya, nanti saya repot. Tapi saya hargai kepedulian Bapak."
+(Raka tersenyum kecut. Pak RT mengangguk ragu.)
+
+(Setelah selesai bagi-bagi, Raka dan tim foto pindah ke lokasi berikutnya. Di dalam mobil, Hartono menelepon.)
+
+Hartono (lewat telepon):
+"Bagus, Raka. Foto-foto sudah diedit. Nanti malam kita pasang iklan di media lokal. Tapi ada satu hal: lurah di Kecamatan Mekarjaya minta 'jatah' 50 juta supaya warganya memilih kita. Dia bilang dia bisa mobilisir 2000 suara. Setuju?"
+
+Pemain (pilih respons):
+"Setuju, Pak. Tapi jangan pakai nama saya langsung. Urus saja lewat perantara. Saya tidak mau terlibat langsung. Yang penting hasilnya. Kalau nanti ada masalah, saya tidak tahu apa-apa. Pokoknya, atur rapi."
+(Raka menutup telepon, wajahnya datar.)
+
+"Wah, lurah itu memang cerdik. Tapi 50 juta terlalu mahal. Coba tawar 30 juta. Bilang saja ini bukan beli suara, tapi 'biaya transportasi' untuk warga. Saya setuju asalkan tidak ada kwitansi. Saya akan diam saja."
+(Raka tertawa kecil sinis. dan berbicara di hatinya)
+
+Raka: “Saya masih membutuhkan uang uang ini untuk batu loncatan saya duduk ke kursi kekuasaan, ini juga demi rakyat BOLO ketika Saya telah menjadi walikota nanti saya pasti akan tetap berpihak pada rakyat dan tidak menghianati dukungan rakyat BOLO”
+
+(Gambar: Malam hari. Raka melihat ponselnya. Foto-foto dirinya membagikan sembako sudah tersebar di media sosial. Ratusan like, komentar positif. Namun di grup diskusi warga, ada yang mulai curiga: "Ini politik uang, rakyat jangan mudah dibeli.")
+
+Narator:
+"Minggu kedua kampanye ala pengusaha membuat popularitas Raka melesat. Tapi di balik setiap like dan share, ada hutang yang terus menumpuk. Raka mulai merasakan bahwa panggung megah ini membutuhkan bayaran. Dan bayarannya bukan uang tapi integritas yang perlahan lenyap."
+
+*(Layar transisi ke kalender minggu ke-3 dengan dua pilihan: "Rapat tertutup dengan kontraktor proyek" atau "Wawancara media dengan skrip sudah diatur".)
+
+Minggu ke-3
+(Layar: "Minggu ke-3 – Tersisa 10 hari menuju pemilihan. Survei menunjukkan Raka masih tertinggal. Hartono menyarankan 'turun ke bawah' untuk mencuri simpati. Raka pun berkeliling ke pasar dan pabrik dengan rombongan tim sukses, membawa spanduk, kamera, dan beberapa karung sembako.")*
+(Gambar: Pasar tradisional yang ramai. Raka tiba dengan mobil hitam, mengenakan kemeja batik baru namun lengan digulung – gaya 'merakyat' yang dibuat-buat. Fotografer sudah siap di setiap sudut. Beberapa staf membawa koper berisi sembako.)
+Narator:
+"Raka belajar bahwa politik bukan hanya tentang uang, tapi juga tentang wajah. Hari ini ia akan tersenyum pada rakyat kecil, berjabat tangan dengan buruh, dan berfoto bersama. Kata-katanya terdengar manis. Kebohongannya terbungkus kemeja batik."
+(Gambar close-up: Raka mendekati seorang pedagang sayur tua yang sedang membongkar dagangan. Kamera menyorot. Seorang staf memberi isyarat: "Foto, Pak!")
+Pedagang (Ibu Siti, wajah keriput):
+"Nak Raka, saya dengar Bapak calon walikota. Apa Bapak bisa bantu kami? Harga sayur turun terus, ongkos pasar naik. Kami sudah lama tidak untung."
+Pemain (pilih gaya Raka merespon – dua gaya, keduanya munafik):
+Raka berlutut agar setara dengan ibu itu, memegang tangannya yang kasar. Kamera mengabadikan dari sudut dramatis. Matanya berkaca-kaca – pura-pura. "Ibu, saya mengerti. Saya juga lahir dari keluarga sederhana. Jujur, saya tidak tega melihat Ibu dan teman-teman bersusah payah. Saya janji, jika saya jadi walikota, ongkos pasar akan saya turunkan, harga sayur akan saya stabilkan. Saya sudah punya program 'Pasar Sejahtera' yang siap saya jalankan hari pertama. Tenang saja, Ibu. Doakan saya."
+(Ia memeluk Ibu Siti. Pedagang lain ikut terharu. Fotografer mengambil gambar dramatis. Tapi di hati, Raka berkata: "Ini hanya gambar. Nanti saya lupakan.")
+Raka tersenyum kecut, membungkuk, lalu bicara setengah berbisik agar tidak terdengar kamera. "Ibu, jujur saja, saya tidak bisa menurunkan ongkos pasar dalam sehari. Banyak yang harus diurus. Tapi saya bisa beri Ibu bingkisan hari ini. Dan nanti jika saya jadi, akan ada program bantuan agar Ibu tenang. Yang penting Ibu dan tetangga ingat nama saya saat pencoblosan. Oke?"
+(Ia memberi isyarat ke staf untuk memberikan sembako. Ibu Siti bingung, tapi tetap menerima. Wajahnya tidak lagi sentimental, melainkan pragmatis.)
+(Setelah dari pasar, rombongan menuju pabrik kayu. Di luar pabrik, sekelompok buruh sedang istirahat. Debu dan bau kayu. Beberapa buruh memandang curiga.)
+(Gambar: Raka berdiri di depan buruh. Seorang mandor berbadan tegap menghampiri.)
+Mandor (Pak Karto, wajah keras):
+"Pak Raka, kami sudah dengar Bapak dekat dengan pengusaha. Katanya Bapak akan mempermudah proyek kayu. Apa nasib kami? Upah kecil, tidak ada jaminan. Sudah tiga tahun tidak naik."
+Pemain
+Raka menghela napas, lalu menatap para buruh dengan mata berkaca-kaca (pura-pura). Ia menepuk pundak mandor dengan lembut. "Pak Karto, saya paham betul perjuangan Bapak dan teman-teman. Saya juga dulu bekerja keras sebelum masuk politik. Saya tidak akan pernah tega melihat buruh diperlakukan semena-mena. Saya janji, jika saya jadi walikota, akan ada kenaikan upah bertahap. Saya juga akan pastikan setiap buruh punya kartu BPJ dan asuransi kerja. Dan untuk hari ini, sebagai bentuk kepedulian, saya bawa sedikit bingkisan untuk keluarga Bapak sekalian. Tolong doakan saya, ya."
+(Raka memberi isyarat ke staf untuk membagikan sembako. Ia juga menyuruh fotografer mengabadikan momen dirinya menyerahkan bingkisan ke buruh. Para buruh saling pandang, ada yang tersenyum karena akhirnya diperhatikan, tapi ada juga yang masih ragu.)
+Raka tersenyum kecut, lalu memberi isyarat staf untuk membagikan amplop coklat tipis (berisi uang) kepada mandor dan beberapa buruh yang terlihat paling vokal. Ia bicara dengan nada pelan namun tegas. "Pak Karto, saya tidak akan mempersulit kalian. Saya tahu aturan main. Untuk sekarang, terima dulu 'bantuan' ini. Besok, jika saya jadi walikota, saya akan buat program 'Kartu Pekerja Sejahtera'. Tidak usah dipikirkan biayanya insyaallah gratis, yang penting nanti ada yang menjamin keuangan pekerja. Hindari demo, ya. Supaya suasana damai. Setuju?, selain itu tolong doakan saya yah."
+(Mandor mengangguk ragu, tapi karena amplop sudah di tangan, ia tidak bisa menolak. Buruh lain mulai tertarik. Raka tersenyum puas.)
+(Setelah membagikan bantuan, Raka berpamitan. Di dalam mobil, ia berkata pada Hartono lewat telepon:)
+Raka: "Pasar dan pabrik sudah saya jamah. Besok kita atur wawancara dengan media. Saya tidak mau terlalu lama di lapangan rakyat hanya butuh senyum dan sembako. Sisanya, urusan meja."
+Hartono (tertawa): "Kamu sudah mahir, Raka. Selamat, calon walikota."
+Narator:
+"Raka menutup telepon. Ia melihat telapak tangannya sendiri – bersih, tidak ada kotoran. Tapi ia tahu, noda tidak selalu terlihat. Minggu ke-3 usai. Raka semakin pandai memainkan peran: pahlawan di depan, pengkhianat di belakang. Dan rakyat? Mereka bertepuk tangan untuk seorang penipu."
+Minggu ke-4
+
+(Layar: “Minggu ke-4 – H-2 menuju pemilihan. Studio BOLO TV ramai. Hartono dan tim sudah mengatur segalanya. Kali ini berbeda: Raka akan memulai dengan joget agar terasa merakyat. Kemudian wawancara serius dengan pertanyaan-pertanyaan yang sudah disiapkan jawabannya. Wartawan senior Ibu Dewi bertindak sebagai anchor.”)*
+(Gambar: Studio TV. Raka berdiri di tengah panggung kecil. Lampu sorot berwarna-warni. Musik dangdut riang diputar. Penonton studio bertepuk tangan.)
+Raka (tersenyum lebar, memulai joget – gerakan sederhana, energik, sesekali melambaikan tangan ke penonton):
+“Selamat malam, BOLO! Jangan tegang, ya. Politik itu soal hati dan senyuman. Hari ini saya mau dekat dengan Bapak Ibu semua. Ayo, ikut bergoyang!”
+(Raka berjoget sekitar 30 detik, penonton ikut berjoget kecil. Hartono di belakang kamera memberi jempol. Raka sedikit kehabisan napas tapi tetap tersenyum.)
+Anchor (Ibu Dewi, tegas tapi ramah, memandu acara):
+“Terima kasih, Pak Raka. Aura Bapak ceria sekali. Baik, kita mulai wawancara. Penonton di rumah pasti penasaran dengan visi-misi Bapak. Mari kita bahas satu per satu.”
+(Raka duduk di sofa empuk, menyeka keringat tipis dari joget. Ia menegakkan punggung, siap membaca skrip.)
+Segmen 1 – Visi Misi dan Latar Belakang
+Anchor Ibu Dewi:
+“Pak Raka, Bapak lulusan terbaik dari Pendidikan Calon Pemimpin, institut yang katanya melahirkan pemimpin hebat. Tapi ada juga yang menyebut institut itu dekat dengan pengusaha. Sebagai kandidat, apa visi-misi Bapak yang paling utama untuk BOLO?”
+Raka (senyum teduh, mengikuti skrip):
+“Ibu Dewi, latar belakang saya memang dari institut yang didukung berbagai pihak. Tapi yang terpenting adalah apa yang saya pelajari: pelayanan publik, etika, dan keberpihakan pada rakyat kecil. Visi saya sederhana: BOLO Makmur, Rakyat Bahagia. Misi saya: (1) Menstabilkan harga kebutuhan pokok, (2) Membuka lapangan kerja lewat industri kayu yang berkelanjutan, (3) Membangun infrastruktur tanpa pungli. Saya tidak akan berhenti sampai rakyat benar-benar sejahtera.”
+Anchor (menyanggah sedikit, sesuai skrip):
+“Tapi banyak yang meragukan, karena Bapak dekat dengan Hartono, pengusaha mebel. Apakah itu tidak akan mempengaruhi kebijakan Bapak?”
+Raka (tidak kehilangan senyum):
+“Saya dekat dengan semua warga, termasuk pengusaha. Tapi kebijakan saya untuk rakyat. Hartono tidak akan mendapat perlakuan khusus. Saya sudah buat komitmen tertulis untuk transparansi. Biarlah publik menilai sendiri.”
+(Raka berbohong dengan mulus, karena komitmen tertulis itu hanyalah kertas kosong untuk pamer di media.)
+Segmen 2 – Anti Korupsi dan Hubungan dengan LSM/KPK
+Anchor Ibu Dewi (suara sedikit menekan):
+“Baik. Pertanyaan selanjutnya lebih tajam. Banyak pihak, termasuk LSM Matahari BOLO, meragukan komitmen Bapak terhadap pemberantasan korupsi. Mereka mengaku punya bukti bahwa kampanye Bapak didanai oleh pengusaha yang kemudian mendapat proyek. Apa tanggapan Bapak? Dan apakah Bapak bersedia diaudit oleh KPK?”
+(Raka sedikit tegang, tapi mengingat skrip. Ia menatap kamera dengan ekspresi serius.)
+Raka (berbicara dengan nada terharu):
+“Saya tantang siapa pun yang punya bukti untuk melaporkan saya ke KPK. Saya tidak takut. Sejak awal kampanye, saya buka semua rekening. Saya justru ingin auditor turun. Karena saya tahu, saya bersih. LSM itu mungkin terpengaruh isu miring. Tapi saya tidak akan menyerang balik. Saya yakin, kebenaran akan menang. Dan soal hubungan dengan pengusaha: saya tidak pernah menerima uang dengan imbalan proyek. Silakan cek.”
+(Raka berbohong dengan penuh keyakinan. Di hatinya berdebar, karena ia tahu Hartono sudah menyiapkan beberapa rekening palsu untuk mengelabui audit.)
+Anchor: “Jadi Bapak siap jika KPK memanggil?”
+Raka: “Siap. Kapan saja. Saya justru ingin menjadi contoh bahwa pemimpin BOLO bersih.”
+(Penonton bertepuk tangan. Hartono tersenyum puas di balik kamera.)
+Segmen 3 – Kesiapan dan Rencana ke Depan
+Anchor Ibu Dewi:
+“Baik. Jika Bapak terpilih menjadi walikota, apa yang akan Bapak lakukan di 100 hari pertama? Dan bagaimana Bapak mengukur keberhasilan?”
+Raka (mengikuti skrip dengan semangat):
+“100 hari pertama: (1) Membuka posko pengaduan rakyat di setiap kelurahan, gratis. (2) Mengalokasikan dana bantuan langsung untuk pedagang pasar. (3) Menandatangani peraturan walikota tentang gratisnya perizinan untuk UMKM. Ukuran keberhasilannya: ketika saya turun ke pasar dan warga tersenyum, bukan karena sembako, tapi karena mereka bisa makan dari hasil usahanya sendiri. Itu target saya.”
+Anchor: “Tapi bagaimana dengan utang daerah BOLO yang cukup besar? Apakah Bapak punya strategi fiskal?”
+Raka (tetap percaya diri):
+“Saya akan memotong anggaran yang tidak perlu: perjalanan dinas mewah, rapat di hotel, dan pos-pos lain yang bisa diefisiensikan. Uangnya akan dialihkan ke program produktif. Saya juga akan mengundang investor yang bersih – tapi tetap berpihak pada pekerja lokal. Intinya, rakyat tidak boleh dibebani lagi.”
+(Raka tahu bahwa ‘efisiensi’ yang ia maksud sering berujung pada pemotongan anggaran rakyat, tapi ia pandai membungkusnya.)
+Segmen 4 – Suara Rakyat: Harga Pasar dan Ongkos Naik
+(Layar menunjukkan bahwa pertanyaan dari warga yang sudah diatur. Seorang ibu-ibu pedagang pasar, Bu Surti, duduk di kursi tamu. Wajahnya asli tapi ucapannya sudah diarahkan Hartono.)
+Ibu Surti (dengan nada lantang, tetapi sedikit canggung karena membaca skrip):
+“Pak Raka, saya pedagang pasar di BOLO. Harga komoditas naik terus, ongkos pasar juga naik. Katanya biaya retribusi. Kami sudah protes tapi tidak ada perubahan. Apa janji Bapak untuk kami?”
+Raka (menatap Ibu Surti dengan mata iba – pura-pura):
+“Bu Surti, saya mengerti. Saya sudah sering ke pasar, saya liup harga meroket. Solusi saya: (1) Retribusi pasar akan saya bekukan selama 2 tahun. (2) Saya akan buat pasar murah setiap minggu yang disubsidi dari APBD. (3) Saya akan potong rantai tengkulak dengan program ‘petani dan pedagang langsung’. Insyaallah, dalam 6 bulan, ongkos pasar bisa turun 20%. Itu komitmen saya.”
+(Ibu Surti mengangguk, tersenyum lega. Padahal ia hanya mengikuti skrip. Penonton bertepuk tangan. Raka lega – ia tidak perlu memikirkan janjinya setelah menang nanti.)
+Anchor: “Apakah Bapak siap jika nantinya janji tersebut tidak terealisasi? Rakyat akan kecewa.”
+Raka (tersenyum lebar):
+“Saya tidak akan mengecewakan. Saya akan bekerja keras. Dan saya akan selalu turun ke rakyat dan tersenyum kalau perlu joget  bersama warga. Karena bagi saya, senyum rakyat adalah segalanya.”
+(Ironi: joget dan sembako adalah pengalih isu agar rakyat lupa pada janji yang tak ditepati.)
+Penutup Wawancara – Teguran Halus dari Anchor
+(Setelah menjawab pertanyaan Ibu Surti tentang harga pasar dan ongkos naik, Anchor Ibu Dewi mengajukan pertanyaan penutup sesuai skrip yang sudah diatur, namun kali ini Raka tidak menjawab dengan janji manis, melainkan dengan tantangan.)
+Anchor Ibu Dewi (membaca skrip yang sudah disetujui Hartono):
+“Pak Raka, kami di redaksi sering mendengar janji-janji calon pemimpin. Tapi rakyat BOLO sudah bosan. Pertanyaan terakhir dari kami: selain joget dan senyum, apa yang sudah Bapak lakukan secara nyata untuk rakyat selama kampanye ini? Beri kami satu bukti, bukan janji.”
+(Raka tersenyum lebar. Ia sudah tahu pertanyaan ini akan muncul. Tubuhnya sedikit condong ke depan, menatap kamera dengan penuh keyakinan – pura-pura.)
+Raka (dengan nada menantang, penuh percaya diri):
+“Ibu Dewi, pertanyaan bagus. Saya tidak suka janji kosong. Karena itu, daripada saya bicara panjang lebar, saya tantang Ibu dan tim redaksi untuk besok pagi turun langsung ke lapangan. Saya tunjukkan tempat-tempat yang sudah saya bantu selama kampanye. Contohnya: Pasar Lama yang retribusinya sudah saya bantu turunkan sementara lewat program ‘pedagang bahagia’ – itu sudah berjalan minggu lalu. Lalu gorong-gorong di Gang Melati, yang sudah saya bantu bersihkan bersama warga – bukan janji, tapi aksi nyata. Bahkan pabrik kayu tempat buruh mogok, sekarang sudah saya fasilitasi dialog dengan manajemen. Hasilnya? Mereka belum puas 100%, tapi sudah ada perbaikan. Itu bukti.”
+(Anchor sedikit terkejut – tidak menyangka Raka begitu siap dengan data lapangan. Padahal semua tempat itu sudah diatur Hartono: retribusi pasar diturunkan sementara dengan dana kampanye, gorong-gorong dibersihkan sekali lalu difoto, dialog pabrik hanya basa-basi. Tapi warga tidak tahu detailnya.)
+Raka (melanjutkan, semakin bersemangat):
+“Jadi, Ibu Dewi, jangan hanya bertanya di studio. Saya undang Ibu dan seluruh masyarakat BOLO untuk mengecek sendiri ke tempat-tempat yang sudah saya sentuh. Jangan percaya kata-kata saya. Percaya pada mata kepala sendiri. Kalau nanti Ibu menemukan kebohongan, silakan laporkan saya ke KPK. Saya tidak takut. Tapi kalau Ibu menemukan fakta bahwa saya sudah bekerja, maka saya minta Ibu menyampaikan itu ke publik. Siap?”
+(Anchor sedikit tersenyum kaku – ia tidak punya pilihan selain mengiyakan karena skrip sudah dirancang untuk membuat Raka terlihat berani dan transparan.)
+Anchor Ibu Dewi (mengikuti skrip):
+“Baik, Pak Raka. Tim redaksi akan menerima tantangan Bapak. Besok kami akan turun ke Pasar Lama, Gang Melati, dan pabrik kayu. Kami akan laporkan hasilnya secara jujur.”
+Raka (menutup dengan joget kecil dan lambaian tangan):
+“Terima kasih, Ibu Dewi. Ingat, rakyat BOLO berhak tahu mana calon yang hanya janji dan mana yang sudah bukti. Saya Raka, bersama rakyat, bukan hanya di panggung – tapi di selokan dan pasar! Sekali lagi, saya tantang semua media untuk cek faktanya. Jangan hanya wawancara manis di sini. Turun ke bawah, lihat sendiri. Selesai! Joget dulu ah, biar happy!”
+(Raka berjoget singkat, penonton bertepuk tangan. Hartono dari belakang kamera mengacungkan jempol. Anchor mengucapkan selamat malam.)
+Narator (penutup acara):
+“Wawancara usai. Raka berhasil membalik tekanan: dari yang seharusnya ‘membuktikan janji’ menjadi ‘tantangan untuk cek fakta’. Publik yang menonton terkesan. Mereka mengira Raka sangat transparan dan berani. Padahal, tantangan itu sudah diatur: tempat-tempat yang disebut sudah ‘dibenahi’ hanya untuk kepentingan kamera, bukan solusi permanen. Tapi rakyat tidak tahu. Yang mereka lihat adalah seorang calon yang percaya diri, merakyat, dan tidak takut diawasi. Inilah puncak kemunafikan: ketika koruptor justru menantang publik untuk mengawasinya – karena ia tahu pengawasan yang ia maksud hanya pura-pura.”
+(Layar transisi ke HARI PEMILIHAN – H-1. Teks: “Besok, rakyat BOLO akan memilih. Antara joget, tantangan, dan korupsi yang tersembunyi.”)
+(Layar: Pagi hari. Langit BOLO cerah. Di latar belakang, baliho-baliho Raka bergantungan di setiap sudut kota, berjejalan dengan baliho incumbent. Tapi kali ini, wajah Raka lebih dominan – hasil suntikan dana kampanye dari Hartono.)
+Narator:
+“H-1 pemilihan. Kota BOLO berdenyut lebih cepat dari biasanya. Warung kopi ramai. Pasar penuh dengan bisik-bisik politik. Namun, satu nama mendominasi obrolan: Raka.”
+(Gambar: Ponsel-ponsel warga menampilkan cuplikan wawancara Raka di BOLO TV. Jogetannya dipotong menjadi GIF yang tersebar di grup WhatsApp dan media sosial.)
+Narator:
+“Semalam, wawancara Raka di BOLO TV menjadi perbincangan nasional. Bukan karena programnya yang brilian, tapi karena dua hal: joget ceria di awal, dan tantangan berani di akhir.”
+(Cuplikan suara warga dari berbagai penjuru – disimulasikan dengan teks di layar.)
+“‘Raka itu asli merakyat, lihat jogetnya, tidak malu-malu.’”
+“‘Saya suka tantangannya, dia berani mengajak media cek fakta. Berarti dia percaya diri.’”
+“‘Gorong-gorong Gang Melati benar sudah dibersihkan. Saya lihat sendiri.’”
+Narator:
+“Media sosial banjir tagar #RakaBersih, #RakaBukanJanji, #JogetRakaBikinHappy. Hingga pagi ini, tagar tersebut telah disebarkan lebih dari 500 ribu kali. Bahkan selebritas lokal ikut berjoget ala Raka – tanpa tahu bahwa joget itu hanyalah kamuflase.”
+(Gambar: Sebuah papan pengumuman di pasar. Di atasnya, foto Raka sedang membagikan sembako ditempel. Di bawahnya, tulisan tangan: “Kami pedagang Pasar Lama dukung Raka – retribusi sudah turun, walau sementara.”)
+Narator:
+“Tim redaksi BOLO TV benar-benar menindaklanjuti tantangan Raka. Mereka turun ke Pasar Lama, Gang Melati, dan pabrik kayu. Hasilnya? Semua tempat yang disebut Raka menunjukkan ‘perubahan’. Retribusi pasar turun – meski hanya untuk seminggu, dan hanya untuk pedagang yang difoto. Gorong-gorong bersih – meski sampah masih menumpuk di hilir, tak terlihat kamera. Buruh pabrik mendapat kartu sembako – yang habis dalam sehari, tanpa program lanjutan.”
+Narator:
+“Namun, yang ditayangkan media hanya cuplikan positif. Wawancara dengan pedagang yang sudah diatur Hartono, buruh yang diberi amplop, serta warga yang diiming-imingi bingkisan. Hasil liputan: 80% publik percaya Raka adalah calon bersih dan pekerja keras.”
+(Gambar: Raka di rumahnya, mematikan televisi. Hartono duduk di sampingnya, tertawa puas.)
+Hartono (dalam narasi, tidak terdengar Raka):
+“Kampanye sempurna. Warga sudah mabuk joget dan janji manis. Sisa satu hari lagi. Surat suara sudah kita atur. Kecamatan-kecamatan kunci sudah kita ‘siapkan’. Besok, kita rayakan kemenangan.”
+Narator:
+“Raka hanya tersenyum tipis. Ia menatap jendela, melihat warga yang berkerumun di depan baliho bergambar dirinya. Mereka tersenyum. Mereka meneriakkan namanya. Mereka tidak tahu bahwa di balik joget dan tantangan, ada mark-up proyek, amplop kontraktor, dan janji-janji yang akan lenyap seperti asap.”
+(Gambar: Malam hari. Langit BOLO gelap. Lampu-lampu kampanye menyala terang. Sebuah pesawat kecil menarik spanduk: “BESOK PILIH RAKA, PEMIMPIN CERIA!”)
+Narator:
+“H-1 berlalu. Raka tidur dengan perasaan campur aduk. Di satu sisi, ia yakin akan menang. Di sisi lain, suara kecil di hatinya bertanya: ‘Jika aku menang dengan cara begini, apakah aku pantas disebut pemimpin?’ Tapi ia menepis keraguan itu, seperti menepis nyamuk. Besok adalah hari pemilihan. Dan Raka sudah siap – dengan senyum, joget, dan segudang kebohongan yang tersusun rapi.”
+(Layar fade to black. Teks muncul: “HARI PEMILIHAN – BESOK. AKANKAH RAKA MENANG? ATAUKAH KEADILAN MASIH BERSISA?”)
+Alur Jahat Hari Pemilihan hingga Penghakiman
+Bagian 1 Pagi Pemilu: Raka dalam Pelukan Janji Hartono
+(Layar: Pagi buta. Kamar mewah Raka yang dibiayai Hartono. Gorden tebal masih tertutup. Udara AC dingin. Raka terbangun dari tidur nyenyak, tanpa alarm. Ia tidak gelisah. Ia tidak berdoa. Ia hanya membuka ponsel dan membaca pesan dari Hartono: “Selamat pagi, calon walikota. Semua TPS sudah kita ‘amankan’. Tinggal coblos, duduk manis, dan menang.”)
+Narator:
+“Raka tersenyum. Ia tidak memikirkan rakyat. Ia memikirkan pesta kemenangan. Hartono sudah menjanjikan mobil dinas baru, kantor megah, dan proyek-proyak yang akan mengalirkan uang ke rekeningnya. Raka percaya uang tidak pernah mengkhianati.”
+(Gambar close-up: Raka berdiri di depan cermin kamar mandi. Ia membuka keran, membasuh muka. Ia menatap bayangannya sendiri. Monolog batin terdengar.)
+
+Raka (dalam hati, narasi getir tapi tidak salah):
+“Apa yang salah? Semua orang melakukan ini. Kalau tidak sekarang, kapan? Aku sudah lelah menjadi orang baik. Orang baik selalu kalah. Hari ini, aku menang.”
+(Ia mengeringkan muka, lalu memilih kemeja batik bermerek hadiah dari Hartono.)
+(Gambar: Raka sarapan di ruang makan. Ibunya menyajikan nasi uduk. Raka hanya menyentuh segelas jus. Ibunya duduk di seberang, memandanginya dengan cemas.)
+
+Ibu Raka: “Nak, ibu dengar... banyak desas-desus tentang kampanye kamu. Katanya Hartono memberi uang. Itu benar?”
+Raka (tanpa menatap ibu): “Biar saya yang urus, Bu. Sekarang saatnya menang. Doakan saja.”
+Ibu Raka (menunduk, suara bergetar): “Ibu selalu mendoakan yang terbaik untukmu. Tapi ibu takut... jalan yang kau pilih ini terjal.”
+Raka (kesal): “Sudahlah, Bu. Saya tahu apa yang saya lakukan.”
+(Ia bangkit, meninggalkan ibunya sendiri. Ibu Raka menangis diam-diam.)
+
+Narator:
+“Ibu Raka tidak pergi ke TPS. Ia hanya duduk di ruang tamu, memegang foto Raka kecil yang dulu pernah bercita-cita menjadi guru. Air matanya menetes tanpa suara. Doanya bukan untuk kemenangan, tapi agar anaknya selamat dari dosa.”
+
+Bagian 2 – Raka di TPS: Antrean yang Ia Lewati
+(Gambar: TPS di pusat kota BOLO. Pagi hari. Antrean panjang warga. Matahari mulai terik. Raka datang dengan mobil mewah berpelat nomor khusus. Ia turun dengan kacamata hitam, dikawal dua asisten. Tidak ada senyum untuk warga. Ia langsung menuju petugas KPPS.)
+Narator:
+“Raka tidak antre. Ia bilang kepada petugas, ‘Saya calon walikota, boleh didahulukan.’ Petugas bingung, tapi mengizinkan karena takut. Warga yang sudah antre sejak subuh mulai berbisik. Beberapa mendesis kesal.”
+(Gambar: Raka masuk bilik suara. Ia tidak membaca surat suara dengan seksama. Ia langsung mencoblos kolom bergambarnya. Ia keluar dengan jari bertinta, melambaikan tangan sekadarnya, lalu kembali ke mobil.)
+Seorang pemuda (berteriak dari antrean): "Pak Raka, dulu bapak antre seperti kami. Sekarang sudah beda?”
+(Raka tidak menjawab. Ia masuk mobil, menutup pintu. Warga saling pandang. Seorang ibu berbisik, “Sudah kuperingatkan. Orang yang naik cepat, biasanya jatuhnya keras.”)
+Narator:
+“Tidak ada teriakan pendukung. Tidak ada tepuk tangan. Yang ada hanya bisik-bisik kekecewaan. Tapi Raka tidak peduli. Hartono sudah janji – suara sudah diatur.”
+
+Bagian 3 Markas Kemenangan: Skandal Bocor, Permohonan Raka, dan Pengkhianatan Hartono
+(Gambar: Aula hotel bintang lima. Suasana pesta kemenangan yang baru saja reda karena kabar skandal. Musik dimatikan. Pendukung bayaran mulai kabur. Raka masih duduk di kursi empuk, ponselnya berdering tak berhenti. Hartono di sampingnya, wajah pucat, sibuk menghapus file dari laptop.)
+Narator:
+“Dalam hitungan menit, pesta kemenangan berubah menjadi neraka. Berita rekaman rapat dan transfer dana ilegal menyebar seperti api di padang ilalang. Relawan bayaran membuang seragam dan kabur. Katering mewah ditinggalkan. Hanya Raka, Hartono, dan beberapa staf yang tersisa. Bapak Raka masih duduk di sudut, diam membatu.”
+(Gambar layar ponsel Raka: notifikasi dari media sosial, tagar #RakaKorupsi trending, komentar penuh amarah. Sebuah video pendek dari warga di TPS – mereka merobek-robek baliho bergambar Raka sambil berteriak “Penipu!”)
+Narator:
+“Di luar hotel, kerumunan warga mulai berkumpul. Bukan pendukung, tapi massa yang marah. Mereka datang dari pasar, dari pabrik, dari gang-gang sempit tempat Raka dulu bersihkan got. Wajah-wajah yang dulu tersenyum kini berubah menjadi topeng kemarahan.”
+(Gambar: Raka berdiri, menghampiri Hartono yang sedang sibuk menelepon.)
+Raka (suara gemetar, penuh kepanikan): "Pak Hartono! Ada apa ini? Bukankah Bapak bilang semuanya aman? Bukankah Bapak bilang kemenangan sudah di tangan? Saya seharusnya menang! Apa yang terjadi?!”
+Hartono (tanpa menatap Raka, masih mengetik ponsel): "Raka, tenang. Ini cuma masalah teknis. Rekaman itu pasti palsu. Aku akan urus.”
+Raka (memegang lengan Hartono, suara meninggi): "Jangan bohongi saya, Pak! Saya lihat sendiri di TV. Suara saya, suara Bapak, semua jelas. Ini bukan palsu. Ini rekaman asli. Bapak janji akan amankan semuanya. Bapak janji saya akan menang! Sekarang bagaimana?!”
+(Hartono melepaskan tangan Raka dengan kasar, menatapnya dengan mata dingin.)
+Hartono (suara rendah, penuh ancaman): "Kamu jangan banyak bacot, Raka. Aku yang atur kampanye. Aku yang bayar semuanya. Jadi ikut kata-kataku. Sekarang kamu diam di sini, jangan bicara apa pun ke media. Aku akan pergi ke kantor, hapus semua file, dan atur agar rekaman itu dibilang deepfake. Paling lambat besok semua beres.”
+Raka (masih memegang baju Hartono): "Tapi Pak... bagaimana dengan warga yang di luar? Mereka sudah marah. Saya takut...”
+Hartono (melepaskan diri, mengambil tas): "Kamu takut? Harusnya kamu takut dari awal! Sudah, aku pergi dulu. Jangan ikuti aku. Jangan telepon aku. Aku akan atur semuanya sendiri.”
+(Hartono bergegas meninggalkan aula, diikuti dua asisten. Raka mencoba mengejar, tetapi seorang staf menghalangi.)
+Raka (berteriak ke arah pintu): "Pak Hartono! Jangan tinggalkan saya! Saya mohon! Kita bisa selesaikan bersama!”
+(Pintu tertutup. Hartono tidak menoleh. Raka ambruk ke kursi, kedua tangan menutupi wajah. Ruangan terasa hampa. Suara bising dari luar mulai terdengar – teriakan massa.)
+Narator:
+“Raka ditinggalkan. Hartono, sang dalang, pergi dengan alasan ‘mengurus semuanya’. Tapi Raka tidak tahu bahwa Hartono justru pergi untuk menghancurkan semua bukti yang mengarah padanya, dan menyusun skenario baru: menjadikan Raka kambing hitam tunggal. Janji kemenangan yang dulu ditabur, kini berubah menjadi duri.”
+
+Bagian 4 Demo Meledak: Kemarahan Frontal Rakyat, Penangkapan oleh Warga & Pihak Berwajib
+(Gambar: Di luar hotel, ribuan warga sudah berkumpul. Mereka tidak hanya berdiri, tetapi mulai mendobrak barikade petugas keamanan. Spanduk robek-robek, ada yang membawa foto Raka yang sudah dicoret-coret. Suara teriakan menggema: “RAKA KORUPTOR! TANGKAP! TANGKAP!”)
+Narator:
+“Dalam satu jam, jumlah demonstran membengkak menjadi lima ribu. Mereka datang dari seluruh penjuru BOLO. Para tukang kayu yang dulu diajak gotong royong, buruh pabrik yang dijanjikan upah layak, ibu-ibu pasar yang pernah didampingi mengurus izin – semuanya berdiri dalam satu barisan. Bukan untuk mendukung, tapi untuk menuntut.”
+(Gambar: Seorang perempuan paruh baya Ibu Surti, pedagang pasar yang dulu dibantu Raka berdiri di atas mobil komando. Wajahnya merah, suaranya parau.)
+Ibu Surti (berteriak dengan suara lantang, air mata mengalir):
+“Warga BOLO! Kami sudah muak! Dulu Raka datang ke pasar, berjanji akan turunkan ongkos, berjanji akan bebaskan kami dari pungli. Tapi ternyata dia hanya memakai kami! Dia korupsi bersama Hartono! Dia tega menghianati kepercayaan kami! Sekarang, kami tidak mau lagi! Tuntut Raka bertanggung jawab!”
+(Massa bersorak gemuruh. Beberapa mulai melempar botol dan batu ke arah hotel. Polisi berkuda mencoba menghalau, tetapi jumlah demonstran terlalu besar.)
+“Demo terbesar dalam sejarah BOLO terjadi bukan karena tuntutan upah, tapi karena kekecewaan. Seorang calon yang dulu dipuja, kini jatuh. Rakyat tidak hanya marah, mereka merasa dihina. Raka tidak hanya korupsi, ia juga mewakili harapan yang diinjak-injak.”
+(Gambar: Seorang tukang kayu tua – yang sama dengan di gorong-gorong saat kampanye – berdiri di depan mikrofon. Wajahnya sembap.)
+Pak Karto (buruh pabrik yang dulu didiamin Raka tentang upah, dengan suara bergetar namun keras): “Kami dulu percaya Raka. Kami dukung dia karena dia berani turun ke got, dengar keluhan kami. Ternyata... dia hanya memakai kami sebagai panggung. Ketika dia mapan, dia lupa. Lalu dia korupsi. Sekarang... kami minta pertanggungjawaban!”
+(Massa bersorak. Teriakan “Tangkap Raka” bergemuruh.)
+(Gambar: Raka mencoba keluar dari hotel melalui pintu samping, tapi kendaraan rombongannya sudah diblokir. Beberapa warga melempar botol air mineral ke arahnya. Sebuah batu kecil mengenai kaca mobil. Raka berlindung di dalam.)
+Seorang mahasiswi (berteriak langsung ke arah Raka): "Pak Raka! Dulu Bapak bilang ‘saya tidak janji, karena janji bisa diingkari’. Itu kalimat paling jujur dari Bapak. Karena semua janji Bapak ingkar!”
+(Raka menunduk, tidak berani menjawab.)
+(Polisi mulai membentuk barikade. Suasana memanas. Beberapa demonstran mencoba mendobrak barikade. Water cannon belum dikerahkan demo masih damai, meski emosi meluap.)
+Narator:
+“Demo berlangsung hingga malam. Tuntutan rakyat: Raka dicopot status calon, Hartono juga diusut, dan uang hasil korupsi dikembalikan. Di media sosial, warga mengunggah foto Raka saat di pasar, saat bersihkan got, lalu foto rekaman Raka saat rapat dengan kontraktor. Kontrasnya tragis.”
+(Gambar: Raka di dalam hotel yang sudah sepi. Ia menonton demo dari jendela lantai dua. Tangannya memegang gorden, gemetar.)
+(Gambar: Raka mencoba keluar dari hotel melalui pintu belakang. Tiga asisten setia mencoba melindunginya. Namun, massa sudah mengepung. Seorang tukang kayu tua Pak Karto menghadang langsung.)
+Pak Karto (wajah penuh keringat, suara serak karena berteriak): "Raka! Kamu ingat saya? Saya yang dulu minta tolong soal upah buruh? Kamu bilang akan ada kartu pekerja. Kamu bilang jangan demo. Ternyata kamu korupsi uang rakyat! Hari ini, kamu tidak akan lolos!”
+(Pak Karto mencengkeram baju Raka. Warga lain ikut menarik-narik. Raka terjatuh. Sepatunya lepas. Warga mulai memukul dengan tangan kosong – bukan dengan senjata, tapi dengan amarah.)
+Raka (berteriak ketakutan, melindungi kepala): "Maaf! Maaf! Saya mohon! Saya akan kembalikan semua! Saya salah!”
+Seorang mahasiswi (menendang bahu Raka): "Terlambat! Omong kosong! Dulu kau bilang ‘saya tidak janji, karena janji bisa diingkari’. Itu satu-satunya kalimat jujurmu! Sekarang rasakan!”
+(Massa terus berdesak-desakan. Beberapa polisi akhirnya turun tangan, tetapi kewalahan. Hingga akhirnya, mobil patroli polisi, mobil hitam KPK, dan mobil Bawaslu datang bersama-sama. Sirine meraung-raung.)
+(Gambar: Seorang komandan polisi turun, diikuti oleh penyidik KPK berjas, dan anggota Bawaslu. Mereka mendorong massa untuk membuka jalan.)
+Komandan Polisi (dengan pengeras suara): "Warga BOLO! Mohon tenang! Kami dari kepolisian, KPK, dan Bawaslu akan mengambil alih. Tersangka Raka akan kami amankan sesuai hukum. Serahkan pada proses hukum!”
+(Aparat mulai mengamankan Raka yang sudah babak-belur, pakaian robek, wajah lebam. Mereka membawanya ke mobil tahanan. Warga masih berteriak dari belakang barikade: “HUKUM MATI! HUKUM MATI!”)
+Narator:
+“Raka ditangkap bukan di ruang pengadilan, tapi di jalanan, di hadapan ribuan mata yang membencinya. Pakaian batik mahal yang dipakainya pagi ini kini berlumuran debu dan ludah. Tangannya diborgkar. Ia tidak berani menatap siapa pun. Di dalam mobil tahanan, ia menangis – bukan karena takut, tapi karena malu yang amat sangat.”
+(Gambar: Di dalam mobil tahanan yang gelap, Raka duduk terdiam. Di jendela kaca gelap, bayangan Hartono yang berdiri di kejauhan, tersenyum tipis, lalu berbalik pergi.)
+Narator:
+“Hartono menyaksikan penangkapan itu dari balcony lantai dua hotel seberang. Ia menghela napas lega. ‘Satu masalah selesai,’ katanya pelan. Ia menghapus semua kontak dengan Raka dari ponsel. Kemudian menelepon pengacaranya: ‘Siapkan konferensi pers. Aku akan jadi saksi korban.’”
+(Gambar: Ruang tahanan sementara di kantor polisi. Raka duduk di kursi kayu, wajah lebam, baju tahanan berwarna jingga. Pintu terbuka. Hartono masuk dengan pengacara. Wajahnya tegang, tetapi tetap terkendali.)
+Narator:
+“Tiga jam setelah penangkapan, Hartono datang menjenguk. Bukan untuk membantu, tetapi untuk memastikan Raka tidak membuka mulut. Di hadapan pengacara, ia berpura-pura menjadi teman yang prihatin.”
+Hartono (duduk di depan Raka, suara rendah): "Raka, dengar baik-baik. Saya sudah bicara dengan beberapa pejabat. Ada cara untuk membebaskanmu. Kamu hanya perlu diam. Jangan sebut nama saya. Jangan sebut mark-up proyek. Jangan sebut transfer. Nanti saya atur pembelaanmu, kamu cuma dibilang terpengaruh lingkungan. Maksimal hukuman 2 tahun, itupun bisa ditangguhkan.”
+Raka (menatap Hartono dengan mata sembab, tapi masih ada secercah harapan): "Bapak... Bapak tidak akan ingkar janji lagi, kan? Saya sudah percaya sekali, hasilnya saya di sini. Sekarang Bapak jamin saya bebas?”
+Hartono (tersenyum tipis, menepuk bahu Raka): "Percaya sama saya. Saya antar kamu keluar dalam waktu satu bulan. Asal kamu tutup mulut rapat-rapat. Jangan ada satu pun berita yang menyebut nama saya, oke?”
+(Hartono berdiri, meninggalkan satu amplop kecil – mungkin uang – di meja. Ia keluar tanpa menoleh. Raka memegang amplop itu, sedikit lega.)
+Narator:
+“Hartono berjanji. Tapi tidak ada satupun yang ditepati. Seminggu kemudian, Hartono justru menjadi ‘saksi kunci’ dalam kasus ini – bukan sebagai terdakwa, tapi sebagai korban yang ditekan oleh Raka. Ia mem-framing Raka sebagai otak tunggal. Dan semua bukti yang mengarah padanya sudah lenyap.”
+(Gambar pagi: Kantor Hartono digeledah KPK. Petugas keluar membawa kotak-kotak berisi dokumen. Hartono sudah lebih dulu pindah ke rumah amannya di luar kota. Namun, ia memanggil pengacaranya untuk menggelar konferensi pers.)
+(Gambar: Konferensi pers di ruangan mewah. Hartono duduk di kursi kayu, di belakangnya bendera Indonesia. Wajahnya pucat tapi berusaha tenang. Ia membaca pernyataan tertulis.)
+Hartono (suara berat, pura-pura menahan tangis): "Saya, Hartono, pengusaha biasa yang hanya ingin membantu kampanye calon pemimpin. Saya tidak pernah tahu bahwa Raka akan meminta proyek ilegal. Saya korban dari ambisinya. Semua bukti sudah saya serahkan ke KPK. Saya mohon doa dan maaf. Saya juga siap diperiksa.”
+(Seorang wartawan berteriak: “Tapi dalam rekaman, Bapak juga setuju mark-up!”)
+Hartono (sedikit gugup): “Itu... karena tekanan dari Raka. Saya cuma mengikuti. Saya sekarang siap diperiksa.”
+(Ia buru-buru meninggalkan podium. Wajahnya dingin, tidak ada penyesalan.)
+Narator:
+“Hartono adalah master of framing. Dalam satu hari, ia berhasil mengubah posisinya dari aktor utama menjadi korban. Raka, tanpa tim kuasa hukum yang kuat, kini mewarisi semua beban.”
+(Gambar: Raka menonton konferensi pers di sela-sela pemeriksaan. Ia tertawa sinis. “Setan licik. Tapi aku juga setan bodoh yang percaya setan lain.”)
+Bagian 6 Kekecewaan Orang Dekat
+(Gambar: Ruang tahanan yang sama, tetapi beberapa hari kemudian. Duduk di depannya: Ibu Raka, Bapak Raka, dan Andi. Ketiganya datang bergantian. Suasana mencekam.)
+Ibu Raka (menangis, suara hampir tak terdengar): "Raka... ibu lahirkan kau dengan air mata. Ibu cucikan pakaian orang agar kau sekolah. Bapakmu kuli kayu, punggungnya bungkuk. Dan sekarang... kau menjadi koruptor. Rumah kita dilempari batu. Tetangga menjauhi. Ibu tidak bisa tidur memikirkan malu ini. Lebih baik kau mati waktu kecil daripada jadi begini.”
+(Ibu Raka berdiri, meninggalkan ruangan dengan punggung membungkuk. Raka memanggil, “Bu... Bu...”, tapi ibunya tidak menoleh.)
+Bapak Raka (diam lama, bicara dengan suara berat, setiap kata seperti tertimbang): "Raka, saya sudah bilang, kursi itu panas. Tapi kau tak pernah dengar. Saya mengajarkan kejujuran, tapi kau memilih ketamakan. Saya tidak marah karena kau korupsi. Saya marah karena kau telah menjadi contoh buruk bagi adik-adikmu. Sekarang, jangan harap kami akan mengunjungimu lagi.”
+(Bapak Raka berjalan ke pintu, lalu berhenti sejenak tanpa menoleh.)
+“Doa ibu untukmu, bukan agar cepat bebas, tetapi agar kau bertobat.”
+(Pintu tertutup. Raka menunduk, menangis tersedu-sedu. Andi, sahabatnya, belum pergi. Ia berdiri di depan Raka, tangan di pinggang.)
+Andi (dengan suara keras, penuh amarah): “Raka, dulu kita bersama bersihkan got, kita bangun harapan. Tapi kau hancurkan semuanya dengan uang haram. Aku malu disebut sahabatmu. Aku akan pastikan semua warga tahu bahwa aku memutuskan hubungan denganmu. Jangan pernah mencariku lagi.”
+(Andi meludah ke lantai sel, lalu pergi. Raka menjerit: “Andi! Aku mohon! Jangan tinggalkan aku!” Tapi Andi tak mendengar.)
+Narator:
+“Raka ditinggal oleh semua orang yang pernah mencintainya. Bukan karena mereka tidak punya hati, tetapi karena luka yang ia timpakan terlalu dalam. Kepercayaan yang ia jual, tidak bisa dibeli kembali dengan air mata.”
+
+Bagian 7 Sidang Pengadilan: Upaya Menyeret Hartono Gagal Total
+(Gambar: Ruang sidang pengadilan negeri yang penuh sesak. Jurnalis, LSM, warga. Raka duduk di kursi terdakwa dengan rompi jingga. Jaksa membacakan tuntutan panjang. Raka meminta izin berbicara.)
+Raka (suara bergetar, tetapi mulai memanas): “Yang Mulia, saya memang bersalah. Saya mengakui semua kesalahan saya. Tapi saya bukan satu-satunya. Hartono… dia adalah otak dari semuanya. Dia yang menyuap saya, dia yang mengatur mark-up proyek, dia yang memanipulasi kampanye. Saya hanya bonekanya. Saya minta Yang Mulia memerintahkan KPK untuk menyelidiki Hartono juga.”
+(Ruangan berbisik. Jaksa berdiri.)
+Jaksa: “Yang Mulia, kami sudah melakukan penyelidikan mendalam. Semua bukti yang diajukan terdakwa – rekaman, transfer, kontrak – ternyata tidak dapat diverifikasi sebagai milik Hartono. Rekaman tidak jelas, transfer melalui rekening atas nama fiktif, dan kontrak sudah dimusnahkan. Yang ada hanyalah bukti-bukti yang mengarah ke terdakwa Raka sendiri. Hartono telah diperiksa sebagai saksi, dan ia memberikan keterangan yang konsisten: bahwa ia hanya pemberi dana kampanye biasa, dan bahwa Raka lah yang meminta proyek ilegal.”
+(Raka terkejut. Palu hakim diketuk.)
+Hakim: “Terdakwa, apakah Anda punya bukti baru yang mengarah pada saudara Hartono?”
+Raka (putus asa): “Saya... saya tidak punya bukti fisik lagi. Tapi saya punya kesaksian hati nurani! Hartono yang menghancurkan semua bukti! Saya mohon...”
+Hakim: “Hati nurani tidak cukup. Pengadilan berdasarkan bukti. Terdakwa, Anda hanya memperpanjang persidangan. Kita lanjut ke vonis.”
+(Jaksa membacakan tuntutan 12 tahun penjara. Hakim memvonis 10 tahun. Raka terdiam, pasrah. Di barisan pengunjung, Hartono yang berpakaian rapi hadir sebagai 'saksi'. Ia tersenyum tipis.)
+Narator:
+“Raka berusaha menyeret Hartono ke dalam pusaran hukum. Namun, Hartono telah lebih dulu menghancurkan semua bukti, memanipulasi keterangan saksi, dan membangun citra sebagai 'pengusaha baik yang tertipu'. Hukum butuh bukti, dan Hartono tidak meninggalkan jejak. Raka pun menjadi satu-satunya yang dihukum. Inilah puncak kemunafikan: yang korup tertangkap, yang dalang bebas berkeliaran.”
+Penutup Akhir 
+(Gambar: Raka di dalam sel penjara. Ia menulis surat panjang. Di luar, berita televisi menayangkan Hartono meresmikan proyek baru. Raka menatap layar, lalu melanjutkan menulis.)
+Raka (monolog batin panjang):
+“Aku masuk penjara karena keserakahan, juga karena kebodohan. Aku percaya pada Hartono padahal dia adalah ular. Sekarang dia bebas, aku terpenjara. Rakyat yang dulu kucintai kini membenciku. Ibuku tidak mau menemuiku. Bapakku menganggapku mati. Andi, sahabatku, meludahiku. Semua karena aku ingin cepat kaya, ingin mudah berkuasa. Aku tidak pernah membayangkan kursi yang panas ini akan mengantarkanku ke sel. korupsi tidak hanya merugikan negara, tapi menghancurkan hati orang-orang yang mencintaimu. Maafkan aku, BOLO.”
+(Gambar terakhir: Raka mengirim surat itu, lalu duduk di sudut sel. Bayangan jeruji besi jatuh di wajahnya. Layar perlahan gelap. Teks putih muncul: “ KORUPSI BUKAN HANYA MENGHANCURKAN NEGARA TETAP JUGA JIWA MANUSIA”)
+
+
+
+
+

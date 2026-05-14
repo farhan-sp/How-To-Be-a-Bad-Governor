@@ -1,0 +1,19 @@
+{
+    "projectFileVersion": 4,
+    "sourceFiles": [
+        "Text.yarn"
+    ],
+    "excludeFiles": [
+        "**/*~/*",
+        "./Samples/Yarn Spinner*/*"
+    ],
+    "localisation": {},
+    "baseLanguage": "en",
+    "compilerOptions": {},
+    "editorOptions": {
+        "yarnScriptEditor": {
+            "startNode": "Text",
+            "previewFontSize": 8
+        }
+    }
+}
