@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
 
@@ -14,7 +16,9 @@ public class DialogueAudioController : DialoguePresenterBase
     [System.Serializable]
     public class CharacterVoiceProfile
     {
+        public string id;
         public string characterName;
+        public string[] speakerAliases;
         public AudioSource audioSource;
         public AudioClip blipClip;
         public float volume = 0.45f;
@@ -45,7 +49,9 @@ public class DialogueAudioController : DialoguePresenterBase
     private Coroutine musicFadeRoutine;
     private Coroutine environmentFadeRoutine;
     private Coroutine voiceRoutine;
-    private AudioClip generatedToneClip;
+    private readonly Dictionary<string, string> speakerVoiceOverrides = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+    private readonly HashSet<string> mutedSpeakers = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+    private readonly Dictionary<string, AudioClip> generatedToneClips = new Dictionary<string, AudioClip>(StringComparer.Ordinal);
 
     [YarnCommand("bgm")]
     public void PlayBackgroundMusic(string musicId)
@@ -93,6 +99,7 @@ public class DialogueAudioController : DialoguePresenterBase
     public override YarnTask OnDialogueCompleteAsync()
     {
         StopVoice();
+        ClearSceneVoiceOverrides();
         return YarnTask.CompletedTask;
     }
 
@@ -114,6 +121,11 @@ public class DialogueAudioController : DialoguePresenterBase
         if (source == null)
         {
             Debug.LogWarning("AudioSource belum diisi.");
+            return;
+        }
+
+        if (source.clip == clip && source.isPlaying)
+        {
             return;
         }
 
@@ -143,10 +155,24 @@ public class DialogueAudioController : DialoguePresenterBase
     private IEnumerator SwitchLoopingAudioRoutine(AudioSource source, AudioClip clip, float fadeDuration)
     {
         float targetVolume = source.volume > 0f ? source.volume : 1f;
+        AudioClip previousClip = source.clip;
+
+        if (previousClip == clip)
+        {
+            if (!source.isPlaying)
+            {
+                source.clip = clip;
+                source.loop = true;
+                source.volume = targetVolume;
+                source.Play();
+            }
+
+            yield break;
+        }
 
         if (source.isPlaying && fadeDuration > 0f)
         {
-            yield return FadeAudioRoutine(source, source.volume, 0f, fadeDuration);
+            yield return FadeAudioRoutine(source, source.volume, 0f, fadeDuration * 0.65f);
         }
 
         source.clip = clip;
@@ -156,7 +182,7 @@ public class DialogueAudioController : DialoguePresenterBase
 
         if (fadeDuration > 0f)
         {
-            yield return FadeAudioRoutine(source, 0f, targetVolume, fadeDuration);
+            yield return FadeAudioRoutine(source, 0f, targetVolume, fadeDuration * 1.15f);
         }
     }
 
@@ -187,6 +213,11 @@ public class DialogueAudioController : DialoguePresenterBase
 
     private void StartVoice(string speakerName)
     {
+        if (string.IsNullOrWhiteSpace(speakerName) || mutedSpeakers.Contains(speakerName))
+        {
+            return;
+        }
+
         CharacterVoiceProfile profile = FindVoiceProfile(speakerName);
         if (profile == null)
         {
@@ -218,7 +249,7 @@ public class DialogueAudioController : DialoguePresenterBase
 
         while (true)
         {
-            source.pitch = profile.pitch + Random.Range(-profile.pitchRandomRange, profile.pitchRandomRange);
+            source.pitch = profile.pitch + UnityEngine.Random.Range(-profile.pitchRandomRange, profile.pitchRandomRange);
             source.volume = profile.volume;
 
             AudioClip clip = profile.blipClip != null ? profile.blipClip : GetGeneratedTone(profile);
@@ -232,8 +263,9 @@ public class DialogueAudioController : DialoguePresenterBase
     {
         int sampleRate = AudioSettings.outputSampleRate;
         int sampleCount = Mathf.Max(1, Mathf.CeilToInt(sampleRate * profile.generatedToneDuration));
+        string clipKey = profile.generatedToneFrequency.ToString("F3") + "_" + profile.generatedToneDuration.ToString("F3") + "_" + sampleCount;
 
-        if (generatedToneClip == null || generatedToneClip.samples != sampleCount)
+        if (!generatedToneClips.TryGetValue(clipKey, out AudioClip generatedToneClip) || generatedToneClip == null)
         {
             float[] data = new float[sampleCount];
 
@@ -246,6 +278,7 @@ public class DialogueAudioController : DialoguePresenterBase
 
             generatedToneClip = AudioClip.Create("Generated Dialogue Blip", sampleCount, 1, sampleRate, false);
             generatedToneClip.SetData(data, 0);
+            generatedToneClips[clipKey] = generatedToneClip;
         }
 
         return generatedToneClip;
@@ -253,12 +286,21 @@ public class DialogueAudioController : DialoguePresenterBase
 
     private CharacterVoiceProfile FindVoiceProfile(string speakerName)
     {
+        if (speakerVoiceOverrides.TryGetValue(speakerName, out string overrideProfileId))
+        {
+            CharacterVoiceProfile overrideProfile = FindVoiceProfileById(overrideProfileId);
+            if (overrideProfile != null)
+            {
+                return overrideProfile;
+            }
+        }
+
         if (characterVoices != null)
         {
             for (int i = 0; i < characterVoices.Length; i++)
             {
                 CharacterVoiceProfile profile = characterVoices[i];
-                if (profile != null && profile.characterName == speakerName)
+                if (profile != null && MatchesSpeaker(profile, speakerName))
                 {
                     return profile;
                 }
@@ -266,6 +308,101 @@ public class DialogueAudioController : DialoguePresenterBase
         }
 
         return defaultVoice;
+    }
+
+    public void ClearSceneVoiceOverrides()
+    {
+        speakerVoiceOverrides.Clear();
+        mutedSpeakers.Clear();
+    }
+
+    public void SetSpeakerVoiceOverride(string speakerName, string voiceProfileId, bool mute)
+    {
+        if (string.IsNullOrWhiteSpace(speakerName))
+        {
+            return;
+        }
+
+        if (mute)
+        {
+            mutedSpeakers.Add(speakerName);
+        }
+        else
+        {
+            mutedSpeakers.Remove(speakerName);
+        }
+
+        if (string.IsNullOrWhiteSpace(voiceProfileId))
+        {
+            speakerVoiceOverrides.Remove(speakerName);
+            return;
+        }
+
+        speakerVoiceOverrides[speakerName] = voiceProfileId;
+    }
+
+    public void PlaySceneBackgroundMusic(string musicId)
+    {
+        if (string.IsNullOrWhiteSpace(musicId))
+        {
+            StopBackgroundMusic();
+            return;
+        }
+
+        PlayBackgroundMusic(musicId);
+    }
+
+    public void PlaySceneEnvironment(string environmentId)
+    {
+        if (string.IsNullOrWhiteSpace(environmentId))
+        {
+            StopEnvironment();
+            return;
+        }
+
+        PlayEnvironment(environmentId);
+    }
+
+    private CharacterVoiceProfile FindVoiceProfileById(string profileId)
+    {
+        if (string.IsNullOrWhiteSpace(profileId) || characterVoices == null)
+        {
+            return null;
+        }
+
+        for (int i = 0; i < characterVoices.Length; i++)
+        {
+            CharacterVoiceProfile profile = characterVoices[i];
+            if (profile != null && string.Equals(profile.id, profileId, StringComparison.OrdinalIgnoreCase))
+            {
+                return profile;
+            }
+        }
+
+        return null;
+    }
+
+    private bool MatchesSpeaker(CharacterVoiceProfile profile, string speakerName)
+    {
+        if (string.Equals(profile.characterName, speakerName, StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+
+        if (profile.speakerAliases == null)
+        {
+            return false;
+        }
+
+        for (int i = 0; i < profile.speakerAliases.Length; i++)
+        {
+            if (string.Equals(profile.speakerAliases[i], speakerName, StringComparison.OrdinalIgnoreCase))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private AudioClip FindClip(AudioEntry[] entries, string id)

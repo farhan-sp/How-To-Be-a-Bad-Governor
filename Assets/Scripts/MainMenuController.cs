@@ -510,7 +510,7 @@ public class MainMenuController : MonoBehaviour
 
     private void EnsureEventSystem()
     {
-        if (FindObjectOfType<EventSystem>() != null)
+        if (FindFirstObjectByType<EventSystem>() != null)
         {
             return;
         }

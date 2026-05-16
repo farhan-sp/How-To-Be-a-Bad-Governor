@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Yarn.Unity;
@@ -38,12 +40,27 @@ public class SceneVisualController : MonoBehaviour
     }
 
     [System.Serializable]
+    public class SceneCharacterVoiceState
+    {
+        public string speakerName;
+        public string voiceProfileId;
+        public bool mute;
+    }
+
+    [System.Serializable]
     public class ScenePreset
     {
         public string id;
         public string backgroundId;
+        public string backgroundMusicId;
+        public bool stopBackgroundMusic;
+        public string environmentId;
+        public bool stopEnvironment;
         public bool hideAllCharactersFirst = true;
         public SceneCharacterState[] characters;
+        public SceneCharacterVoiceState[] characterVoices;
+
+        [HideInInspector] public string internalId;
     }
 
     [Header("Targets")]
@@ -56,6 +73,10 @@ public class SceneVisualController : MonoBehaviour
 
     [Header("Scene Presets")]
     public ScenePreset[] scenes;
+
+    [Header("Audio")]
+    public DialogueAudioController audioController;
+    public bool autoAssignIdForNewScenes = true;
 
     [Header("Transition")]
     public float transitionDuration = 0.35f;
@@ -88,7 +109,8 @@ public class SceneVisualController : MonoBehaviour
             yield break;
         }
 
-        System.Collections.Generic.List<IEnumerator> transitions = new System.Collections.Generic.List<IEnumerator>();
+        ApplySceneAudio(scene);
+        List<IEnumerator> transitions = new List<IEnumerator>();
 
         if (!string.IsNullOrEmpty(scene.backgroundId))
         {
@@ -189,7 +211,7 @@ public class SceneVisualController : MonoBehaviour
             yield break;
         }
 
-        System.Collections.Generic.List<IEnumerator> transitions = new System.Collections.Generic.List<IEnumerator>();
+        List<IEnumerator> transitions = new List<IEnumerator>();
 
         for (int i = 0; i < characterSlots.Length; i++)
         {
@@ -213,7 +235,7 @@ public class SceneVisualController : MonoBehaviour
         return version == transitionVersion;
     }
 
-    private void AddHideUnusedCharacterTransitions(System.Collections.Generic.List<IEnumerator> transitions, SceneCharacterState[] visibleStates, int version)
+    private void AddHideUnusedCharacterTransitions(List<IEnumerator> transitions, SceneCharacterState[] visibleStates, int version)
     {
         if (characterSlots == null)
         {
@@ -250,7 +272,7 @@ public class SceneVisualController : MonoBehaviour
         return false;
     }
 
-    private IEnumerator RunParallel(System.Collections.Generic.List<IEnumerator> routines)
+    private IEnumerator RunParallel(List<IEnumerator> routines)
     {
         if (routines == null || routines.Count == 0)
         {
@@ -274,6 +296,163 @@ public class SceneVisualController : MonoBehaviour
     {
         yield return routine;
         onComplete?.Invoke();
+    }
+
+    private void ApplySceneAudio(ScenePreset scene)
+    {
+        if (audioController == null)
+        {
+            audioController = FindFirstObjectByType<DialogueAudioController>();
+        }
+
+        if (audioController == null || scene == null)
+        {
+            return;
+        }
+
+        if (scene.stopBackgroundMusic)
+        {
+            audioController.StopBackgroundMusic();
+        }
+        else if (!string.IsNullOrWhiteSpace(scene.backgroundMusicId))
+        {
+            audioController.PlaySceneBackgroundMusic(scene.backgroundMusicId);
+        }
+
+        if (scene.stopEnvironment)
+        {
+            audioController.StopEnvironment();
+        }
+        else if (!string.IsNullOrWhiteSpace(scene.environmentId))
+        {
+            audioController.PlaySceneEnvironment(scene.environmentId);
+        }
+
+        audioController.ClearSceneVoiceOverrides();
+
+        if (scene.characterVoices == null)
+        {
+            return;
+        }
+
+        for (int i = 0; i < scene.characterVoices.Length; i++)
+        {
+            SceneCharacterVoiceState voiceState = scene.characterVoices[i];
+            if (voiceState == null || string.IsNullOrWhiteSpace(voiceState.speakerName))
+            {
+                continue;
+            }
+
+            audioController.SetSpeakerVoiceOverride(voiceState.speakerName, voiceState.voiceProfileId, voiceState.mute);
+        }
+    }
+
+    private void Awake()
+    {
+        ResolveAudioController();
+    }
+
+    private void OnValidate()
+    {
+        ResolveAudioController();
+        EnsureScenePresetIds();
+    }
+
+    private void ResolveAudioController()
+    {
+        if (audioController == null)
+        {
+            audioController = FindFirstObjectByType<DialogueAudioController>();
+        }
+    }
+
+    private void EnsureScenePresetIds()
+    {
+        if (scenes == null)
+        {
+            return;
+        }
+
+        HashSet<string> usedInternalIds = new HashSet<string>(StringComparer.Ordinal);
+        HashSet<string> usedSceneIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        for (int i = 0; i < scenes.Length; i++)
+        {
+            ScenePreset scene = scenes[i];
+            if (scene == null)
+            {
+                continue;
+            }
+
+            bool isNewOrDuplicated = string.IsNullOrWhiteSpace(scene.internalId) || !usedInternalIds.Add(scene.internalId);
+            if (isNewOrDuplicated)
+            {
+                scene.internalId = Guid.NewGuid().ToString("N");
+            }
+
+            if (string.IsNullOrWhiteSpace(scene.id))
+            {
+                scene.id = GenerateUniqueSceneId(usedSceneIds);
+                continue;
+            }
+
+            if (usedSceneIds.Add(scene.id))
+            {
+                continue;
+            }
+
+            if (autoAssignIdForNewScenes && isNewOrDuplicated)
+            {
+                scene.id = GenerateUniqueSceneId(usedSceneIds);
+                continue;
+            }
+
+            scene.id = MakeUniqueSceneId(scene.id, usedSceneIds);
+        }
+    }
+
+    private string GenerateUniqueSceneId(HashSet<string> usedSceneIds)
+    {
+        int highestNumericId = -1;
+
+        for (int i = 0; i < scenes.Length; i++)
+        {
+            ScenePreset scene = scenes[i];
+            if (scene == null || string.IsNullOrWhiteSpace(scene.id))
+            {
+                continue;
+            }
+
+            if (int.TryParse(scene.id, out int parsedId))
+            {
+                highestNumericId = Mathf.Max(highestNumericId, parsedId);
+            }
+        }
+
+        string numericCandidate = (highestNumericId + 1).ToString();
+        if (!usedSceneIds.Contains(numericCandidate))
+        {
+            usedSceneIds.Add(numericCandidate);
+            return numericCandidate;
+        }
+
+        return MakeUniqueSceneId("scene", usedSceneIds);
+    }
+
+    private string MakeUniqueSceneId(string baseId, HashSet<string> usedSceneIds)
+    {
+        string trimmedBaseId = string.IsNullOrWhiteSpace(baseId) ? "scene" : baseId.Trim();
+        string candidate = trimmedBaseId;
+        int suffix = 1;
+
+        while (usedSceneIds.Contains(candidate))
+        {
+            candidate = trimmedBaseId + "_" + suffix;
+            suffix++;
+        }
+
+        usedSceneIds.Add(candidate);
+        return candidate;
     }
 
     private Sprite FindBackground(string backgroundId)

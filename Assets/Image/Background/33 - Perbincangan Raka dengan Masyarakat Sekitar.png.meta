@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 504840e839bd6269d8f89bff318e079c
+guid: a35cb09ebb2f1cec5ab5ee024fde624e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 477909311939828993
-    second: 20 - Pagi hari Kota Bolo_0
+      213: 6510535854455414239
+    second: 33 - Perbincangan Raka dengan Masyarakat Sekitar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20 - Pagi hari Kota Bolo_0
+      name: 33 - Perbincangan Raka dengan Masyarakat Sekitar_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10d5605bcffd1a600800000000000000
-      internalID: 477909311939828993
+      spriteID: fdd52468dd11a5a50800000000000000
+      internalID: 6510535854455414239
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      20 - Pagi hari Kota Bolo_0: 477909311939828993
+      33 - Perbincangan Raka dengan Masyarakat Sekitar_0: 6510535854455414239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
