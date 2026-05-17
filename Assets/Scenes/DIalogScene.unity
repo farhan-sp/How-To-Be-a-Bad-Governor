@@ -378,9 +378,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 395545875}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 340, y: -1854}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -620, y: -1290}
   m_SizeDelta: {x: 1400, y: 1750}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &689345461
@@ -470,7 +470,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 578, y: -1318.5}
+  m_AnchoredPosition: {x: 603, y: -1289.4}
   m_SizeDelta: {x: 1400, y: 1750}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &984191724
@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 1082051202}
   - component: {fileID: 1082051201}
   - component: {fileID: 1082051203}
+  - component: {fileID: 1082051204}
   m_Layer: 0
   m_Name: Skema
   m_TagString: Untagged
@@ -767,6 +768,52 @@ MonoBehaviour:
     sprite: {fileID: -3631014330629780579, guid: a8780e38ffd02378ca62383264411ba6, type: 3}
   - id: wawancara_dari_ruangan_konglomerat
     sprite: {fileID: -1878648269938385879, guid: d421aedeaf7a0aaf48c4820c3a369d22, type: 3}
+  - id: raka_terduduk
+    sprite: {fileID: -1470958431146184972, guid: e4a8785218b22402f938bd46e46d2b48, type: 3}
+  - id: pesan_misterius
+    sprite: {fileID: -2201162568398480971, guid: c69ee7d9167c15caf8e6e24126acc360, type: 3}
+  - id: persidangan_raka
+    sprite: {fileID: 4260850903810560500, guid: 60f69d5bf19238476afcf3c6f86a797c, type: 3}
+  - id: raka_dipenjara
+    sprite: {fileID: -3217404278402578008, guid: 4204849b3cd4ee4d788ec3641dd95ec3, type: 3}
+  - id: penangkapan_hartono
+    sprite: {fileID: -1615408027981379075, guid: 903b757c57e71716c8cdea0cd1ad5b0d, type: 3}
+  - id: berita_hartono
+    sprite: {fileID: -4116887142395774141, guid: 9f4f00aaa15b86047a94696fa900d888, type: 3}
+  - id: masakan_ibu
+    sprite: {fileID: -655934209399578297, guid: 65fa1666c41c83a968a63a90140f479b, type: 3}
+  - id: menuju_tps
+    sprite: {fileID: -5189021293465560189, guid: 623e402db8a6a6e8a96df8c92bbc7628, type: 3}
+  - id: pagi_tps
+    sprite: {fileID: -4606912713541072149, guid: b051f8773471c6aa29f35b84d675334f, type: 3}
+  - id: pencoblosan
+    sprite: {fileID: 7612254544059631486, guid: da32b1bf285e7013f950fa0d8d8a94eb, type: 3}
+  - id: tempat_pencoblosan
+    sprite: {fileID: 2287164643944182334, guid: 5e534a65226d78dc2a5ca678fc176f89, type: 3}
+  - id: perhitungan_coblosan
+    sprite: {fileID: -6851417205913804153, guid: 717a93211aaa45f1894b3cca4ea8aa85, type: 3}
+  - id: hasil_coblosan_1
+    sprite: {fileID: -6600461466895987775, guid: 9ff9477841c2fcd318a3b1c8ccc7ae08, type: 3}
+  - id: hasil_coblosan_2
+    sprite: {fileID: -8069300820018750611, guid: f70b243af8789a7e9826732bfd468e16, type: 3}
+  - id: hasil_coblosan_3
+    sprite: {fileID: -7731430392707474987, guid: 5d1ef97d65191ac71a19d85735dc1675, type: 3}
+  - id: hasil_coblosan_4
+    sprite: {fileID: -7093084967609314875, guid: 32f18df7faa138f07a28a9612bed8cf4, type: 3}
+  - id: hasil_coblosan_5
+    sprite: {fileID: -874379524474145372, guid: a8e8daecc8fe120efb7335465047099b, type: 3}
+  - id: kemenangan_raka
+    sprite: {fileID: 6528313544451199102, guid: ba2d2fb66ee816231bc3b50f937d5489, type: 3}
+  - id: berita_raka_menang
+    sprite: {fileID: 5290896043470709152, guid: 8544bd599d244c2628bc25d0b3973af3, type: 3}
+  - id: raka_kepada_pendukung
+    sprite: {fileID: 5815187843320387392, guid: 3130510724557803b86821ba3f85c5f8, type: 3}
+  - id: raka_sedih
+    sprite: {fileID: 6733475958803728832, guid: 09fd987566dbead568a43b2636d154f0, type: 3}
+  - id: berita_lagi_tentang_raka
+    sprite: {fileID: 4751405049595198022, guid: 44639261a6cf44e3e926f56c371d6d1e, type: 3}
+  - id: kantor_raka
+    sprite: {fileID: 3737015876476035053, guid: b10421ebf1c5ca7a6a398da97c492ddc, type: 3}
   characterSprites:
   - characterId: raka_8
     poseId: 1
@@ -846,6 +893,27 @@ MonoBehaviour:
   - characterId: nadya_46
     poseId: 1
     sprite: {fileID: -7425704486112494651, guid: fc56c1f91ae9c706680b0b2e8831d9b0, type: 3}
+  - characterId: raka_54
+    poseId: 1
+    sprite: {fileID: -351655271319397609, guid: 67464d77a47d1b53d99c9d3808337ea8, type: 3}
+  - characterId: ibu_random_54
+    poseId: 1
+    sprite: {fileID: -3869027281874818704, guid: 7f2fd6c9d0f384296a3536a3ad33f99c, type: 3}
+  - characterId: kakek_random_54
+    poseId: 1
+    sprite: {fileID: 5629568408057641456, guid: 45a969a3c5a75f9e7aeff29cb350e19f, type: 3}
+  - characterId: raka_60
+    poseId: 1
+    sprite: {fileID: -5913970939158100550, guid: c0df0e36f235c8764821f37ca4767ba5, type: 3}
+  - characterId: relawan_60
+    poseId: 1
+    sprite: {fileID: 9058003791233411909, guid: a3f3573e42d3bb694bdb01a5c3126e26, type: 3}
+  - characterId: petugas_61
+    poseId: 1
+    sprite: {fileID: -3976041601135514400, guid: 0a195e1f5dd05ddd2b5684f83d1c0ce3, type: 3}
+  - characterId: bu_surti_62
+    poseId: 1
+    sprite: {fileID: -4923648818743155154, guid: 871db799fa0b4716e87e3dbd88a77bf3, type: 3}
   scenes:
   - id: end
     backgroundId: layar_hitam
@@ -869,7 +937,7 @@ MonoBehaviour:
     internalId: c064758c0d4c47f1a4bfe74122b90157
   - id: E1
     backgroundId: ending_0
-    backgroundMusicId: 
+    backgroundMusicId: ending
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -877,9 +945,83 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: ca9e147717c04d5f8971fbd26dc0b3da
+  - id: E2_1
+    backgroundId: pelaporan_raka
+    backgroundMusicId: ending
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 60e2068d9c5e4a90bae2fa1bb3c077d8
+  - id: E2_2
+    backgroundId: raka_dipenjara
+    backgroundMusicId: ending
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: bf370713484f48158bc80ec5b78a06c1
+  - id: E3_1
+    backgroundId: berita_raka_menang
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: bu_surti_62
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: 7a9998c537084a7fa4ee49102958063e
+  - id: E3_2
+    backgroundId: raka_kepada_pendukung
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 4cf6569bb38a4c87b04c25a415727395
+  - id: E3_3
+    backgroundId: raka_sedih
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: f436ac24239f4f15852cf81ab5d87d4c
+  - id: E3_4
+    backgroundId: berita_lagi_tentang_raka
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 30fb07e0f8044bd8b93088dd25052aee
+  - id: E3_5
+    backgroundId: kantor_raka
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 4e9b032506ee4b3a8709d6b29ed183fe
   - id: A1
     backgroundId: kota_bolo
-    backgroundMusicId: 
+    backgroundMusicId: tenang
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -889,7 +1031,7 @@ MonoBehaviour:
     internalId: 06b5fbc03fc2460ab45995f2ac5abe9c
   - id: A2
     backgroundId: para_pekerja_kayu
-    backgroundMusicId: 
+    backgroundMusicId: tenang
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -899,7 +1041,7 @@ MonoBehaviour:
     internalId: 2e3509409b6a4df0bdfb3348ef1e9bca
   - id: A3
     backgroundId: pejabat_misterius
-    backgroundMusicId: 
+    backgroundMusicId: muncul_masalah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -909,7 +1051,7 @@ MonoBehaviour:
     internalId: 6d81e9572a6a491b9a2014aa42ae9b10
   - id: A4
     backgroundId: papan_pengumuman
-    backgroundMusicId: 
+    backgroundMusicId: muncul_masalah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -919,7 +1061,7 @@ MonoBehaviour:
     internalId: 44adfb36651c4be9b214d532683a97a0
   - id: A5
     backgroundId: sindikat
-    backgroundMusicId: 
+    backgroundMusicId: muncul_masalah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -929,7 +1071,7 @@ MonoBehaviour:
     internalId: 1e9ed0cc0c754024ad9435b392c41e20
   - id: A6
     backgroundId: sang_raka
-    backgroundMusicId: 
+    backgroundMusicId: pengenalan
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -939,7 +1081,7 @@ MonoBehaviour:
     internalId: 147764d57f0448cf8a97d98c4a68aaf0
   - id: A7
     backgroundId: kelulusan_raka
-    backgroundMusicId: 
+    backgroundMusicId: pengenalan
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -949,7 +1091,7 @@ MonoBehaviour:
     internalId: 926a8ae64ae84409b778e3bc1c4e1524
   - id: A8
     backgroundId: institut_bolo
-    backgroundMusicId: 
+    backgroundMusicId: pengenalan
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -959,7 +1101,7 @@ MonoBehaviour:
     internalId: c6ad228cf5a54d0c92b2447e88c30402
   - id: A9
     backgroundId: raka_dan_bapak
-    backgroundMusicId: 
+    backgroundMusicId: keluarga
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -969,7 +1111,7 @@ MonoBehaviour:
     internalId: 60e09c935eff4cae841b537074d6adea
   - id: A10
     backgroundId: kamar_raka
-    backgroundMusicId: 
+    backgroundMusicId: keluarga
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -987,7 +1129,7 @@ MonoBehaviour:
     internalId: 23b7a780d08b42eda05609b5c38ee552
   - id: A11
     backgroundId: raka_resah
-    backgroundMusicId: 
+    backgroundMusicId: keluarga
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -997,7 +1139,7 @@ MonoBehaviour:
     internalId: f6413e9889fa452ba268c6a7108ebee6
   - id: A12
     backgroundId: raka_bercermin
-    backgroundMusicId: 
+    backgroundMusicId: keluarga
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1007,7 +1149,7 @@ MonoBehaviour:
     internalId: a477d1cf20a8462083496747926fac56
   - id: A13
     backgroundId: cermin_kamar_raka
-    backgroundMusicId: 
+    backgroundMusicId: keluarga
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1021,7 +1163,7 @@ MonoBehaviour:
     internalId: b4ac7ac5936d4c929313e9761d31f6e4
   - id: PN1
     backgroundId: pencalonan_raka
-    backgroundMusicId: 
+    backgroundMusicId: tempat_ramah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1031,7 +1173,7 @@ MonoBehaviour:
     internalId: c6f8903a0a694ded91a007d2a20d2745
   - id: PN2
     backgroundId: sorakan_tukang
-    backgroundMusicId: 
+    backgroundMusicId: tempat_ramah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1040,8 +1182,18 @@ MonoBehaviour:
     characterVoices: []
     internalId: 6598e359dec145c5ab5be466b4d25d2b
   - id: PN3
+    backgroundId: kemunculan_beliau
+    backgroundMusicId: rencana_jahat
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters: []
+    characterVoices: []
+    internalId: 17c8af1b69b64ef58c75fc6da9a72e26
+  - id: PN4
     backgroundId: amplop
-    backgroundMusicId: 
+    backgroundMusicId: rencana_jahat
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1049,27 +1201,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: edef751f5370458e9be0b5f8515503d8
-  - id: PN4
-    backgroundId: sesi_tanya_jawab
-    backgroundMusicId: 
-    stopBackgroundMusic: 0
-    environmentId: 
-    stopEnvironment: 0
-    hideAllCharactersFirst: 0
-    characters:
-    - slotId: 1
-      characterId: raka_22 (3)
-      poseId: 1
-      hide: 0
-    - slotId: 2
-      characterId: mas_yan_43
-      poseId: 1
-      hide: 0
-    characterVoices: []
-    internalId: 17c8af1b69b64ef58c75fc6da9a72e26
   - id: PN5
     backgroundId: singgasana
-    backgroundMusicId: 
+    backgroundMusicId: pengenalan
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1099,7 +1233,7 @@ MonoBehaviour:
     internalId: c05acc74d94542f1a4d74df587a7a37f
   - id: PN8
     backgroundId: kondisi_siang
-    backgroundMusicId: 
+    backgroundMusicId: selanjutnya
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1119,7 +1253,7 @@ MonoBehaviour:
     internalId: 4904943f49e24c9d9032b27cf7f9c050
   - id: PN10
     backgroundId: ruang_tengah
-    backgroundMusicId: 
+    backgroundMusicId: selanjutnya
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1137,7 +1271,7 @@ MonoBehaviour:
     internalId: 0ce7c4b259f745b2b067392d0faa6a88
   - id: PN11
     backgroundId: ruang_tengah
-    backgroundMusicId: 
+    backgroundMusicId: selanjutnya
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1183,7 +1317,7 @@ MonoBehaviour:
     internalId: 0f95ad30251c4419ad26f6b0f4eb0446
   - id: PN14
     backgroundId: tamu_malam
-    backgroundMusicId: 
+    backgroundMusicId: rencana_jahat
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1193,7 +1327,7 @@ MonoBehaviour:
     internalId: c0013e02037f4ae3a7a0ae142b1f9b7b
   - id: PN15
     backgroundId: diskusi_malam
-    backgroundMusicId: 
+    backgroundMusicId: rencana_jahat
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1265,9 +1399,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 237f3b093d924544945fc088e106ce0d
-  - id: 32
+  - id: BM1_1
     backgroundId: raka_ke_pasar
-    backgroundMusicId: 
+    backgroundMusicId: pengenalan
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1275,9 +1409,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 0115330a69ef48989b67b4169cda521d
-  - id: 33
+  - id: BM1_2
     backgroundId: raka_bertemu_pedagang
-    backgroundMusicId: 
+    backgroundMusicId: pengenalan
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1285,9 +1419,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 6e2809d76ae24270bba9ceaf29ab5144
-  - id: 34
+  - id: BM1_3
     backgroundId: berdiskusi_dengan_pedagang
-    backgroundMusicId: 
+    backgroundMusicId: pengenalan
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1298,14 +1432,14 @@ MonoBehaviour:
       poseId: 1
       hide: 0
     - slotId: 2
-      characterId: nenek_pedagang
+      characterId: nenek_pedagang_31
       poseId: 1
       hide: 0
     characterVoices: []
     internalId: d5b9345208054674a82d53ede69dd966
-  - id: 35
+  - id: BM1_4
     backgroundId: raka_dan_gorong_gorong
-    backgroundMusicId: 
+    backgroundMusicId: selanjutnya
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1313,9 +1447,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: a4a15672fce54d7cbfeced774bfd4bf7
-  - id: 36
+  - id: BM1_5
     backgroundId: perbincangan_dengan_warga
-    backgroundMusicId: 
+    backgroundMusicId: selanjutnya
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1331,7 +1465,7 @@ MonoBehaviour:
       hide: 0
     characterVoices: []
     internalId: 24e08825423a461ea3d8bae94356c4b9
-  - id: 37
+  - id: BM1_6
     backgroundId: perbincangan_dengan_warga
     backgroundMusicId: 
     stopBackgroundMusic: 0
@@ -1349,9 +1483,9 @@ MonoBehaviour:
       hide: 0
     characterVoices: []
     internalId: 501ca8b044124ffc972575ca5e6a8714
-  - id: 38
+  - id: BM1_7
     backgroundId: pertimbangan_minggu_1
-    backgroundMusicId: 
+    backgroundMusicId: selanjutnya
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1359,9 +1493,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 7b61a5902d884066803fea72a132b97b
-  - id: 39
+  - id: BM1_8
     backgroundId: rencana_jadwal
-    backgroundMusicId: 
+    backgroundMusicId: selanjutnya
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1369,9 +1503,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: b62bd877702f405a8d159524246b4a4b
-  - id: 40
+  - id: BM2_1
     backgroundId: poster_raka
-    backgroundMusicId: 
+    backgroundMusicId: keluarga
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1379,9 +1513,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 164daf46eec94521b082f9084d90cd46
-  - id: 41
+  - id: BM2_2
     backgroundId: bersama_para_kuli
-    backgroundMusicId: 
+    backgroundMusicId: keluarga
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1389,9 +1523,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 60bff8b2a25f4f0f9de9bd640663c3f3
-  - id: 42
+  - id: BM2_3
     backgroundId: perbincangan_dengan_kuli
-    backgroundMusicId: 
+    backgroundMusicId: keluarga
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1407,9 +1541,9 @@ MonoBehaviour:
       hide: 0
     characterVoices: []
     internalId: c3b82898d70440dc8a91d9118b330a1a
-  - id: 43
+  - id: BM2_4
     backgroundId: masalah_di_fasilitas_publik
-    backgroundMusicId: 
+    backgroundMusicId: sesuatu_yang_ganjil
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1417,9 +1551,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 6b7527ffd57444f0a2c5c7319cb930a3
-  - id: 44
+  - id: BM2_5
     backgroundId: perbincangan_dengan_admin
-    backgroundMusicId: 
+    backgroundMusicId: sesuatu_yang_ganjil
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1435,9 +1569,9 @@ MonoBehaviour:
       hide: 0
     characterVoices: []
     internalId: 38039bc62a13476da52fd1e1ec4bcc6b
-  - id: 45
+  - id: BM2_6
     backgroundId: perbincangan_dengan_admin
-    backgroundMusicId: 
+    backgroundMusicId: sesuatu_yang_ganjil
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1453,9 +1587,19 @@ MonoBehaviour:
       hide: 0
     characterVoices: []
     internalId: 379cc6c009504661ab0fad70769cc0b7
-  - id: 46
+  - id: BM2_7
+    backgroundId: pertimbangan_minggu_1
+    backgroundMusicId: sesuatu_yang_ganjil
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: be786ab67cfd4c42b948feab8e027e5a
+  - id: BM3_1
     backgroundId: wawancara
-    backgroundMusicId: 
+    backgroundMusicId: tempat_ramah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1463,9 +1607,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 0dc2c7b53c7d4a2fab468e5aa095f7ac
-  - id: 47
+  - id: BM3_2
     backgroundId: pelaksanaan_wawancara
-    backgroundMusicId: 
+    backgroundMusicId: tempat_ramah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1473,9 +1617,9 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 8f9b58499209456fba97f089971395c2
-  - id: 48
+  - id: BM3_3
     backgroundId: sesi_tanya_jawab
-    backgroundMusicId: 
+    backgroundMusicId: tempat_ramah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1491,9 +1635,9 @@ MonoBehaviour:
       hide: 0
     characterVoices: []
     internalId: 0dac2d65a8f64452aa9ed608496b8e1e
-  - id: 49
+  - id: BM3_4
     backgroundId: sesi_tanya_jawab
-    backgroundMusicId: 
+    backgroundMusicId: tempat_ramah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1509,9 +1653,9 @@ MonoBehaviour:
       hide: 0
     characterVoices: []
     internalId: 5bf116ffd35747ca822d8274633b17c4
-  - id: 50
+  - id: BM3_5
     backgroundId: sesi_tanya_jawab
-    backgroundMusicId: 
+    backgroundMusicId: tempat_ramah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1527,9 +1671,9 @@ MonoBehaviour:
       hide: 0
     characterVoices: []
     internalId: 4f48cc626a544c94922a0fe601d61f28
-  - id: 51
+  - id: BM3_6
     backgroundId: sesi_tanya_jawab
-    backgroundMusicId: 
+    backgroundMusicId: tempat_ramah
     stopBackgroundMusic: 0
     environmentId: 
     stopEnvironment: 0
@@ -1544,11 +1688,423 @@ MonoBehaviour:
       poseId: 1
       hide: 0
     characterVoices: []
-    internalId: ec1659bc79b942b7acf66c283db24596
-  audioController: {fileID: 0}
+    internalId: 2a1ef203c04c4fc2a93fea3f4cb68304
+  - id: BM3_7
+    backgroundId: wawancara_dari_ruangan_konglomerat
+    backgroundMusicId: muncul_masalah
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_22 (3)
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: manajer_toni_45
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: c708f6f0ee22416889ccd0c21d93a854
+  - id: BM4_1
+    backgroundId: layar_hitam
+    backgroundMusicId: 
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 23d4056c3b8c4f5692ad56f611b5654a
+  - id: BM4_2
+    backgroundId: mengecek_pabrik
+    backgroundMusicId: rencana_jahat
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 2c20631f105743c984f4709ef889b175
+  - id: BM4_3
+    backgroundId: mengecek_pabrik
+    backgroundMusicId: 
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_22 (3)
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: manajer_toni_45
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: ea459def45e74af29dc6621b45b1e96e
+  - id: BM4_4
+    backgroundId: ruangan_konglomerat
+    backgroundMusicId: 
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_22 (3)
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: pak_hartono_45
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: 808fdd9e56b547368c318a0bc0e4c641
+  - id: PB1_1
+    backgroundId: wawancara_dari_ruangan_konglomerat
+    backgroundMusicId: rencana_jahat
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_22 (3)
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: nadya_46
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: 228c6770914748e4a68719445e8666bc
+  - id: PB1_2
+    backgroundId: raka_terduduk
+    backgroundMusicId: tenang
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 7138a34b69a24d9a81ae8b593a4153bc
+  - id: PB1_3
+    backgroundId: pesan_misterius
+    backgroundMusicId: rencana_jahat
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: c9e9abb3a28d497ea82f72e984b94ecb
+  - id: PB2_1
+    backgroundId: wawancara_dari_ruangan_konglomeratwawancara_dari_ruangan_konglomerat
+    backgroundMusicId: rencana_jahat
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_22 (3)
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: nadya_46
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: 348464c6e7c74497bc6e54a3d369be4b
+  - id: PB2_2
+    backgroundId: raka_terduduk
+    backgroundMusicId: tenang
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 1617521104254ffe9e78f6a0c699a91d
+  - id: PB2_3
+    backgroundId: pesan_misterius
+    backgroundMusicId: rencana_jahat
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: f0b9e668004b4fbf8810673da741434e
+  - id: BH_1
+    backgroundId: kota_bolo
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: fdab92698db348338b0af069730406e7
+  - id: BH_2
+    backgroundId: penangkapan_hartono
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters: []
+    characterVoices: []
+    internalId: 3874f1379ea04690b3c5f553a35fa871
+  - id: BH_3
+    backgroundId: berita_hartono
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 9839cd69d2294b098d141e57155c3065
+  - id: BH_4
+    backgroundId: masakan_ibu
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 251aad2000c94283b80d420c4b2644a3
+  - id: BH_5
+    backgroundId: menuju_tps
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters: []
+    characterVoices: []
+    internalId: 18adff332469474a850d823adea0e652
+  - id: BH_6
+    backgroundId: pagi_tps
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_54
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: ibu_random_54
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: e8e4f29df7724ccfb9d60f734d6013c5
+  - id: BH_7
+    backgroundId: pagi_tps
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_54
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: kakek_random_54
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: dce1d16bfd394692aad54260d4962330
+  - id: BH_8
+    backgroundId: tempat_pencoblosan
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 0d1050ddecbd45e791d9397e8ca8a596
+  - id: BH_9
+    backgroundId: perhitungan_coblosan
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: f0e91ff81c5b4083a52bbd3baf84a0b4
+  - id: BH_10
+    backgroundId: hasil_coblosan_1
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: cb64e973085b4a24acd6664032ca8cad
+  - id: BH_11
+    backgroundId: hasil_coblosan_2
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 4a387a140c4f42ffb6a705fba067c5e0
+  - id: BH_12
+    backgroundId: hasil_coblosan_3
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: ea82a5390df34a45baee63766ab086b6
+  - id: BH_13
+    backgroundId: hasil_coblosan_3
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_60
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: relawan_60
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: e9d18726b0624b8daed409f655a4f860
+  - id: BH_14
+    backgroundId: hasil_coblosan_4
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 2
+      characterId: petugas_61
+      poseId: 1
+      hide: 0
+    - slotId: 1
+      characterId: raka_60
+      poseId: 1
+      hide: 1
+    characterVoices: []
+    internalId: 3b49da0407654c71ac5efb81e42826d1
+  - id: BH_15
+    backgroundId: hasil_coblosan_4
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 276943ddd8d54ed8bbde711b27a1a920
+  - id: BH_16
+    backgroundId: hasil_coblosan_5
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 2
+      characterId: petugas_61
+      poseId: 1
+      hide: 0
+    - slotId: 1
+      characterId: raka_60
+      poseId: 1
+      hide: 1
+    characterVoices: []
+    internalId: b1e6805007ec4db1b41bc7ae4bf516c2
+  - id: BH_17
+    backgroundId: kemenangan_raka
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 1023e042e3964c03b676bff3d186c563
+  audioController: {fileID: 1082051204}
   autoAssignIdForNewScenes: 1
   transitionDuration: 0.5
   useFadeTransition: 1
+--- !u!114 &1082051204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082051200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd8d845f9015a9ad988a5b2ce8a0ec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueAudioController
+  musicSource: {fileID: 1664710168}
+  environmentSource: {fileID: 0}
+  fallbackVoiceSource: {fileID: 0}
+  backgroundMusic:
+  - id: tenang
+    clip: {fileID: 8300000, guid: 2a0375ea602cfaffc81407cf9c1bb193, type: 3}
+  - id: muncul_masalah
+    clip: {fileID: 8300000, guid: 8193f2470e08c2165b04dda4e6b643a1, type: 3}
+  - id: pengenalan
+    clip: {fileID: 8300000, guid: 8c0169bac8ffd59b8977504df8f647bf, type: 3}
+  - id: keluarga
+    clip: {fileID: 8300000, guid: a350c94aa3eed47078bbfe517035b77f, type: 3}
+  - id: ending
+    clip: {fileID: 8300000, guid: 68e2938cba2f6a487a7cea370837fd9c, type: 3}
+  - id: tempat_ramah
+    clip: {fileID: 8300000, guid: 92195ae9e4e99e9fd92d464603c8c14c, type: 3}
+  - id: rencana_jahat
+    clip: {fileID: 8300000, guid: 9fa3d79a487179fddab2f44ebe2df4ed, type: 3}
+  - id: selanjutnya
+    clip: {fileID: 8300000, guid: 5efb0446cf4d91ce0b7bdf5e2fc171b7, type: 3}
+  - id: sesuatu_yang_ganjil
+    clip: {fileID: 8300000, guid: 50c06c12f8f8e4bca9a74e3cb662c366, type: 3}
+  - id: villain
+    clip: {fileID: 8300000, guid: 343113c4c698a1a2d84816cfd9074b94, type: 3}
+  environmentSounds: []
+  characterVoices: []
+  defaultVoice:
+    id: 
+    characterName: 
+    speakerAliases: []
+    audioSource: {fileID: 0}
+    blipClip: {fileID: 0}
+    volume: 0.45
+    pitch: 1
+    pitchRandomRange: 0.04
+    blipInterval: 0.055
+    generatedToneFrequency: 720
+    generatedToneDuration: 0.035
+  musicFadeDuration: 0.75
+  environmentFadeDuration: 0.5
 --- !u!1001 &1370868603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1695,7 +2251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: startNode
-      value: Permainan_Nasib_Dimulai
+      value: Baik_Hari_Pemilihan
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: yarnProject
@@ -1710,24 +2266,156 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 0
-      addedObject: {fileID: 2139757144}
+      addedObject: {fileID: 1664710169}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 1
-      addedObject: {fileID: 1010305778}
+      addedObject: {fileID: 2139757144}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 2
-      addedObject: {fileID: 689345459}
+      addedObject: {fileID: 1010305778}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 3
-      addedObject: {fileID: 984191723}
+      addedObject: {fileID: 689345459}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 4
+      addedObject: {fileID: 984191723}
+    - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
+      insertIndex: 5
       addedObject: {fileID: 1082051202}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9078442560890639579, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2072177460}
   m_SourcePrefab: {fileID: 100100000, guid: 52571f68872914e24837210513edea1d, type: 3}
+--- !u!1 &1664710167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1664710169}
+  - component: {fileID: 1664710168}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1664710168
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664710167}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1664710169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664710167}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -43.146072, y: -127.280914, z: 0}
+  m_LocalScale: {x: 2.1573036, y: 2.1573036, z: 2.1573036}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 395545875}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2072177458 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9078442560890639579, guid: 52571f68872914e24837210513edea1d, type: 3}
