@@ -1,5 +1,4 @@
-title: Text
-position: 472,12
+title: Permainan_Dimulai_1
 ---
 <<scene Skema layar_hitam>>
 Narator: Setiap kursi punya cerita. Tapi tidak semua cerita layak didengar.
@@ -50,14 +49,41 @@ Bapak Raka: Nak, kamu sudah hebat.
 Bapak Raka: Tapi lihatlah sekeliling. 
 Bapak Raka: Tidak ada satupun kandidat yang pantas untuk BOLO. 
 Bapak Raka: Mereka semua sama saja.
+<<highlight Skema None>>
+Narator: Bapak menyuruh Raka untuk menjadi salah satu kandidat pemimpin bagi kota Bolo, apa yang harus Raka lakukan ?
 <<highlight Skema A>>
-Raka: Aku tidak ingin jadi walikota, Pak. 
-Raka: Aku cukup jadi DPD.
-<<highlight Skema B>>
-Bapak Raka: DPD? Untuk apa? Suaramu akan tenggelam. 
-Bapak Raka: Lebih baik kamu yang memegang kursi itu. 
-Bapak Raka: Kami para tukang kayu akan mendukungmu.
+->  Tetap yakin untuk menjadi DPD.
+    Raka: Aku tidak ingin jadi walikota, Pak. Aku cukup jadi DPD.
+    <<jump Pilihan_Awal_1>>
+->  Ragu dengan pilihan yang diambil.
+    Raka: Aku tidak tahu apa yang akan ku lakukan ini benar atau tidak tapi pak...
+    Raka: Bukan kah sudah cukup dengan menjadi DPD untuk mewakili suara rakyat ?
+    <<jump Pilihan_Awal_1>>
+->  Ingin menjadi kandidat, namun kawatir dengan pendukung saat mencalonkan diri nanti.
+    Raka: Apa aku saja yah pak yang akan maju menjadi kandidat walikota ?
+    Raka: Tapi siapa yang akan mendukungku nantinya ?
+    <<jump Pilihan_Awal_2>>
+===
 
+title: Pilihan_Awal_1
+---
+<<highlight Skema B>>
+Bapak: DPD? Untuk apa? Suaramu akan tenggelam. 
+Bapak: Lebih baik kamu yang memegang kursi itu. 
+Bapak: Kami para tukang kayu... akan mendukungmu.
+<<jump Permainan_Dimulai_2>>
+===
+
+title: Pilihan_Awal_2
+---
+<<highlight Skema B>>
+Bapak: Tenang saja nak bapak akan selalu mendukungmu dan para tukang kayu dan teman teman bapak di kota ini pasti akan mendukungmu... 
+Bapak: Tapi ingat kamu harus amanah yah nah
+<<jump Permainan_Dimulai_2>>
+===
+
+title: Permainan_Dimulai_2
+---
 <<scene Skema A11>>
 Narator: Malam itu, Raka tidak bisa tidur. 
 Narator: Dukungan dari bapaknya dan para tukang kayu bukan sekadar tepuk tangan. 
@@ -70,11 +96,16 @@ Narator: Di sisi lain, jika bukan dia, siapa lagi?
 <<scene Skema A13>>
 <<highlight Skema A>>
 Raka: Baik. Aku akan maju. 
-Raka: Akan kuambil kursi itu. Tapi aku tidak akan menjadi seperti mereka.
-
+<<highlight Skema None>>
+Narator: Raka sudah membulatkan tekadnya, namun ia masih ragu dengan pilihan tersebut. Apa yang harus ia lakukan ?
+<<highlight Skema A>>
 -> Membulatkan tekad lalu mencalonkan diri
+    Raka: Akan kuambil kursi itu. 
+    Raka: Tapi aku tidak akan menjadi seperti mereka.
     <<jump Permainan_Nasib_Dimulai>>
 -> Melupakan angan-angan tersebut karena takut terjerumus ke sistem yang busuk
+    Raka: Ahhggg.... Mungkin....
+    Raka: Lupakan saja.
     <<jump Ending_Menghindari_Resiko>>
 ===
 
@@ -87,7 +118,8 @@ Narator: Ia tetap menjadi orang baik...
 Narator: Tetapi BOLO kembali dipimpin oleh orang-orang yang sama.
 Narator: Kadang ketakutan menyelamatkan seseorang dari dosa. 
 Narator: Kadang ketakutan juga membiarkan kota tetap terluka.
-<<scene Skema end>>
+<<scene Skema end_E1>>
+
 ===
 
 title: Permainan_Nasib_Dimulai
@@ -109,12 +141,13 @@ Narator: Kabar pencalonan Raka menyebar cepat. Rumahnya berubah menjadi samudera
 <<scene Skema PN7>>
 Narator: Ada yang datang membawa harapan. Ada yang datang membawa hitungan.
 
-
 <<scene Skema PN8>>
 Narator: Waktu pun menjelang di siang hari
 
 <<scene Skema PN9>>
-Narator: Raka mulai menikmati seduhan kopi.
+Narator: Sebelum Raka sempat menyeduh kopi...
+Narator: Pintu rumahnya sudah diketuk puluhan pasang tangan. 
+Narator: Mereka bukan pembawa amplop. Mereka pembawa luka.
 
 <<scene Skema PN10>>
 <<highlight Skema B>>
@@ -122,15 +155,54 @@ Tukang Kayu: Pak Raka, kami dukung Bapak.
 Tukang Kayu: Tapi izin tebang kayu kami macet sudah setahun. 
 Tukang Kayu: Pejabat sekarang minta uang pelicin setiap kali kami mengurus berkas.
 
+<<highlight Skema A>>
+-> Kritik keras uang pelicin dan langsung berkomitmen membantu rakyat
+    Raka: Wah, Pak, itu kasus yang bagus untuk diangkat!
+    Raka: Kalau apa-apa harus ada uang pelicin, sangat menyusahkan rakyat dong.
+    Raka: Baiklah, Pak, saya akan angkat kasus ini.
+-> Manfaatkan isu pemerasan rakyat sebagai komoditas politik pencalonan
+    Raka: Uang pelicin? Keterlaluan sekali mereka bisa memeras rakyat.
+    Raka: Saya akan coba mengangkatnya sebagai isu dalam pencalonan saya ya, Pak.
+-> Maklumi proses birokrasi yang lama, namun berjanji akan meninjau ulang
+    Raka: Bukannya itu hal yang normal ya?
+    Raka: Soalnya perizinan terhadap lingkungan memang lama pengerjaannya, Pak.
+    Raka: Tetapi saya akan coba untuk meninjau. Kalau ini benar terjadi, saya akan angkat ya, Pak.
+
 <<scene Skema PN11>>
 <<highlight Skema B>>
 Ibu Pedagang: Pak, pasar kami mau dibubarkan karena penataan kota. 
-Ibu Pedagang: Katanya ada proyek bangunan mal. Kami rakyat kecil mau ke mana?
+Ibu Pedagang: Katanya ada proyek bangunan mal.
+Ibu Pedagang: Tolong kami, Pak Raka... pasar kami mau digusur buat mal, tapi kami bingung harus pindah ke mana.
+
+<<highlight Skema A>>
+-> Fokus pada hak kompensasi rakyat dan aspek legalitas relokasi pasar
+    Raka: Berarti ada yang salah dari tempat jualan Ibu.
+    Raka: Mungkin saja tanahnya dijual atau memang adanya pembangunan yang berizin, tetapi seharusnya pemerintah memberikan kompensasi tempat baru.
+    Raka: Baiklah, saya akan mencoba untuk mengangkat topik ini.
+-> Soroti potensi korupsi/permainan izin antara pengusaha mal dan penguasa
+    Raka: Itu harus diusut, Bu. 
+    Raka: Kalau memang ada permainan antara pemberi izin dan pengusaha pembangunan mal tersebut yang tidak sesuai aturan, baru bisa kita permasalahkan.
+    Raka: Namun, saya akan coba untuk cari tahu dan angkat isu ini ya.
+-> Utamakan pertumbuhan ekonomi kota, namun pertanyakan kejelasan relokasi pedagang
+    Raka: Bukannya bagus jika di kota dibangun mal lagi? Ekonomi akan berputar lebih deras, bukan?
+    Raka: Tetapi Ibu dan pedagang sayur di pasar telah dikorbankan dan tidak diberikan kejelasan tempat baru untuk direlokasi.
+    Raka: Saya akan coba cari tahu dulu dan angkat isu ini juga ya, Bu.
 
 <<scene Skema PN12>>
 <<highlight Skema B>>
 Pemuda: Pak Raka, kami lulusan SMK perkayuan. 
-Pemuda: Tapi pabrik lebih suka impor kayu. Tolong hidupkan lagi industri kami.
+Pemuda: Tapi pabrik lebih suka impor kayu.
+Pemuda: Kenapa ya, Pak, masalah kayu di daerah kita kok ruwet banget akhir-akhir ini?
+
+-> Hubungkan masalah dengan birokrasi dan praktik uang pelicin yang dikeluhkan warga
+    Raka: Sebelumnya Bapak tukang kayu mengatakan, 'Perizinan tebang kayu sedang terhambat dikarenakan oknum menginginkan uang pelicin bagi para penebang'.
+    Raka: Mungkin karena hal itu, Dek.
+-> Soroti penurunan standar lingkungan akibat penebangan masif di kota
+    Raka: Mungkin standar yang ada di kota ini sudah menurun, Nak. Apalagi sudah sering ada penebangan secara masif untuk memenuhi kebutuhan kayu di kota ini.
+    Raka: Tetapi saya akan usut dan angkat isu ini.
+-> Toleransi kebijakan impor kayu selama hak pekerja lokal tetap terpenuhi
+    Raka: Jika mereka mengimpor kayu, itu tidak masalah selama pekerjanya masih warga lokal, Dek.
+    Raka: Sehingga mereka tidak melanggar hukum apa pun.
 
 <<scene Skema PN13>>
 Narator: Raka mendengarkan. Wajahnya serius. 
@@ -138,7 +210,10 @@ Narator: Tapi ia sadar semua janji butuh kuasa, dan kuasa butuh pengorbanan.
 
 <<scene Skema PN14>>
 Narator: Malam hari pun tiba.
-Narator: Dan kali ini, Raka di kunjungi oleh tamu yang tidak biasa.
+Narator: Raka lelah, tapi pintu belum tertutup. 
+Narator: Kali ini, tamunya berbeda. Mereka tidak datang dengan keluhan. 
+Narator: Mereka datang dengan... 
+Narator: Penawaran.
 <<scene Skema PN15>>
 Narator: Ia melakukan diskusi bersama ketiga tamu barunya tersebut.
 
@@ -147,23 +222,52 @@ Narator: Ia melakukan diskusi bersama ketiga tamu barunya tersebut.
 Hartono: Pak Raka, selamat. Saya dan rekan-rekan pengusaha ingin mendukung penuh.
 Hartono: Ada dana segar untuk kampanye, tim sukses, bahkan konsultan media.
 Hartono: Tentu saja, kami hanya berharap setelah terpilih Bapak bisa memperhatikan kebijakan ekspor kayu dan perizinan pabrik. Saling menguntungkan, bukan?
+
+<<highlight Skema A>>
+-> Terima tawaran secara diplomatis untuk dipertimbangkan kembali
+    Raka: Baik, Pak, terima kasih. Nanti saya pikirkan lagi ya.
+-> Jaga hubungan baik namun tunda komitmen hingga waktu yang dibutuhkan
+    Raka: Kalau memang saya butuh Bapak, saya akan hubungi di kemudian hari.
+-> Tolak tawaran secara langsung dan tegas tanpa kompromi
+    Raka: Saya tidak tertarik, Pak.
+
 <<scene Skema PN17>>
 <<highlight Skema B>>
 Kontraktor: Saya siap menjadi mitra proyek jalan dan jembatan. Anggaran bisa kita atur bersama. Yang penting ada kesepakatan di awal.
+<<highlight Skema A>>
+-> Tunda keputusan secara diplomatis dengan menyebutkan adanya tawaran dari Hartono
+    Raka: Baik, Pak, terima kasih. Nanti saya pikirkan lagi ya. Hartono sudah mengajak.
+-> Jaga hubungan baik namun tunda komitmen hingga waktu yang dibutuhkan
+    Raka: Kalau memang saya butuh Bapak, saya akan hubungi di kemudian hari.
+-> Tolak tawaran secara langsung dan tegas tanpa kompromi
+    Raka: Saya tidak tertarik, Pak.
+
 <<scene Skema PN18>>
 <<highlight Skema B>>
 Oknum Dinas: Bapak butuh izin kampanye? Saya bisa mempermudah. Nanti kalau sudah jadi walikota, jangan lupa bagi-bagi jatah.
+<<highlight Skema A>>
+-> Tunda keputusan secara diplomatis dengan menyebutkan ajakan dari Hartono dan kontraktor
+    Raka: Baik, Pak, terima kasih. Nanti saya pikirkan lagi ya. Hartono dan kontraktor sudah mengajak.
+-> Jaga hubungan baik namun tunda komitmen hingga waktu yang dibutuhkan
+    Raka: Kalau memang saya butuh Bapak, saya akan hubungi di kemudian hari.
+-> Tolak tawaran secara langsung dan tegas tanpa kompromi
+    Raka: Saya tidak tertarik, Pak.
 
 <<scene Skema PN19>>
 Narator: Raka tersenyum sopan. Hatinya berdesir. 
 Narator: Setiap dukungan yang datang hari ini suatu saat akan menagih.
 Narator: Malam itu, sebelum tidur, Raka menulis tiga catatan kecil di buku hariannya.
 Narator: Itu akan menjadi kompas perjalanannya, atau justru rantai pertama.
-Narator: Sekarang saatnya Raka untuk memutuskan langkah pertama yang perlu ia lakukan !
 
+Narator: Sekarang saatnya Raka untuk memutuskan langkah pertama yang perlu ia lakukan !
+<<highlight Skema A>>
 -> Dengarkan rakyat lebih dulu, janjikan solusi riil meski kampanye lambat
+    Raka: Aku harus mendengarkan semua keluh kesah mereka terlebih dahulu.
+    Raka: Nanti akan ku pertimbangkan keputusan terbaik.
     <<jump Baik_Minggu_1>>
 -> Terima semua dukungan pengusaha dan janjikan kemudahan nanti
+    Raka: Pengusaha-pengusaha tersebut menarik perhatianku.
+    Raka: Dengan begini rencanaku untuk menjadi walikota akan menjadi lebih mudah.
     <<jump Jahat_Minggu_1>>
 ===
 
@@ -179,36 +283,48 @@ Narator: Ia pun bertemu dengan seorang nenek yang tengah berdangan di pasar.
 <<scene Skema BM1_3>>
 <<highlight Skema B>>
 Nenek: Nak Raka, saya sudah 20 tahun jualan di sini. Tapi tahun depan katanya pasar ini mau direlokasi.
+<<highlight Skema None>>
+Narator: Solusi apa yang harus diberikan Raka untuk menyelesaikan permasalahan sang Nenek akibat relokasi pasar ?
+<<highlight Skema A>>
 -> Jelaskan solusi teknis dan libatkan pedagang
-    <<highlight Skema A>>
-    Raka: Bu, warga harus diikutsertakan dalam musyawarah. Pemerintah punya dana lahan pengganti, tapi pedagang harus dilibatkan sejak awal.
+    Raka: Bu, warga harus diikutsertakan dalam musyawarah. 
+    Raka: Pemerintah punya dana lahan pengganti, tapi pedagang harus dilibatkan sejak awal.
 -> Akui perlu data dan ajak diskusi dulu
-    <<highlight Skema A>>
-    Raka: Saya perlu pelajari detail relokasinya. Saya akan kumpulkan data dan ajak pedagang berdiskusi. Tidak ada keputusan tanpa melibatkan Ibu.
+    Raka: Saya perlu pelajari detail relokasinya. 
+    Raka: Saya akan kumpulkan data dan ajak pedagang berdiskusi. 
+    Raka: Tidak ada keputusan tanpa melibatkan Ibu.
 
 <<scene Skema BM1_4>>
 Narator: Di sudut gang, Raka menemukan gorong-gorong mampet yang setiap hujan membuat air naik ke rumah warga.
 
 <<scene Skema BM1_5>>
+<<highlight Skema A>>
+Raka: Gorong-gorong tersumbat. Setiap hujan, air naik ke rumah-rumah.
+Raka: Kenapa terus dibiarkan ?
 <<highlight Skema B>>
 Pak Danang: Sudah tiga tahun kami lapor ke lurah, Pak. Tidak pernah ada tindakan.
-
+<<highlight Skema None>>
+Narator: Apa keputusan yang harus diambil Raka untuk mengatasi permasalah gorong-gorong ini ?
+<<highlight Skema A>>
 -> Beri rencana teknis drainase
-    <<highlight Skema A>>
-    Raka: Ini bisa dimulai dengan gotong royong, lalu perlu normalisasi saluran di hulu. Saya akan dorong Dinas PU menganggarkan prioritas ini.
+    Raka: Ini bisa dimulai dengan gotong royong, lalu perlu normalisasi saluran di hulu. 
+    Raka: Saya akan dorong Dinas PU menganggarkan prioritas ini.
 -> Catat sebagai prioritas dan bawa ke debat publik
-    <<highlight Skema A>>
-    Raka: Saya akan cek apakah laporan warga sudah sampai ke tingkat kota. Saya catat sebagai prioritas dan akan saya bawa ke debat publik.
+    Raka: Saya akan cek apakah laporan warga sudah sampai ke tingkat kota. 
+    Raka: Saya catat sebagai prioritas dan akan saya bawa ke debat publik.
 
 <<scene Skema BM1_6>>
 <<highlight Skema B>>
 Bu Lastri: Jadi Bapak janji akan perbaiki?
+<<highlight Skema None>>
+Narator: Seorang warga meminta janji perbaikan gorong-gorong !
+<<highlight Skema A>>
 -> Tidak memberi janji kosong
-    <<highlight Skema A>>
-    Raka: Saya tidak janji, karena janji bisa diingkari. Kalau terpilih, masalah ini masuk prioritas teknis tahun pertama dan laporannya saya minta tiap tiga bulan.
+    Raka: Saya tidak janji, karena janji bisa diingkari. 
+    Raka: Kalau terpilih, masalah ini masuk prioritas teknis tahun pertama dan laporannya saya minta tiap tiga bulan.
 -> Berjanji berusaha maksimal
-    <<highlight Skema A>>
-    Raka: Saya akan berusaha maksimal. Tidak instan, tapi akan ada progres. Sekarang kita mulai dengan gotong royong dulu.
+    Raka: Saya akan berusaha maksimal. 
+    Raka: Tidak instan, tapi akan ada progres. Sekarang kita mulai dengan gotong royong dulu.
 
 <<scene Skema BM1_7>>
 Narator: Tapi ada kepercayaan kecil yang perlahan tumbuh.
@@ -228,13 +344,18 @@ Narator: Minggu ke-2. Raka memenuhi undangan Koperasi Mekar Jaya.
 
 <<scene Skema BM2_3>>
 <<highlight Skema B>>
-Pak Darmo: Harga kayu ditentukan tengkulak. Pabrik lebih suka impor. Apa solusinya?
+Pak Darmo: Pak Raka, kami sudah lama berjuang. Harga kayu ditentukan oleh tengkulak. 
+Pak Darmo: Kalau kami jual murah, mereka beli. Kalau kami naikkan, mereka tidak mau. Pabrik juga lebih suka impor. 
+Pak Darmo: Apa solusinya?
+<<highlight Skema None>>
+Narator: Perwakilan dari pimpinan pengusaha kayu ingin meminta saran dari Raka karena mereka berharap Raka dapat memberikan solusi nyata untuk menghadapi gempuran kayu impor !
+<<highlight Skema A>>
 -> Dorong badan usaha koperasi dan akses pasar
-    <<highlight Skema A>>
-    Raka: Koperasi bisa membentuk badan usaha bersama dengan pabrik lokal. Saya akan bantu menyusun proposal dan mendorong dinas memberi akses pasar.
+    Raka: Koperasi bisa membentuk badan usaha bersama dengan pabrik lokal. 
+    Raka: Saya akan bantu menyusun proposal dan mendorong dinas memberi akses pasar.
 -> Kumpulkan data dulu
-    <<highlight Skema A>>
-    Raka: Kita kumpulkan data rantai pasok kayu BOLO dulu. Nanti saya bawa ke forum diskusi dengan DPRD jika terpilih.
+    Raka: Kita kumpulkan data rantai pasok kayu BOLO dulu. 
+    Raka: Nanti saya bawa ke forum diskusi dengan DPRD jika terpilih.
 
 <<scene Skema BM2_4>>
 Narator: Hari berikutnya, Raka mendampingi Ibu Surti mengurus izin pasar. 
@@ -248,13 +369,16 @@ Ibu Surti: Mungkin karena saya tidak punya uang pelicin.
 <<scene Skema BM2_6>>
 <<highlight Skema B>>
 Admin Ridwan: Ini aturan, Pak. Harus ada surat keterangan dari kelurahan.
-
+<<highlight Skema None>>
+Narator: Raka menemui seorang ibu yang mengalami terkendala untuk mengurus izin pasar dikarenakan pihak pengurus yang dicurigai meminta uang pelicin untuk memperlancar pengurusan izin !
+<<highlight Skema A>>
 -> Ikuti prosedur sambil mencatat potensi pelanggaran
-    <<highlight Skema A>>
-    Raka: Kita urus surat kelurahan besok. Tapi saya catat prosedurnya untuk dicek. Jika saya terpilih, perizinan harus digital agar tidak ada pemerasan.
+    Raka: Kita urus surat kelurahan besok. Tapi saya catat prosedurnya untuk dicek. 
+    Raka: Jika saya terpilih, perizinan harus digital agar tidak ada pemerasan.
 -> Hindari konfrontasi dulu
-    <<highlight Skema A>>
-    Raka: Saya akan koordinasi dengan kelurahan. Tidak perlu uang pelicin. Kita ikuti prosedur dan jangan konfrontasi dulu.
+    Raka: Saya akan koordinasi dengan kelurahan. 
+    Raka: Tidak perlu uang pelicin. 
+    Raka: Kita ikuti prosedur dan jangan konfrontasi dulu.
 
 <<scene Skema BM2_7>>
 Narator: Langkah kecil ini melelahkan, tetapi reputasi Raka mulai tumbuh. 
@@ -280,37 +404,43 @@ Raka: Siap, Bu.
 
 <<scene Skema BM3_4>> 
 <<highlight Skema B>>
-Pak Yono: Institut tempat Bapak belajar didirikan oleh konglomerat kayu, termasuk Hartono. Bagaimana publik yakin Bapak bukan boneka mereka?
+Pak Yono: Institut tempat Bapak belajar didirikan oleh konglomerat kayu, termasuk Hartono. Bagaimana publik yakin Bapak bukan boneka mereka ?
+<<highlight Skema A>>
 -> Buka rekening kampanye dan tegas menolak dana Hartono
-    <<highlight Skema A>>
-    Raka: Saya tidak bisa memilih sejarah. Tapi sekarang saya menolak dana Hartono dan membuka rekening kampanye untuk dipantau publik.
+    Raka: Saya tidak bisa memilih sejarah. 
+    Raka: Tapi sekarang saya menolak dana Hartono dan membuka rekening kampanye untuk dipantau publik.
 -> Jawab independen tetapi lebih umum
-    <<highlight Skema A>>
-    Raka: Pendidikan itu mengajarkan etika. Saya tidak menerima instruksi siapapun dan akan menjaga independensi.
+    Raka: Pendidikan itu mengajarkan etika. 
+    Raka: Saya tidak menerima instruksi siapapun dan akan menjaga independensi.
 
 <<scene Skema BM3_5>> 
 <<highlight Skema B>>
 Bu Sri: Kalau jadi walikota, langkah konkret pertama melawan pungli?
+<<highlight Skema A>>
 -> Paparkan tiga langkah 100 hari
-    <<highlight Skema A>>
-    Raka: Dalam 100 hari, saya buat perizinan online gratis, papan pengaduan dengan nomor yang saya pantau, dan sanksi tegas bagi pegawai pemungut liar.
+    Raka: Dalam 100 hari, saya buat perizinan online gratis...
+    Raka: Papan pengaduan dengan nomor yang saya pantau dan sanksi tegas bagi pegawai pemungut liar.
 -> Mulai dari assessment internal
-    <<highlight Skema A>>
-    Raka: Saya akan memetakan titik rawan, membentuk tim sapu bersih bersama aparat dan LSM, lalu memberi sanksi bertahap.
+    Raka: Saya akan memetakan titik rawan dengan cara... 
+    Raka: Membentuk tim sapu bersih bersama aparat dan LSM, lalu memberi sanksi bertahap.
 
 <<scene Skema BM3_6>> 
 <<highlight Skema B>>
 Mas Yan: Bagaimana Bapak menjamin tidak akan berkhianat?
 -> Tanda tangan kontrak politik dan dewan pengawas warga
     <<highlight Skema A>>
-    Raka: Saya akan bentuk dewan pengawas warga dan LSM. Jika saya melenceng, laporkan saya. Kontrak saya dengan rakyat, bukan pengusaha.
+    Raka: Saya akan bentuk dewan pengawas warga dan LSM. 
+    Raka: Jika saya melenceng, laporkan saya. 
+    Raka: Kontrak saya dengan rakyat, bukan pengusaha.
 -> Minta rakyat terus memantau
     <<highlight Skema A>>
-    Raka: Saya tidak sempurna, tapi saya akan berusaha tidak mengecewakan. Tolong pantau saya.
+    Raka: Saya tidak sempurna, tapi saya akan berusaha tidak mengecewakan. 
+    Raka: Tolong pantau saya.
 
 <<scene Skema BM3_7>> 
 <<highlight Skema None>>
-Narator: Raka keluar dengan keringat dingin. Di luar kantor LSM, staf Hartono hanya berkata... 
+Narator: Raka keluar dengan keringat dingin. 
+Narator: Di luar kantor LSM, staf Hartono hanya berkata... 
 
 <<highlight Skema B>>
 Manajer Toni: Bapak terlalu berani malam ini.
@@ -336,15 +466,22 @@ Hartono: Raka, politik itu bukan surga. Ini bisnis.
 Hartono: Naikkan harga, turunkan harga, bagi-bagi kue.
 Hartono: Ini dua milyar. Hentikan aksi pahlawanmu di pabrik ini... 
 Hartono: Atau ambil sekarang dan mundur dari pemilu.
-Narator: Raka menatap amplop dan cek. Ruangan sunyi.
 
+<<highlight Skema None>>
+Narator: Raka menatap amplop dan cek. Ruangan sunyi.
+Narator: Raka terkejut melihat banyaknya uang yang ada disana, apa yang harus Raka lakukan ?
+<<highlight Skema A>>
 -> Tolak keras dan dokumentasikan sebagai bukti
     <<highlight Skema A>>
-    Raka: Pak Hartono, ini bukti percobaan penyuapan. Saya akan serahkan ke KPK. Harga diri saya lebih mahal dari dua milyar.
+    Raka: Pak Hartono, ini bukti percobaan penyuapan. 
+    Raka: Saya akan serahkan ke KPK. 
+    Raka: Harga diri saya lebih mahal dari dua milyar.
     <<jump Putusan_Baik_1 >>
 -> Tolak hati-hati tanpa mengambil bukti
     <<highlight Skema A>>
-    Raka: Pak Hartono, saya tidak bisa. Saya memilih jalur ini bukan karena uang. Tolong jangan tawar saya lagi.
+    Raka: Pak Hartono, saya tidak bisa. 
+    Raka: Saya memilih jalur ini bukan karena uang. 
+    Raka: Tolong jangan tawar saya lagi.
     <<jump Putusan_Baik_2>>
 ===
     
@@ -354,14 +491,17 @@ position: 292,1362
 <<scene Skema PB1_1>> 
 <<highlight Skema B>>
 Nadya: Pak Raka, apa yang dibicarakan? Wajah Bapak pucat.
-
+<<highlight Skema None>>
+Narator: Raka masih kawatir apa yang akan terjadi padanya selanjutnya, bagaimana cara dia menyampaikan kepada para wartawan ?
+<<highlight Skema A>>
 -> Buka tawaran suap ke publik
-    <<highlight Skema A>>
-    Raka: Hartono mencoba menyuap saya dengan dua milyar agar saya diam dan mundur. Saya tolak. Ini buktinya.
+    Raka: Hartono mencoba menyuap saya dengan dua milyar agar saya diam dan mundur. 
+    Raka: Saya tolak. Ini buktinya.
+    <<highlight Skema None>>
     Narator: Berita itu viral. LSM dan KPK bergerak.
 -> Diam dan laporkan tertutup ke LSM/KPK
-    <<highlight Skema A>>
     Raka: Tidak ada yang perlu diberitakan sekarang. Nanti setelah pemilu, akan saya jelaskan.
+    <<highlight Skema None>>
     Narator: Raka diam-diam menghubungi LSM dan KPK. Risiko tetap besar, tetapi ia memilih jalur hukum.
 
 <<scene Skema PB1_2>>
@@ -371,7 +511,7 @@ Narator: Pemilu dalam dua hari.
 Narator: Apakah rakyat akan menghargai keberaniannya? 
 Narator: Atau justru Hartono akan berhasil mengubur suara Raka dengan uang dan fitnah?
 <<scene Skema PB1_3>> 
-Narator: Raka menerima pesan dari nomor tak dikenal: Kamu sudah memilih menjadi musuh. Selamat bertarung, Raka.
+Narator: Raka menerima pesan dari nomor tak dikenal.
 Narator: Pemilu dalam dua hari. Apakah rakyat akan menghargai keberaniannya?
 <<jump Baik_Hari_Pemilihan>>
 ===
@@ -382,14 +522,16 @@ position: 572,1362
 <<scene Skema PB2_1>> 
 <<highlight Skema B>>
 Nadya: Pak Raka, apa yang dibicarakan? Wajah Bapak pucat.
-
+<<highlight Skema None>>
+Narator: Raka masih kawatir apa yang akan terjadi padanya selanjutnya, bagaimana cara dia menyampaikan kepada para wartawan ?
+<<highlight Skema A>>
 -> Buka tawaran suap ke publik
-    <<highlight Skema A>>
     Raka: Hartono menawarkan dana kampanye dengan imbalan. Saya tolak. Tidak ada bukti fisik.
+    <<highlight Skema None>>
     Narator: Tanpa bukti, tuduhan itu berbalik menjadi laporan pencemaran nama baik.
 -> Diam dan laporkan tertutup ke LSM/KPK
-    <<highlight Skema A>>
     Raka: Tidak ada yang perlu diberitakan sekarang. Nanti setelah pemilu, akan saya jelaskan.
+    <<highlight Skema None>>
     Narator: Raka diam-diam menghubungi LSM dan KPK. Risiko tetap besar, tetapi ia memilih jalur hukum.
 
 <<scene Skema PB2_2>>
@@ -399,7 +541,7 @@ Narator: Pemilu dalam dua hari.
 Narator: Apakah rakyat akan menghargai keberaniannya? 
 Narator: Atau justru Hartono akan berhasil mengubur suara Raka dengan uang dan fitnah?
 <<scene Skema PB2_3>> 
-Narator: Raka menerima pesan dari nomor tak dikenal: Kamu sudah memilih menjadi musuh. Selamat bertarung, Raka.
+Narator: Raka menerima pesan dari nomor tak dikenal.
 Narator: Pemilu dalam dua hari. Apakah rakyat akan menghargai keberaniannya?
 <<jump Ending_Pencemaran_Nama_Baik>>
 ===
@@ -413,7 +555,8 @@ Narator: Raka menolak suap
 <<scene Skema E2_2>>
 Narator: Tetapi tanpa bukti ia terseret laporan pencemaran nama baik.
 Narator: Kebenaran yang tidak tercatat sering kalah oleh pengacara yang mahal.
-<<scene Skema end>>
+<<scene Skema end_E2>>
+
 ===
 
 title: Baik_Hari_Pemilihan
@@ -463,7 +606,10 @@ Narator: TPS ketiga, Raka mendapat kemenangan.
 <<highlight Skema B>>
 Relawan: Pak, sepertinya berat. Suara Budi masih unggul jauh.
 <<highlight Skema A>>
-Raka: Kita tunggu sampai selesai. Apapun hasilnya, saya sudah berjuang.
+-> Fokus pada perjuangan yang telah dilakukan dan siap menerima hasil apa pun
+    Raka: Kita tunggu sampai selesai. Apa pun hasilnya, saya sudah berjuang.
+-> Tunjukkan kedewasaan politik dan kepercayaan penuh pada pilihan rakyat
+    Raka: Tidak apa-apa, Pak. Saya percaya siapa pun yang akan menang berarti telah dipercaya oleh rakyat untuk memimpin.
 
 <<scene Skema BH_14>>
 <<highlight Skema B>>
@@ -484,190 +630,353 @@ Ibu Surti: Nak, saya pilih Bapak bukan karena sembako. Saya pilih karena Bapak s
 <<scene Skema E3_2>>
 Narator: Kota BOLO tidak berubah dalam semalam. Tapi sesuatu yang penting telah berubah: harapan.
 <<scene Skema E3_3>>
-Raka: Saudara-saudara, saya tidak akan pernah melupakan hari ini. Bukan karena saya menang, tapi karena kalian memilih untuk percaya.
-Raka: Tugas saya baru dimulai. BOLO bukan milik saya. BOLO milik kita semua.
+-> Berpidato dengan gaya rendah hati, fokus pada kolaborasi dan pengawasan rakyat
+    Raka: Saudara-saudara, saya tidak akan pernah melupakan hari ini.
+    Raka: Bukan karena saya menang, tapi karena kalian memilih untuk percaya pada orang yang tidak punya uang, tidak punya baliho besar, hanya punya tekad.
+    Raka: Tugas saya baru dimulai. Saya tidak bisa bekerja sendiri.
+    Raka: Saya butuh kalian mengawasi, mengingatkan, dan jika saya keliru, katakan dengan jujur.
+    Raka: BOLO bukan milik saya. BOLO milik kita semua.
+    Raka: Mari kita bangun bersama, bukan dengan janji, tapi dengan kerja.
+-> Berpidato dengan gaya emosional dan langsung mendeklarasikan perang terhadap koruptor
+    Raka: Saudara-saudara sekalian, tentunya saya berterima kasih kepada kalian semua yang telah membantu mendukung saya untuk menjadi Walikota BOLO.
+    Raka: Hari ini… hari yang sangat mengharukan, di mana saya telah terpilih menjadi Walikota BOLO.
+    Raka: Saya tidak tahu harus berkata apa lagi, tapi mari bersama kita membangun kota ini agar menjadi lebih baik.
+    Raka: Oh, iya... untuk para pejabat-pejabat korup dan pengusaha-pengusaha nakal, kalian telah mencemari kota ini dengan Korupsi, Kolusi, dan Nepotisme selama bertahun-tahun.
+    Raka: Selama ini kami rakyat telah lama diam...
+    Raka: TAPI HARI INI, DI PIDATO SAYA KALI INI SAYA KATAKAN: SAYA AKAN LAWAN!!!
+    
 <<scene Skema E3_4>>
 Narator: Setiap kursi punya cerita. 
 <<scene Skema E3_5>>
 Narator: Kursi Raka adalah cerita tentang orang biasa yang memilih tetap jujur di tengah tawaran milyaran rupiah.
-<<scene Skema end>>
+<<scene Skema end_E3>>
+
 ===
 
 title: Jahat_Minggu_1
-position: 12,462
 ---
 <<scene Skema JM1_1>>
-Narator: Minggu ke-1. Hartono menepati janjinya. Dana mengalir deras. Kampanye Raka dimulai dengan pesta besar.
+Narator: Hartono menepati janjinya. Dana mengalir deras. 
+Narator: Kampanye Raka dimulai dengan pesta besar. Ada undangan untuk seluruh RT, doorprize, dan yang paling ditunggu: bingkisan sembako.
 <<scene Skema JM1_2>>
+<<highlight Skema A>>
 Pembawa Acara: Hadirin sekalian, mari kita sambut calon walikota kita, Bapak Raka!
-
--> Pidato merakyat dan pura-pura terharu
-    <<highlight Skema A>>
-    Raka: Saya datang membawa sedikit bingkisan. Bukan apa-apa, hanya bentuk syukur karena saya diberi kesempatan melayani.
--> Pidato jujur setengah sinis
-    <<highlight Skema A>>
-    Raka: Politik itu mahal. Hari ini relawan menyediakan bingkisan. Kalau percaya, silakan dukung. Kalau tidak, bingkisan tetap boleh diambil.
-
 <<scene Skema JM1_3>>
-Hartono: Bagus, Pak. Besok rekanan proyek minta komitmen administrasi 15 persen. Sebut saja efisiensi.
--> Setuju dan minta diatur rapi
-    <<highlight Skema A>>
-    Raka: Baik, Pak Hartono. Jangan sampai bocor. Di depan publik saya tetap bicara transparansi.
--> Tawar persentase agar tidak terlalu mencolok
-    <<highlight Skema A>>
-    Raka: 15 persen terlalu tinggi. Coba 10 persen saja. Tidak ada surat menyurat.
+Narator: Raka naik ke panggung untuk berpidato dengan membawa mikrofon ditangannya, pidato bagaimana yang cocok untuknya ?
 
 <<scene Skema JM1_4>>
-Wartawan: Apakah bingkisan ini berasal dari sumbangan pengusaha?
--> Bohong sepenuhnya
-    <<highlight Skema A>>
-    Raka: Ini murni dari saya dan relawan yang peduli. Saya tidak berhutang budi kepada siapapun kecuali rakyat BOLO.
--> Jawab samar dengan istilah donatur
-    <<highlight Skema A>>
-    Raka: Semua dana berasal dari donatur yang percaya pada visi saya. Tidak ada ikatan politik, hanya ikatan hati.
+-> Berpidato dengan gaya anak rakyat yang emosional dan penuh haru
+    Raka: Assalamu'alaikum, saudara-saudara! Saya Raka, anak BOLO asli. Saya lahir di antara tumpukan kayu dan serbuk gergaji. Hati saya selalu bersama rakyat.
+    Raka: Hari ini, saya tidak datang dengan janji-janji muluk. Saya datang membawa sedikit bingkisan. Bukan apa-apa, hanya bentuk syukur karena saya diberi kesempatan untuk melayani.
+    Raka: Insyaallah, jika saya diberi amanah, semua akan saya perjuangkan. Tolong doakan saya ya, Bu, Pak. Karena saya hanya manusia biasa yang ingin BOLO maju.
+    <<scene Skema JM1_5>>
+    Narator: Setelah berpidato, raka menunduk sebentar dengan terharu.
+    Narator: Sorakan dari para penonton dan tepuk tangan meriah bergema dimana-mana.
+-> Berpidato dengan gaya realistis, jujur tentang biaya politik namun persuasif
+    Raka: Saudara-saudara, mari kita jujur. Politik itu mahal. Tapi saya tidak akan membebani rakyat. Hari ini, relawan saya menyediakan bingkisan.
+    Raka: Saya tidak bilang ini dari uang pribadi, karena jujur, saya juga butuh dukungan. Tapi yang penting, niat saya baik: saya ingin BOLO berubah.
+    Raka: Kalau Anda percaya, silakan dukung. Kalau tidak, ya tidak apa-apa. Tapi bingkisan tetap boleh diambil, namanya juga berbagi.
+    <<scene Skema JM1_6>>
+    Narator: Setelah berpidato, raka menggunakan senyum sinisnya kepada warga yang hadir.
+    Narator: Beberapa warga merasa kebingungan, namun tak lama acuh akan hal tersebut.
 
-<<scene Skema JM1_5>>
-Narator: Raka tersenyum di depan kamera, tetapi di belakang ia sudah mulai bermain api.
+<<scene Skema JM1_7>>
+<<highlight Skema B>>
+Hartono: Bagus, Pak. Rakyat senang. Saya sudah siapkan pertemuan dengan rekanan proyek kayu besok.
+Hartono: Mereka minta komitmen 'administrasi' 15% untuk dana kampanye kita. 
+Hartono: Tidak usah disebut mark-up, sebut saja 'efisiensi'. Rakyat tidak perlu tahu detail.
+<<highlight Skema A>>
+-> Setuju sepenuhnya dan meminta Hartono merapikan administrasinya
+    Raka: Baik, Pak Hartono. Tapi tolong atur dengan rapi. Jangan sampai ada yang bocor.
+    Raka: Nanti di depan publik, saya tetap akan bicara soal transparansi. 
+    Raka: Tapi ya... itu untuk konsumsi publik saja. Yang penting proyek jalan, rakyat senang, kita juga senang.
+-> Negosiasi persentase menjadi 10% demi menjaga reputasi dan keamanan
+    Raka: Pak Hartono, saya tidak suka basa-basi. Tapi jangan terlalu rakus. 15% itu terlalu tinggi, nanti ketahuan. Coba 10% saja.
+    Raka: Saya juga harus menjaga reputasi. Kalau ada yang bertanya, bilang saja itu biaya operasional. 
+    Raka: Saya akan diam, asalkan tidak ada surat-menyurat. Cukup perjanjian lisan.
+
+<<scene Skema JM1_8>>
+<<highlight Skema B>>
+Wartawan: Pak Raka, apakah bingkisan ini berasal dari sumbangan pengusaha? Apakah ada ikatan politik di baliknya?
+<<highlight Skema A>>
+-> Klaim bahwa dana murni dari relawan dan tidak berutang budi pada pengusaha
+    Raka: Oh, tidak sama sekali. Ini murni dari saya dan relawan yang peduli. Saya dulu juga hidup susah, jadi saya tahu rasanya.
+    Raka: Saya tidak pernah berutang budi kepada siapa pun, kecuali kepada rakyat BOLO.
+-> Akui adanya donatur anonim namun sebut sebagai ikatan hati, bukan politik
+    Raka: Wah, wartawan ya? Baik, saya jawab jujur: semua dana kampanye berasal dari donatur yang tidak ingin disebut namanya. Mereka percaya pada visi saya.
+    Raka: Tidak ada ikatan politik, hanya ikatan hati. Tapi ya, Anda kan tahu sendiri bagaimana politik. Yang penting saya tidak merugikan rakyat. Oke?
+<<scene Skema JM1_9>>
+Narator: Hari pertama kampanye ala pengusaha usai. Raka tersenyum di depan kamera, bicara manis di panggung, tapi di belakang ia sudah mulai bermain api.
+Narator: Apakah ini yang ia inginkan? Entahlah. Yang jelas, kursi itu semakin dekat. Dan rakyat? Mereka hanya melihat wajah yang tersenyum.
+
 <<jump Jahat_Minggu_2>>
 ===
 
 title: Jahat_Minggu_2
-position: 12,687
 ---
-<<scene bagi_sembako>>
-Narator: Minggu ke-2. Hartono mengatur aksi sosial yang difoto dari berbagai sudut.
-Fotografer: Pak, sedikit miring ke kiri. Senyum lebih lebar. Satu, dua, tiga.
-Nenek: Nak, ini sembakonya gratis ya?
-Raka: Gratis, Bu. Ini dari hati saya. Tolong doakan.
+<<scene Skema JM2_1>>
+Narator: Minggu kedua, Hartono mengatur 'aksi sosial' yang difoto dari berbagai sudut. Setiap bingkisan diberikan dengan senyum lebar, lalu difoto, lalu diunggah ke media sosial dengan caption menyentuh.
+Narator: Rata-rata waktu kontak dengan warga: 30 detik. Cukup untuk foto.
 
-Warga 2: Pak Raka, saya dengar bingkisan ini pakai uang pengusaha. Apa benar?
--> Bungkus dengan bahasa kebaikan
-    Raka: Uang dari mana pun, yang penting sampai ke rakyat. Hartono juga anak BOLO dan ingin membantu.
--> Jawab sinis dan minta tidak banyak bertanya
-    Raka: Semua kampanye ada sumbernya. Yang penting warga dapat sembako. Jangan terlalu banyak bertanya.
+<<scene Skema JM2_2>>
+<<highlight Skema B>>
+Fotografer: Pak, sedikit miring ke kiri. Ya, senyum lebih lebar. Bagus. Sekarang pegang tangan neneknya. Ya... satu, dua, tiga. CROP!
+<<character Skema 2 bu_surti_78 1>>
+Nenek: Nak, ini sembakonya gratis ya? Saya tidak perlu bayar?
+<<highlight Skema A>>
+Raka: Gratis, Bu. Ini dari hati saya. Tolong doakan ya.
+Raka: Saya memang ada sedikit rezeki dan saya mendengar sekitar sini sedang membutuhkan sembako jadi saya membawanya dengan sukarela.
+<<highlight Skema B>>
+Nenek: Terima kasih ya nak, kamu memang orang baik ya...
 
-<<scene mobil_kampanye>>
-Hartono: Lurah Mekarjaya minta jatah 50 juta untuk mobilisir 2000 suara. Setuju?
--> Setuju lewat perantara
-    Raka: Setuju. Jangan pakai nama saya langsung. Kalau ada masalah, saya tidak tahu apa-apa.
--> Tawar menjadi 30 juta
-    Raka: Tawar 30 juta. Sebut saja biaya transportasi warga. Tidak ada kwitansi.
+<<highlight Skema A>>
+-> Yakinkan Pak RT bahwa asal uang tidak penting selama bermanfaat bagi rakyat
+    Raka: Pak RT, uang dari mana pun, yang penting sampai ke rakyat. Saya hanya perantara kebaikan.
+    Raka: Hartono juga anak BOLO, beliau ingin membantu. Tidak ada ikatan apa-apa. Yang penting niatnya baik. Insyaallah kalau saya jadi walikota, semua akan saya prioritaskan. Doakan saja, Pak.
+-> Akui sumber dana secara berbisik dan minta Pak RT tidak banyak bertanya
+    Raka: Pak RT, jujur saja: semua dana kampanye ada sumbernya. Tapi yang penting kan hasilnya?
+    Raka: Hari ini warga dapat sembako gratis. Besok kalau saya jadi, mereka dapat perhatian. Tidak usah terlalu banyak bertanya, nanti saya repot. Tapi saya hargai kepedulian Bapak.
 
-Raka: Aku masih membutuhkan uang ini sebagai batu loncatan. Nanti setelah menjadi walikota, aku pasti berpihak pada rakyat.
-Narator: Popularitas Raka melesat, tetapi hutang politik menumpuk. Bayarannya adalah integritas yang perlahan lenyap.
+<<highlight Skema B>>
+<<character Skema 2 hartono_78 1>>
+Hartono: Bagus, Raka. Foto-foto sudah diedit. Nanti malam kita pasang iklan di media lokal.
+Hartono: Tapi ada satu hal: lurah di Kecamatan Mekarjaya minta 'jatah' 50 juta supaya warganya memilih kita. Dia bilang dia bisa mobilisir 2000 suara. Setuju?
+<<highlight Skema B>>
+-> Setuju sepenuhnya dan minta diurus rapi lewat perantara
+    Raka: Setuju, Pak. Tapi jangan pakai nama saya langsung. Urus saja lewat perantara. Saya tidak mau terlibat langsung. Yang penting hasilnya.
+    Raka: Kalau nanti ada masalah, saya tidak tahu apa-apa. Pokoknya, atur rapi.
+-> Tawar nominal jatah lurah dan sebut sebagai 'biaya transportasi' warga
+    Raka: Wah, lurah itu memang cerdik. Tapi 50 juta terlalu mahal. Coba tawar 30 juta.
+    Raka: Bilang saja ini bukan beli suara, tapi 'biaya transportasi' untuk warga. Saya setuju asalkan tidak ada kuitansi. Saya akan diam saja.
+    Raka: Aku masih membutuhkan uang-uang ini untuk batu loncatan duduk ke kursi kekuasaan. Ini juga demi rakyat BOLO. Ketika aku telah menjadi walikota nanti, aku pasti akan tetap berpihak pada rakyat dan tidak mengkhianati dukungan rakyat BOLO.
+
+<<scene Skema JM2_3>>
+Narator: Minggu kedua kampanye ala pengusaha membuat popularitas Raka melesat. Tapi di balik setiap like dan share, ada utang yang terus menumpuk.
+Narator: Raka mulai merasakan bahwa panggung megah ini membutuhkan bayaran. Dan bayarannya bukan uang, tapi integritas yang perlahan lenyap.
+
 <<jump Jahat_Minggu_3>>
 ===
 
 title: Jahat_Minggu_3
-position: 12,912
 ---
-<<scene pasar_pencitraan>>
-Narator: Minggu ke-3. Raka turun ke pasar dengan rombongan kamera, spanduk, dan sembako.
-Ibu Siti: Nak Raka, harga sayur turun terus, ongkos pasar naik. Bisa bantu kami?
--> Pura-pura empati di depan kamera
-    Raka: Saya janji ongkos pasar turun, harga stabil, dan program Pasar Sejahtera berjalan hari pertama.
--> Beri sembako dan minta diingat saat coblos
-    Raka: Saya tidak bisa mengubah semuanya sehari. Tapi hari ini ada bingkisan. Ingat nama saya saat pencoblosan.
+<<scene Skema JM3_1>>
+Narator: Raka belajar bahwa politik bukan hanya tentang uang, tapi juga tentang wajah. Hari ini ia akan tersenyum pada rakyat kecil, berjabat tangan dengan buruh, dan berfoto bersama.
+Narator: Kata-katanya terdengar manis. Kebohongannya terbungkus kemeja batik.
+<<scene Skema JM3_2>>
+-> Berlutut dramatis, janjikan kestabilan harga melalui program 'Pasar Sejahtera'
+    Raka: Ibu, saya mengerti. Saya juga lahir dari keluarga sederhana. Jujur, saya tidak tega melihat Ibu dan teman-teman bersusah payah.
+    Raka: Saya janji, jika saya jadi walikota, ongkos pasar akan saya turunkan, harga sayur akan saya stabilkan. Saya sudah punya program 'Pasar Sejahtera' yang siap saya jalankan hari pertama. Tenang saja, Ibu. Doakan saya.
+-> Berbisik jujur tidak bisa instan, tapi langsung beri bingkisan sembako penenang
+    Raka: Ibu, jujur saja, saya tidak bisa menurunkan ongkos pasar dalam sehari. Banyak yang harus diurus. Tapi saya bisa beri Ibu bingkisan hari ini.
+    Raka: Dan nanti jika saya jadi, akan ada program bantuan agar Ibu tenang. Yang penting Ibu dan tetangga ingat nama saya saat pencoblosan. Oke?
 
-<<scene pabrik_kayu>>
-Pak Karto: Katanya Bapak dekat dengan pengusaha. Apa nasib kami? Upah kecil dan tidak ada jaminan.
--> Janji manis dan bagikan sembako
-    Raka: Jika saya jadi walikota, upah naik bertahap dan buruh mendapat jaminan kerja. Hari ini saya bawa bingkisan.
--> Bagikan amplop agar buruh diam
-    Raka: Terima dulu bantuan ini. Hindari demo supaya suasana damai.
+<<scene Skema JM3_3>>
+-> Janjikan kenaikan upah bertahap dan kartu jaminan BPJS kerja
+    Raka: Pak Karto, saya paham betul perjuangan Bapak dan teman-teman. Saya juga dulu bekerja keras sebelum masuk politik. Saya tidak akan pernah tega melihat buruh diperlakukan semena-mena.
+    Raka: Saya janji, jika saya jadi walikota, akan ada kenaikan upah bertahap. Saya juga akan pastikan setiap buruh punya kartu BPJS dan asuransi kerja. Dan untuk hari ini, sebagai bentuk kepedulian, saya bawa sedikit bingkisan untuk keluarga Bapak sekalian. Tolong doakan saya, ya.
+-> Bagikan amplop cokelat tipis (uang) secara diam-diam melalui mandor
+    Raka: Pak Karto, saya tidak akan mempersulit kalian. Saya tahu aturan main. Untuk sekarang, terima dulu 'bantuan' ini.
+    Raka: Besok, jika saya jadi walikota, saya akan buat program 'Kartu Pekerja Sejahtera'. Tidak usah dipikirkan biayanya insyaallah gratis, yang penting nanti ada yang menjamin keuangan pekerja. Hindari demo, ya, supaya suasana damai. Setuju? Selain itu tolong doakan saya ya.
 
-Raka: Pasar dan pabrik sudah saya jamah. Rakyat hanya butuh senyum dan sembako. Sisanya urusan meja.
-Hartono: Kamu sudah mahir, Raka. Selamat, calon walikota.
-Narator: Raka semakin pandai memainkan peran: pahlawan di depan, pengkhianat di belakang.
+<<scene Skema JM3_4>>
+Raka: Pasar dan pabrik sudah saya jamah. Besok kita atur wawancara dengan media. Saya tidak mau terlalu lama di lapangan, rakyat hanya butuh senyum dan sembako. Sisanya, urusan meja.
+Hartono: (tertawa) Kamu sudah mahir, Raka. Selamat, calon walikota.
+Raka: Kalau perut kenyang mereka gak akan ribut.. hahahaha...
+
+<<scene Skema JM3_5>>
+Narator: Raka menutup telepon. Ia melihat telapak tangannya sendiri bersih, tidak ada kotoran. Tapi ia tahu, noda tidak selalu terlihat.
+Narator: Minggu ke-3 usai. Raka semakin pandai memainkan peran: pahlawan di depan, pengkhianat di belakang. Dan rakyat? Mereka bertepuk tangan untuk seorang penipu.
+
 <<jump Jahat_Minggu_4>>
 ===
 
 title: Jahat_Minggu_4
-position: 12,1137
 ---
-<<scene studio_bolo_tv>>
-Narator: Minggu ke-4. Studio BOLO TV ramai. Hartono dan tim sudah mengatur semuanya.
-Raka: Selamat malam, BOLO! Politik itu soal hati dan senyuman. Ayo ikut bergoyang!
-Anchor: Aura Bapak ceria sekali. Mari kita mulai wawancara.
+<<scene Skema JM4_1>>
+Raka: Selamat malam, BOLO! Jangan tegang, ya. Politik itu soal hati dan senyuman. Hari ini saya mau dekat dengan Bapak Ibu semua. 
+<<scene Skema JM4_2>>
+Raka: Ayo, ikut bergoyang! Saya namakan goyangan ini Goyang Gemoy...
 
-Anchor: Apa visi-misi utama Bapak untuk BOLO?
-Raka: BOLO Makmur, Rakyat Bahagia. Harga pokok stabil, lapangan kerja terbuka, dan infrastruktur tanpa pungli.
-Anchor: Banyak yang meragukan karena Bapak dekat dengan Hartono.
-Raka: Saya dekat dengan semua warga, termasuk pengusaha. Kebijakan saya untuk rakyat.
+<<scene Skema JM4_3>>
+<<highlight Skema B>>
+Bu Dewi: Pak Raka, Bapak lulusan terbaik dari Pendidikan Calon Pemimpin, institut yang katanya melahirkan pemimpin hebat. Tapi ada juga yang menyebut institut itu dekat dengan pengusaha. Sebagai kandidat, apa visi-misi Bapak yang paling utama untuk BOLO?
+<<highlight Skema A>>
+Raka: Ibu Dewi, latar belakang saya memang dari institut yang didukung berbagai pihak. Tapi yang terpenting adalah apa yang saya pelajari: pelayanan publik, etika, dan keberpihakan pada rakyat kecil.
+Raka: Visi saya sederhana: BOLO Makmur, Rakyat Bahagia. Misi saya: (1) Menstabilkan harga kebutuhan pokok, (2) Membuka lapangan kerja lewat industri kayu yang berkelanjutan, (3) Membangun infrastruktur tanpa pungli. Saya tidak akan berhenti sampai rakyat benar-benar sejahtera.
+<<highlight Skema B>>
+Bu Dewi: Tapi banyak yang meragukan, karena Bapak dekat dengan Hartono, pengusaha mebel. Apakah itu tidak akan mempengaruhi kebijakan Bapak?
+<<highlight Skema A>>
+-> Klaim memiliki komitmen tertulis tentang transparansi penuh
+    Raka: Saya dekat dengan semua warga, termasuk pengusaha. Tapi kebijakan saya untuk rakyat. Hartono tidak akan mendapat perlakuan khusus. Saya sudah buat komitmen tertulis untuk transparansi. Biarlah publik menilai sendiri.
+-> Samakan posisi Hartono sebagai rakyat yang setara dengan yang lain
+    Raka: Bukannya sudah sewajarnya kalau saya dekat dengan rakyat? Ingat ya, Pak Hartono juga rakyat yang ingin membangun kotanya menjadi lebih baik.
+    Raka: Saya dan Pak Hartono juga memang memiliki visi dan misi yang sama, jadi tenang saja semuanya pasti akan saya dengarkan. Mau dari rakyat hingga pejabat, semuanya setara.
 
-Anchor: LSM punya bukti kampanye Bapak didanai pengusaha yang kemudian mendapat proyek. Bersedia diaudit KPK?
-Raka: Saya tantang siapa pun yang punya bukti melapor ke KPK. Saya bersih.
-Narator: Raka berbohong dengan penuh keyakinan. Hartono sudah menyiapkan rekening palsu untuk mengelabui audit.
+<<highlight Skema B>>
+Bu Dewi: Baik. Pertanyaan selanjutnya lebih tajam. Banyak pihak, termasuk LSM Matahari BOLO, meragukan komitmen Bapak terhadap pemberantasan korupsi. Mereka mengaku punya bukti bahwa kampanye Bapak didanai oleh pengusaha yang kemudian mendapat proyek. Apa tanggapan Bapak? Dan apakah Bapak bersedia diaudit oleh KPK?
+<<highlight Skema A>>
+-> Tantang pihak yang menuduh untuk melapor dan klaim akun rekening terbuka
+    Raka: Saya tantang siapa pun yang punya bukti untuk melaporkan saya ke KPK. Saya tidak takut. Sejak awal kampanye, saya buka semua rekening. Saya justru ingin auditor turun. Karena saya tahu, saya bersih.
+    Raka: LSM itu mungkin terpengaruh isu miring. Tapi saya tidak akan menyerang balik. Saya yakin, kebenaran akan menang. Dan soal hubungan dengan pengusaha: saya tidak pernah menerima uang dengan imbalan proyek. Silakan cek.
+-> Nyatakan kesiapan penuh untuk diaudit rekening koran oleh KPK
+    Raka: Diaudit oleh KPK? Silakan saja. Saya bersedia memberikan semua rekening koran dan jalur dana kampanye saya. Jika kalian memiliki bukti bahwa saya berkampanye dengan berutang budi yang akan merugikan rakyat, silakan laporkan saya.
 
-Ibu Surti: Harga komoditas naik, ongkos pasar naik. Apa janji Bapak?
-Raka: Retribusi pasar saya bekukan dua tahun, pasar murah setiap minggu, dan rantai tengkulak saya potong.
+<<highlight Skema B>>
+Bu Dewi: Jadi Bapak siap jika KPK memanggil?
+<<highlight Skema A>>
+-> Siap kapan saja sebagai contoh pemimpin bersih
+    Raka: Siap. Kapan saja. Saya justru ingin menjadi contoh bahwa pemimpin BOLO bersih.
+-> Siap mendatangi KPK sendiri untuk menyerahkan berkas
+    Raka: Siap, bahkan kalau perlu saya yang mendatangi KPK untuk memberikan alur dana saya selama ini.
 
-Anchor: Selain joget dan senyum, apa bukti nyata Bapak?
-Raka: Besok turun langsung ke Pasar Lama, Gang Melati, dan pabrik kayu. Jangan percaya kata-kata saya. Percaya mata kepala sendiri.
-Narator: Semua tempat itu sudah diatur Hartono untuk tampak berubah di depan kamera.
+<<highlight Skema B>>
+Bu Dewi: Baik. Jika Bapak terpilih menjadi walikota, apa yang akan Bapak lakukan di 100 hari pertama? Dan bagaimana Bapak mengukur keberhasilan?
+<<highlight Skema A>>
+Raka: 100 hari pertama: (1) Membuka posko pengaduan rakyat di setiap kelurahan, gratis. (2) Mengalokasikan dana bantuan langsung untuk pedagang pasar. (3) Menandatangani peraturan walikota tentang gratisnya perizinan untuk UMKM.
+Raka: Ukuran keberhasilannya: ketika saya turun ke pasar dan warga tersenyum, bukan karena sembako, tapi karena mereka bisa makan dari hasil usahanya sendiri. Itu target saya.
+<<highlight Skema B>>
+Bu Dewi: Tapi bagaimana dengan utang daerah BOLO yang cukup besar? Apakah Bapak punya strategi fiskal?
+<<highlight Skema A>>
+Raka: Saya akan memotong anggaran yang tidak perlu: perjalanan dinas mewah, rapat di hotel, dan pos-pos lain yang bisa diefisiensikan. Uangnya akan dialihkan ke program produktif.
+Raka: Saya juga akan mengundang investor yang bersih tapi tetap berpihak pada pekerja lokal. Intinya, rakyat tidak boleh dibebani lagi.
+Narator: Raka tahu bahwa ‘efisiensi’ yang ia maksud sering berujung pada pemotongan anggaran rakyat, tapi ia pandai membungkusnya.
 
-<<scene h_minus_satu>>
-Narator: H-1 pemilihan. Joget Raka viral. Tagar RakaBersih dan RakaBukanJanji tersebar di mana-mana.
-Narator: Media hanya menayangkan cuplikan positif. Publik percaya Raka calon bersih dan pekerja keras.
-Hartono: Kampanye sempurna. TPS kunci sudah kita siapkan. Besok kita rayakan kemenangan.
-Narator: Raka tidur dengan senyum, joget, dan segudang kebohongan yang tersusun rapi.
-<<jump Jahat_Hari_Pemilihan>>
+<<highlight Skema None>>
+Narator: Layar menunjukkan bahwa pertanyaan dari warga yang sudah diatur. Seorang ibu-ibu pedagang pasar, Bu Surti, duduk di kursi tamu. Wajahnya asli tapi ucapannya sudah diarahkan Hartono.
+<<character Skema 2 bu_surti_87 1>>
+<<highlight Skema B>>
+Bu Surti: Pak Raka, saya pedagang pasar di BOLO. Harga komoditas naik terus, ongkos pasar juga naik. Katanya biaya retribusi. Kami sudah protes tapi tidak ada perubahan. Apa janji Bapak untuk kami?
+<<highlight Skema A>>
+Raka: Bu Surti, saya mengerti. Saya sudah sering ke pasar, saya lihat harga meroket. Solusi saya: (1) Retribusi pasar akan saya bekukan selama 2 tahun. (2) Saya akan buat pasar murah setiap minggu yang disubsidi dari APBD. (3) Saya akan potong rantai tengkulak dengan program ‘petani dan pedagang langsung’.
+Raka: Insyaallah, dalam 6 bulan, ongkos pasar bisa turun 20%. Itu komitmen saya.
+<<character Skema 2 bu_dewi_87 1>>
+Bu Dewi: Apakah Bapak siap jika nantinya janji tersebut tidak terealisasi? Rakyat akan kecewa.
+<<highlight Skema A>>
+-> Sampaikan janji manis akan selalu hadir dan berjoget bersama warga
+    Raka: Saya tidak akan mengecewakan. Saya akan bekerja keras. Dan saya akan selalu turun ke rakyat dan tersenyum kalau perlu joget bersama warga. Karena bagi saya, senyum rakyat adalah segalanya.
+-> Berikan tantangan balik agar diseret ke kerumunan jika melanggar janji
+    Raka: Saya? Mengecewakan rakyat? TIDAK AKAN! Silakan seret saya ke kerumunan jika saya melanggar janji saya. Camkan itu!!
+
+<<highlight Skema B>>
+Bu Dewi: Pak Raka, kami di redaksi sering mendengar janji-janji calon pemimpin. Tapi rakyat BOLO sudah bosan. Pertanyaan terakhir dari kami: selain joget dan senyum, apa yang sudah Bapak lakukan secara nyata untuk rakyat selama kampanye ini? Beri kami satu bukti, bukan janji.
+<<highlight Skema A>>
+Raka: Ibu Dewi, pertanyaan bagus. Saya tidak suka janji kosong. Karena itu, daripada saya bicara panjang lebar, saya tantang Ibu dan tim redaksi untuk besok pagi turun langsung ke lapangan. Saya tunjukkan tempat-tempat yang sudah saya bantu selama kampanye.
+Raka: Contohnya: Pasar Lama yang retribusinya sudah saya bantu turunkan sementara lewat program ‘pedagang bahagia’ – itu sudah berjalan minggu lalu. Lalu gorong-gorong di Gang Melati, yang sudah saya bantu bersihkan bersama warga – bukan janji, tapi aksi nyata.
+Raka: Bahkan pabrik kayu tempat buruh mogok, sekarang sudah saya fasilitasi dialog dengan manajemen. Hasilnya? Mereka belum puas 100%, tapi sudah ada perbaikan. Itu bukti.
+Raka: Jadi, Ibu Dewi, jangan hanya bertanya di studio. Saya undang Ibu dan seluruh masyarakat BOLO untuk mengecek sendiri ke tempat-tempat yang sudah saya sentuh. Jangan percaya kata-kata saya. Percaya pada mata kepala sendiri.
+Raka: Kalau nanti Ibu menemukan kebohongan, silakan laporkan saya ke KPK. Saya tidak takut. Tapi kalau Ibu menemukan fakta bahwa saya sudah bekerja, maka saya minta Ibu menyampaikan itu ke publik. Siap?
+
+<<highlight Skema B>>
+Bu Dewi: Baik, Pak Raka. Tim redaksi akan menerima tantangan Bapak. Besok kami akan turun ke Pasar Lama, Gang Melati, dan pabrik kayu. Kami akan laporkan hasilnya secara jujur.
+<<highlight Skema A>>
+Raka: Terima kasih, Ibu Dewi. Ingat, rakyat BOLO berhak tahu mana calon yang hanya janji dan mana yang sudah bukti. Saya Raka, bersama rakyat, bukan hanya di panggung tapi di selokan dan pasar! Sekali lagi, saya tantang semua media untuk cek faktanya. Jangan hanya wawancara manis di sini. Turun ke bawah, lihat sendiri. Joget dulu ah, biar happy!
+
+<<scene Skema JM4_4>>
+Narator: Wawancara usai. Raka berhasil membalik tekanan: dari yang seharusnya ‘membuktikan janji’ menjadi ‘tantangan untuk cek fakta’. Publik yang menonton terkesan.
+Narator: Mereka mengira Raka sangat transparan dan berani. Padahal, tantangan itu sudah diatur: tempat-tempat yang disebut sudah ‘dibenahi’ hanya untuk kepentingan kamera, bukan solusi permanen.
+<<scene Skema JM4_5>>
+Narator: Tapi rakyat tidak tahu. Yang mereka lihat adalah seorang calon yang percaya diri, merakyat, dan tidak takut diawasi. Inilah puncak kemunafikan: ketika koruptor justru menantang publik untuk mengawasinya – karena ia tahu pengawasan yang ia maksud hanya pura-pura.
+
+<<jump Hari_H_1>>
 ===
 
-title: Jahat_Hari_Pemilihan
-position: 12,1362
+title: Hari_H_1
 ---
-<<scene kamar_mewah_raka>>
-Narator: Pagi pemilu. Raka bangun di kamar mewah yang dibiayai Hartono.
-Raka: Apa yang salah? Semua orang melakukan ini. Orang baik selalu kalah. Hari ini aku menang.
-Ibu Raka: Nak, ibu dengar banyak desas-desus tentang kampanye kamu. Hartono memberi uang?
-Raka: Biar saya yang urus, Bu. Sekarang saatnya menang.
-Ibu Raka: Ibu takut jalan yang kau pilih ini terjal.
+<<scene Skema HH_1>>
+Narator: H-1 pemilihan. Kota BOLO berdenyut lebih cepat dari biasanya. Warung kopi ramai. Pasar penuh dengan bisik-bisik politik. Namun, satu nama mendominasi obrolan: Raka.
+<<scene Skema HH_2>>
+Narator: Semalam, wawancara Raka di BOLO TV menjadi perbincangan nasional. Bukan karena programnya yang brilian, tapi karena dua hal: joget ceria di awal, dan tantangan berani di akhir.
+
+<<scene Skema HH_3>>
+Narator: Media sosial banjir tagar RakaBersih, RakaBukanJanji, JogetRakaBikinHappy. Hingga pagi ini, tagar tersebut telah disebarkan lebih dari 500 ribu kali. Bahkan selebritas lokal ikut berjoget ala Raka – tanpa tahu bahwa joget itu hanyalah kamuflase.
+
+<<scene Skema HH_4>>
+Narator: Tim redaksi BOLO TV benar-benar menindaklanjuti tantangan Raka. Mereka turun ke Pasar Lama, Gang Melati, dan pabrik kayu. Hasilnya? Semua tempat yang disebut Raka menunjukkan ‘perubahan’.
+Narator: Retribusi pasar turun meski hanya untuk seminggu, dan hanya untuk pedagang yang difoto. Gorong-gorong bersih meski sampah masih menumpuk di hilir, tak terlihat kamera. Buruh pabrik mendapat kartu sembako yang habis dalam sehari, tanpa program lanjutan.
+Narator: Namun, yang ditayangkan media hanya cuplikan positif. Wawancara dengan pedagang yang sudah diatur Hartono, buruh yang diberi amplop, serta warga yang diiming-imingi bingkisan. Hasil liputan: 80% publik percaya Raka adalah calon bersih dan pekerja keras.
+
+<<scene Skema HH_5>>
+Hartono: Kampanye sempurna. Warga sudah mabuk joget dan janji manis. Sisa satu hari lagi. Surat suara sudah kita atur. Kecamatan-kecamatan kunci sudah kita ‘siapkan’. Besok, kita rayakan kemenangan.
+Raka: Hmm...
+Narator: Raka menatap jendela, melihat warga yang berkerumun di depan baliho bergambar dirinya. Mereka tersenyum. Mereka meneriakkan namanya. Mereka tidak tahu bahwa di balik joget dan tantangan, ada mark-up proyek, amplop kontraktor, dan janji-janji yang akan lenyap seperti asap.
+
+<<scene Skema HH_6>>
+Narator: H-1 berlalu. Raka tidur dengan perasaan campur aduk. Di satu sisi, ia yakin akan menang. Di sisi lain, suara kecil di hatinya bertanya: ‘Jika aku menang dengan cara begini, apakah aku pantas disebut pemimpin?’
+Narator: Tapi ia menepis keraguan itu, seperti menepis nyamuk. Besok adalah hari pemilihan. Dan Raka sudah siap – dengan senyum, joget, dan segudang kebohongan yang tersusun rapi.
+
+<<jump Hari_Pemilihan>>
+===
+
+title: Hari_Pemilihan
+---
+<<scene Skema HP_1>>
+Narator: Raka tersenyum. Ia tidak memikirkan rakyat. Ia memikirkan pesta kemenangan. Hartono sudah menjanjikan mobil dinas baru, kantor megah, dan proyek-proyek yang akan mengalirkan uang ke rekeningnya. Raka percaya uang tidak pernah mengkhianati.
+
+<<scene Skema HP_2>>
+Narator: Dalam hati Raka berkata ...
+Raka: Apa yang salah? Semua orang melakukan ini. Kalau tidak sekarang, kapan? Aku sudah lelah menjadi orang baik. Orang baik selalu kalah. Hari ini, aku menang.
+
+<<scene Skema HP_3>>
+Ibu Raka: Nak, ibu dengar... banyak desas-desus tentang kampanye kamu. Katanya Hartono memberi uang. Itu benar?
+Raka: Biar saya yang urus, Bu. Sekarang saatnya menang. Doakan saja.
+Ibu Raka: Ibu selalu mendoakan yang terbaik untukmu. Tapi ibu takut... jalan yang kau pilih ini terjal.
 Raka: Sudahlah, Bu. Saya tahu apa yang saya lakukan.
 
-<<scene tps_mewah>>
-Narator: Raka datang ke TPS dengan mobil mewah dan langsung meminta didahulukan.
-Pemuda: Pak Raka, dulu Bapak antre seperti kami. Sekarang sudah beda?
-Narator: Raka tidak menjawab. Ia percaya suara sudah diatur.
+Narator: Ibu Raka tidak pergi ke TPS. Ia hanya duduk di ruang tamu, memegang foto Raka kecil yang dulu pernah bercita-cita menjadi guru. Air matanya menetes tanpa suara. Doanya bukan untuk kemenangan, tapi agar anaknya selamat dari dosa.
 
-<<scene hotel_kemenangan>>
-Narator: Dalam hitungan menit, pesta kemenangan berubah menjadi neraka. Rekaman rapat dan transfer dana ilegal menyebar.
-Raka: Pak Hartono! Bukankah Bapak bilang semuanya aman?
-Hartono: Tenang. Rekaman itu pasti palsu. Aku akan urus.
-Raka: Jangan bohongi saya! Ini rekaman asli!
-Hartono: Kamu diam di sini. Jangan bicara ke media.
-Narator: Hartono pergi untuk menghapus bukti dan menjadikan Raka kambing hitam tunggal.
+<<scene Skema HP_4>>
+Narator: Raka tidak antre. Ia bilang kepada petugas, ‘Saya calon walikota, boleh didahulukan.’ Petugas bingung, tapi mengizinkan karena takut. Warga yang sudah antre sejak subuh mulai berbisik. Beberapa mendesis kesal.
+Pemuda: (berteriak dari antrean) Pak Raka, dulu bapak antre seperti kami. Sekarang sudah beda?!
+Ibu Warga: (berbisik) Sudah kuperingatkan. Orang yang naik cepat, biasanya jatuhnya keras.
 
-<<scene demo_hotel>>
-Narator: Di luar hotel, ribuan warga berkumpul. Mereka tidak lagi mendukung, tetapi menuntut.
-Ibu Surti: Raka hanya memakai kami! Dia korupsi bersama Hartono! Tuntut Raka bertanggung jawab!
-Pak Karto: Kami dulu percaya Raka. Ternyata dia hanya memakai kami sebagai panggung.
-Narator: Raka mencoba keluar lewat pintu belakang, tetapi massa menghadang.
-Raka: Maaf! Saya mohon! Saya akan kembalikan semua!
-Komandan Polisi: Warga BOLO, tenang! KPK dan Bawaslu akan mengambil alih. Raka akan kami amankan sesuai hukum.
-Narator: Raka ditangkap di hadapan ribuan mata yang membencinya.
+<<scene Skema HP_5>>
+Narator: Tidak ada teriakan pendukung. Tidak ada tepuk tangan. Yang ada hanya bisik-bisik kekecewaan. Tapi Raka tidak peduli. Hartono sudah janji suara sudah diatur.
 
-<<scene tahanan_raka>>
-Hartono: Ada cara untuk membebaskanmu. Kamu hanya perlu diam dan jangan sebut nama saya.
-Raka: Bapak jamin saya bebas?
-Hartono: Percaya sama saya.
-Narator: Seminggu kemudian, Hartono justru menjadi saksi kunci yang mem-framing Raka sebagai otak tunggal.
+<<jump Skandal_Bocor>>
+===
 
-<<scene keluarga_di_tahanan>>
-Ibu Raka: Ibu lahirkan kau dengan air mata. Sekarang kau menjadi koruptor. Lebih baik kau mati waktu kecil daripada jadi begini.
-Bapak Raka: Kursi itu panas. Saya mengajarkan kejujuran, tapi kau memilih ketamakan.
-Andi: Aku malu disebut sahabatmu. Jangan pernah mencariku lagi.
-Narator: Raka ditinggal oleh semua orang yang pernah mencintainya.
+title: Skandal_Bocor
+---
+<<scene Skema SB_1>>
+Narator: Dalam hitungan menit, pesta kemenangan berubah menjadi neraka. Berita rekaman rapat dan transfer dana ilegal menyebar seperti api di padang ilalang. Relawan bayaran membuang seragam dan kabur. Catering mewah ditinggalkan. Hanya Raka, Hartono, dan beberapa staf yang tersisa. Bapak Raka masih duduk di sudut, diam membatu.
 
-<<scene sidang_pengadilan>>
-Raka: Yang Mulia, saya memang bersalah. Tapi Hartono otak dari semuanya.
-Jaksa: Semua bukti yang diajukan tidak dapat diverifikasi sebagai milik Hartono. Bukti mengarah ke Raka sendiri.
-Hakim: Hati nurani tidak cukup. Pengadilan berdasarkan bukti.
-Narator: Raka divonis 10 tahun penjara. Hartono tersenyum tipis di barisan pengunjung.
+<<scene Skema SB_2>>
+Narator: Di luar hotel, kerumunan warga mulai berkumpul. Bukan pendukung, tapi massa yang marah. Mereka datang dari pasar, dari pabrik, dari gang-gang sempit tempat Raka dulu bersihkan got. Wajah-wajah yang dulu tersenyum kini berubah menjadi topeng kemarahan.
 
-<<scene sel_penjara>>
-Raka: Aku masuk penjara karena keserakahan dan kebodohan. Aku percaya pada Hartono, padahal dia menghancurkan semua bukti.
-Raka: Korupsi tidak hanya merugikan negara, tetapi menghancurkan hati orang-orang yang mencintaimu. Maafkan aku, BOLO.
-Narator: KORUPSI BUKAN HANYA MENGHANCURKAN NEGARA, TETAPI JUGA JIWA MANUSIA.
-Narator: END - Alur Korup.
+<<scene Skema SB_3>>
+Raka: Pak Hartono! Ada apa ini? Bukankah Bapak bilang semuanya aman? Bukankah Bapak bilang kemenangan sudah di tangan? Saya seharusnya menang! Apa yang terjadi?!
+<<scene Skema SB_4>>
+Raka: Apa yang terjadi Pak Hartono, janji dan kesepakatan kita tidak begini. Saya harus jadi walikota saat ini, Pak!
+Hartono: Raka, tenang. Ini cuma masalah teknis. Rekaman itu pasti palsu. Aku akan urus.
+Raka: Jangan bohongi saya, Pak! Saya lihat sendiri di TV. Suara saya, suara Bapak, semua jelas. Ini bukan palsu. Ini rekaman asli. Bapak janji akan amankan semuanya. Bapak janji saya akan menang! Sekarang bagaimana?!
+Raka: Bapak yang mengatur acara tersebut, apakah Bapak mencoba untuk menjatuhkan saya?! Semua itu rekaman asli saat di set yang telah Bapak siapkan untuk saya di belakang layar, mengapa bisa bocor ke publik, Pak?!
+
+<<scene Skema SB_5>>
+Hartono: Kamu jangan banyak bacot, Raka. Aku yang atur kampanye. Aku yang bayar semuanya. Jadi ikut kata-kataku. Sekarang kamu diam di sini, jangan bicara apa pun ke media. Aku akan pergi ke kantor, hapus semua file, dan atur agar rekaman itu dibilang deepfake. Paling lambat besok semua beres.
+Raka: Tapi Pak... bagaimana dengan warga yang di luar? Mereka sudah marah. Saya takut...
+Raka: Saya ikut Bapak, kita selesaikan ini bersama! Di depan sana banyak massa loh, Pak. Kalau saya tertangkap, saya pasti mati dirajam massa, Pak. Saya ikut... Saya tidak mau mati di sini...
+Hartono: Kamu takut? Harusnya kamu takut dari awal! Sudah, aku pergi dulu. Jangan ikuti aku. Jangan telepon aku. Aku akan atur semuanya sendiri.
+
+<<scene Skema SB_6>>
+Raka: Pak Hartono! Jangan tinggalkan saya! Saya mohon! Kita bisa selesaikan bersama!
+// Pintu tertutup. Hartono tidak menoleh. Raka ambruk ke kursi, kedua tangan menutupi wajah. Ruangan terasa hampa. Suara bising dari luar mulai terdengar teriakan massa.
+
+<<scene Skema SB_7>>
+Narator: Raka ditinggalkan. Hartono, sang dalang, pergi dengan alasan ‘mengurus semuanya’. Tapi Raka tidak tahu bahwa Hartono justru pergi untuk menghancurkan semua bukti yang mengarah padanya, dan menyusun skenario baru: menjadikan Raka kambing hitam tunggal. Janji kemenangan yang dulu ditabur, kini berubah menjadi duri.
+
+// <<jump Demo_Massa>>
+<<jump Penutup_Akhir>>
+===
+
+title: Penutup_Akhir
+---
+<<scene Skema E4_1>>
+Raka: (monolog batin) Aku masuk penjara karena keserakahan, juga karena kebodohan. Aku percaya pada Hartono padahal dia adalah ular. Sekarang dia bebas, aku terpenjara.
+Raka: Rakyat yang dulu kucintai kini membenciku. Ibuku tidak mau menemuiku. Bapakku menganggapku mati. Andi, sahabatku, meludahiku.
+Raka: Semua karena aku ingin cepat kaya, ingin mudah berkuasa. Aku tidak pernah membayangkan kursi yang panas ini akan mengantarkanku ke sel.
+Raka: Korupsi tidak hanya merugikan negara, tapi menghancurkan hati orang-orang yang mencintaimu. Maafkan aku, BOLO.
+
+<<scene Skema E4_2>>
+<<scene Skema end_E4>>
+
 ===

@@ -7,6 +7,9 @@ using Yarn.Unity;
 
 public class SceneVisualController : MonoBehaviour
 {
+    public static event Action<string> SceneChanged;
+    public static string CurrentSceneId { get; private set; }
+
     [System.Serializable]
     public class SpriteEntry
     {
@@ -109,6 +112,8 @@ public class SceneVisualController : MonoBehaviour
             yield break;
         }
 
+        CurrentSceneId = sceneId;
+        SceneChanged?.Invoke(sceneId);
         ApplySceneAudio(scene);
         List<IEnumerator> transitions = new List<IEnumerator>();
 

@@ -119,6 +119,143 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &354432367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354432368}
+  - component: {fileID: 354432370}
+  - component: {fileID: 354432369}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &354432368
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354432367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 395545875}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.0028687}
+  m_SizeDelta: {x: 1520, y: 376.4527}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &354432369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354432367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &354432370
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354432367}
+  m_CullTransparentMesh: 1
 --- !u!224 &395545875 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
@@ -612,6 +749,7 @@ GameObject:
   - component: {fileID: 1082051201}
   - component: {fileID: 1082051203}
   - component: {fileID: 1082051204}
+  - component: {fileID: 1082051205}
   m_Layer: 0
   m_Name: Skema
   m_TagString: Untagged
@@ -814,6 +952,80 @@ MonoBehaviour:
     sprite: {fileID: 4751405049595198022, guid: 44639261a6cf44e3e926f56c371d6d1e, type: 3}
   - id: kantor_raka
     sprite: {fileID: 3737015876476035053, guid: b10421ebf1c5ca7a6a398da97c492ddc, type: 3}
+  - id: raka_datang_ke_panggung
+    sprite: {fileID: -6001616437451923373, guid: 1940b6804d4311959afece6e95daf764, type: 3}
+  - id: raka_dipanggung
+    sprite: {fileID: -2486854055714831919, guid: b86606617074706c98b651747531bbcf, type: 3}
+  - id: raka_melambaikan_tangan
+    sprite: {fileID: 3436125049659398816, guid: 5766af9e23b39351fb35c99f0f6c99dd, type: 3}
+  - id: raka_menunduk
+    sprite: {fileID: 6774606407119569554, guid: 8fada67ec8d865b32b428402dc8c5f33, type: 3}
+  - id: raka_tersenyum_sinis
+    sprite: {fileID: -4692521534735400144, guid: 15969f28f6eac4d0080764c65ee6861f, type: 3}
+  - id: raka_membagi_bingkisan
+    sprite: {fileID: -6955334890128897500, guid: 8722298b3dcd5c0dbb07c5f83f831fd3, type: 3}
+  - id: tumpukan_dokumen
+    sprite: {fileID: 3381395478864237137, guid: 7dc59541bc9348ae88551368d13d3b23, type: 3}
+  - id: raka_turun_panggung
+    sprite: {fileID: -4543446300956054165, guid: 62f514194c0bb05b68715659a4751fcd, type: 3}
+  - id: pembagian_makanan
+    sprite: {fileID: -7975284759224834063, guid: 71b5ee72467ca241dae7f7688b996dca, type: 3}
+  - id: media_sosial
+    sprite: {fileID: 4141329241634111629, guid: daaaae2d3f137e3fea0cfc0ef3f6ce1f, type: 3}
+  - id: raka_membantu_di_pasar
+    sprite: {fileID: 7460871152719512412, guid: 0829f6b347afe9ca4a71f047b0b7f13d, type: 3}
+  - id: raka_mengobrol_dengan_pedagang_pasar
+    sprite: {fileID: 5515343463745009761, guid: 27a4a876e409630069dbf2f80583c675, type: 3}
+  - id: raka_mengobrol_dengan_komandan_kayu
+    sprite: {fileID: -8755821097114272810, guid: feff6be7c880347dd86d9bc8ce5d0969, type: 3}
+  - id: panggung_raka_1
+    sprite: {fileID: -1139767278135167122, guid: b0c08de1fa66639a0b8248a744271e73, type: 3}
+  - id: panggung_raka_2
+    sprite: {fileID: -7523073604290725787, guid: 5d92ed14024d4864ab72779cc4eae230, type: 3}
+  - id: panggung_raka_3
+    sprite: {fileID: -5380239882980322373, guid: d7fbe03b8e85b43dc89f773a0ef7d55d, type: 3}
+  - id: panggung_raka_4
+    sprite: {fileID: -5380239882980322373, guid: d7fbe03b8e85b43dc89f773a0ef7d55d, type: 3}
+  - id: wawancara_raka
+    sprite: {fileID: 1242125430547916152, guid: b98876140b8753e0e8599d040392035c, type: 3}
+  - id: pemilihan_raka
+    sprite: {fileID: -5715726820143317847, guid: e50cbf27aa2fdaf729b43da701ae300c, type: 3}
+  - id: sosmed_1
+    sprite: {fileID: 4554621219252504418, guid: e7b365c6cfcae7c7ab3f51c9249d9934, type: 3}
+  - id: sosmed_2
+    sprite: {fileID: 8805590004131671936, guid: 48799ce9de1d9571f9872e42886ec39a, type: 3}
+  - id: mengobrol_dengan_hartono
+    sprite: {fileID: -6338072379373911139, guid: d528679714d1f69798bdf43c7d4e6b20, type: 3}
+  - id: pemberitaan
+    sprite: {fileID: 4609722386299788409, guid: c913b9b7bb15492a6b3e585986f53cbd, type: 3}
+  - id: berbaring_di_kamar
+    sprite: {fileID: -8243324236706157568, guid: 6baef1fc1036b9ec88877b3757ab296c, type: 3}
+  - id: raka_mengecek_medsos
+    sprite: {fileID: -8144936361739559639, guid: 6e407d653afff0d54b6a7020d486df10, type: 3}
+  - id: raka_dikamar_mandi
+    sprite: {fileID: 9184070020422286229, guid: 0aca3efe814a33dcc8d8a32f68c2f681, type: 3}
+  - id: raka_makan_bersama_ibu
+    sprite: {fileID: 3629327156898943834, guid: 7850b1ae8bf685ab293c82c9d87c24df, type: 3}
+  - id: raka_di_tps
+    sprite: {fileID: 3554631729819896543, guid: f92d74fc0614b16b2a035fc6edce0678, type: 3}
+  - id: raka_naik_mobil
+    sprite: {fileID: -2714268272608596478, guid: 78502467e6a5e3a1baf0d8fd85e0b0f5, type: 3}
+  - id: pesta_meriah
+    sprite: {fileID: 694940338988134376, guid: 81202094f06903eb482be0a5fd11912c, type: 3}
+  - id: keributan_diluar_hotel
+    sprite: {fileID: 4471903814136887919, guid: 17b71cf0ae50c625d9e535680d535ce5, type: 3}
+  - id: medsos_bocor
+    sprite: {fileID: 3554961577997783622, guid: a87dbda5e6acaa86092d514773209030, type: 3}
+  - id: raka_panik
+    sprite: {fileID: 5305594936697178260, guid: b52eae78271bd29b59774736639d7282, type: 3}
+  - id: hartono_keluar
+    sprite: {fileID: 3506765409741117760, guid: 35e1f08f1068d7c2486977ce55c0f8af, type: 3}
+  - id: hartono_left_chat
+    sprite: {fileID: -4883663808119165599, guid: 1d862fa7004af7abdb6cceae1d293886, type: 3}
+  - id: raka_sendirian
+    sprite: {fileID: -532049605516511701, guid: 0fbced18f6026c6c4a9c59a4d7fc4fe3, type: 3}
+  - id: layar_putih
+    sprite: {fileID: -4692819461662342997, guid: 5951744e5f3bb6126ba7d05df740802e, type: 3}
   characterSprites:
   - characterId: raka_8
     poseId: 1
@@ -914,17 +1126,31 @@ MonoBehaviour:
   - characterId: bu_surti_62
     poseId: 1
     sprite: {fileID: -4923648818743155154, guid: 871db799fa0b4716e87e3dbd88a77bf3, type: 3}
+  - characterId: pembawa_acara_68
+    poseId: 1
+    sprite: {fileID: -5144417719144431345, guid: 4b23e78cf0396703fb1caef3987fe7d9, type: 3}
+  - characterId: bu_surti_78
+    poseId: 1
+    sprite: {fileID: -4632965917649496368, guid: 6d955b9f360b6ebb4ad3716c747641ed, type: 3}
+  - characterId: raka_78
+    poseId: 1
+    sprite: {fileID: -3221753026669365777, guid: abeec3d86d237d30593d45c774da7010, type: 3}
+  - characterId: wartawan_78
+    poseId: 1
+    sprite: {fileID: 8097237487951445176, guid: 3ead42b63d41fd1d68fbfcb0de64e973, type: 3}
+  - characterId: hartono_78
+    poseId: 1
+    sprite: {fileID: -5274056370936334523, guid: d6c04d67de3c67cbdbca02221daa720b, type: 3}
+  - characterId: raka_87
+    poseId: 1
+    sprite: {fileID: -3702386831680600669, guid: df6cf4f119b8b58d6ac786f6c1f79d27, type: 3}
+  - characterId: bu_dewi_87
+    poseId: 1
+    sprite: {fileID: -3713694271692756016, guid: d524e68b81d5b3d1498c4c195ba09f5d, type: 3}
+  - characterId: bu_surti_87
+    poseId: 1
+    sprite: {fileID: -8424980135828402340, guid: d586a5f0a4436f8b0b29e22e6e2ac8eb, type: 3}
   scenes:
-  - id: end
-    backgroundId: layar_hitam
-    backgroundMusicId: 
-    stopBackgroundMusic: 0
-    environmentId: 
-    stopEnvironment: 0
-    hideAllCharactersFirst: 1
-    characters: []
-    characterVoices: []
-    internalId: 5109ae6a4f354d4e81f0daa30c54955a
   - id: layar_hitam
     backgroundId: layar_hitam
     backgroundMusicId: 
@@ -2049,6 +2275,476 @@ MonoBehaviour:
     characters: []
     characterVoices: []
     internalId: 1023e042e3964c03b676bff3d186c563
+  - id: JM1_1
+    backgroundId: raka_datang_ke_panggung
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: fd38747f22304e4da03aee95e8d5c521
+  - id: JM1_2
+    backgroundId: raka_datang_ke_panggung
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: pembawa_acara_68
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: f1dedab84c3840fabebcbafb7b669e4e
+  - id: JM1_3
+    backgroundId: raka_dipanggung
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 9dc0a13cc9714794bb592a6400eb12d6
+  - id: JM1_4
+    backgroundId: raka_melambaikan_tangan
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: c082c5049ad248f395e858aa6a6ed364
+  - id: JM1_5
+    backgroundId: raka_menunduk
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 36a0f1cbfa7843b097cd4f770c14d51a
+  - id: JM1_6
+    backgroundId: raka_tersenyum_sinis
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 622f1bc056724ca6917f596d0737ca64
+  - id: JM1_7
+    backgroundId: raka_turun_panggung
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: eeea2244c033407aa54540762b906c9e
+  - id: JM1_8
+    backgroundId: raka_membagi_bingkisan
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 0e3a0b3863ee4f21a9d7d744af6857ea
+  - id: JM1_9
+    backgroundId: tumpukan_dokumen
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 4e04a980d7fe4ce0a96cf28a83a6c2af
+  - id: JM2_1
+    backgroundId: pembagian_makanan
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: b66fcc44b7aa446e82a8239e13d24df5
+  - id: JM2_2
+    backgroundId: pembagian_makanan
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 0
+    characters:
+    - slotId: 1
+      characterId: raka_78
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: wartawan_78
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: aa1c0cf8f2c349f3831aa3acd9fc7f70
+  - id: JM2_3
+    backgroundId: media_sosial
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: c4d45cf60324463e8b2b748fb5a11da2
+  - id: JM3_1
+    backgroundId: raka_membantu_di_pasar
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 309db3238b584621b28242ff847a4d26
+  - id: JM3_2
+    backgroundId: raka_mengobrol_dengan_pedagang_pasar
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: f033521438f84840a73909f83022f0ed
+  - id: JM3_3
+    backgroundId: raka_mengobrol_dengan_komandan_kayu
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: c2530b99f54b4794afd9c7537c493905
+  - id: JM4_1
+    backgroundId: panggung_raka_1
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 4fc7506632a345eea1cffb4a7422e3df
+  - id: JM4_2
+    backgroundId: panggung_raka_2
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: cbab0b27ddbe4d9aaa46ae2b38000e8e
+  - id: JM4_3
+    backgroundId: wawancara_raka
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters:
+    - slotId: 1
+      characterId: raka_87
+      poseId: 1
+      hide: 0
+    - slotId: 2
+      characterId: bu_dewi_87
+      poseId: 1
+      hide: 0
+    characterVoices: []
+    internalId: a6eec69d11304350b98a16fba2733823
+  - id: JM4_4
+    backgroundId: panggung_raka_3
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: c86f7ae66ac74c3fb8c2f91c0f038f3a
+  - id: JM4_5
+    backgroundId: panggung_raka_4
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 4477f0856a954f7796d80e23dacd0c0e
+  - id: HH_1
+    backgroundId: pemilihan_raka
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 1d4a074776d6465283dbd5a769e099ac
+  - id: HH_2
+    backgroundId: sosmed_1
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 6ab945b0e6c34a18963ffb2ea9d8d83a
+  - id: HH_3
+    backgroundId: sosmed_2
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 819e317415d64ae18f532763bf81020e
+  - id: HH_4
+    backgroundId: pemberitaan
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 3920f6f43a6e478a9027ba7306ed25d3
+  - id: HH_5
+    backgroundId: mengobrol_dengan_hartono
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 379ce83eb425426e94ad9f3b12fb53c2
+  - id: HH_6
+    backgroundId: berbaring_di_kamar
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 944bc9b39c5249ad94583fbd78ff70a8
+  - id: HP_1
+    backgroundId: raka_mengecek_medsos
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 6ad274f7b1bc423eb8655d46b6808a70
+  - id: HP_2
+    backgroundId: raka_dikamar_mandi
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: c0973c5b04ed4e1c8b13790c2e56b01f
+  - id: HP_3
+    backgroundId: raka_makan_bersama_ibu
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 3bd131b2ce474750817e8b837845450a
+  - id: HP_4
+    backgroundId: raka_di_tps
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 9c76aa8ecbb6411f9d46a944c3eb15af
+  - id: HP_5
+    backgroundId: raka_naik_mobil
+    backgroundMusicId: selanjutnya
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 793b286605bb40de89821b9d3b07cd8c
+  - id: SB_1
+    backgroundId: pesta_meriah
+    backgroundMusicId: muncul_masalah
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 7587b886ea4845a7a9bb6ea601837706
+  - id: SB_2
+    backgroundId: keributan_diluar_hotel
+    backgroundMusicId: muncul_masalah
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: f7ec6be5bc2c4bfcb0d3192846f952ba
+  - id: SB_3
+    backgroundId: medsos_bocor
+    backgroundMusicId: muncul_masalah
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: f8e4cb3ac4ac4def92db23501f1f468a
+  - id: SB_4
+    backgroundId: raka_panik
+    backgroundMusicId: muncul_masalah
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 3bb954b46ad9433cad4e5e9008279d56
+  - id: SB_5
+    backgroundId: hartono_keluar
+    backgroundMusicId: muncul_masalah
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 3911a96b38b34c71a3e47dadd982497b
+  - id: SB_6
+    backgroundId: hartono_left_chat
+    backgroundMusicId: sesuatu_yang_ganjil
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 8b45e80b59144c82a3760e4d097c2eaa
+  - id: SB_7
+    backgroundId: raka_sendirian
+    backgroundMusicId: sesuatu_yang_ganjil
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 3cd7ff18d8be44fa900ad815b3fb576a
+  - id: E4_1
+    backgroundId: raka_dipenjara
+    backgroundMusicId: sesuatu_yang_ganjil
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 3c074bb3a94e49d7a5ab1b57b8eb3743
+  - id: E4_2
+    backgroundId: layar_putih
+    backgroundMusicId: sesuatu_yang_ganjil
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 3d4e502b7d064e5bb1f13e18902b1c88
+  - id: end_E1
+    backgroundId: layar_hitam
+    backgroundMusicId: 
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 5109ae6a4f354d4e81f0daa30c54955a
+  - id: end_E2
+    backgroundId: layar_hitam
+    backgroundMusicId: 
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: d79ace72eab64b88b84a74b0713103ba
+  - id: end_E3
+    backgroundId: layar_hitam
+    backgroundMusicId: 
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 0a6dbfa4780746c6b74812013283a218
+  - id: end_E4
+    backgroundId: layar_hitam
+    backgroundMusicId: 
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: fa8b96c7311049d2aba827345d8802e3
+  - id: end
+    backgroundId: layar_hitam
+    backgroundMusicId: 
+    stopBackgroundMusic: 0
+    environmentId: 
+    stopEnvironment: 0
+    hideAllCharactersFirst: 1
+    characters: []
+    characterVoices: []
+    internalId: 14dbd1132f2341839a8384fb28ab5403
   audioController: {fileID: 1082051204}
   autoAssignIdForNewScenes: 1
   transitionDuration: 0.5
@@ -2105,6 +2801,55 @@ MonoBehaviour:
     generatedToneDuration: 0.035
   musicFadeDuration: 0.75
   environmentFadeDuration: 0.5
+--- !u!114 &1082051205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082051200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c02513bbe5de8043877a0c18a3a3f96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneTypewriterText
+  targetText: {fileID: 0}
+  targetTmpText: {fileID: 354432369}
+  fullText: ' '
+  sceneTexts:
+  - visualSceneId: end_E1
+    text: 'Ending 1
+
+      Keraguan untuk Hal yang Belum Pasti'
+  - visualSceneId: end_E2
+    text: 'Ending 2
+
+      Terkadang Lebih Baik untuk Ragu daripada Menyesal Kemudian'
+  - visualSceneId: end_E3
+    text: 'Ending 3
+
+      Kepercayaan dan Konsisten akan Kebaikan Membawa Menuju
+      Kesuksesan'
+  - visualSceneId: end_E4
+    text: 'Ending 4
+
+      Korupsi Hanya Akan Membawa Bencana'
+  returnToMenuButton: {fileID: 1706598186}
+  returnButtonVisualSceneIds:
+  - end_E1
+  - end_E2
+  - end_E3
+  - end_E4
+  mainMenuSceneIndex: 0
+  characterDelay: 0.04
+  startDelay: 0.5
+  useUnscaledTime: 0
+  clearTextBeforeTyping: 1
+  preserveTextFromTargetOnAwake: 1
+  playOnStartIfSceneMatches: 1
+  replayWhenSceneLoads: 1
+  targetSceneName: 
+  targetSceneBuildIndex: -1
 --- !u!1001 &1370868603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2251,7 +2996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: startNode
-      value: Baik_Hari_Pemilihan
+      value: Ending_Menghindari_Resiko
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: yarnProject
@@ -2266,27 +3011,170 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 0
-      addedObject: {fileID: 1664710169}
+      addedObject: {fileID: 1082051202}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 1
-      addedObject: {fileID: 2139757144}
+      addedObject: {fileID: 1664710169}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 2
-      addedObject: {fileID: 1010305778}
+      addedObject: {fileID: 2139757144}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 3
-      addedObject: {fileID: 689345459}
+      addedObject: {fileID: 1010305778}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 4
-      addedObject: {fileID: 984191723}
+      addedObject: {fileID: 354432368}
     - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: 5
-      addedObject: {fileID: 1082051202}
+      addedObject: {fileID: 689345459}
+    - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 984191723}
+    - targetCorrespondingSourceObject: {fileID: 2355361765340444347, guid: 52571f68872914e24837210513edea1d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1706598185}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9078442560890639579, guid: 52571f68872914e24837210513edea1d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2072177460}
   m_SourcePrefab: {fileID: 100100000, guid: 52571f68872914e24837210513edea1d, type: 3}
+--- !u!1 &1658146864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1658146865}
+  - component: {fileID: 1658146867}
+  - component: {fileID: 1658146866}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1658146865
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658146864}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706598185}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1658146866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658146864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Kembali
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 62.25
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1658146867
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658146864}
+  m_CullTransparentMesh: 1
 --- !u!1 &1664710167
 GameObject:
   m_ObjectHideFlags: 0
@@ -2416,6 +3304,127 @@ Transform:
   m_Children: []
   m_Father: {fileID: 395545875}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1706598184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1706598185}
+  - component: {fileID: 1706598188}
+  - component: {fileID: 1706598187}
+  - component: {fileID: 1706598186}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1706598185
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706598184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1658146865}
+  m_Father: {fileID: 395545875}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000030518, y: -319.55}
+  m_SizeDelta: {x: 537.0162, y: 69.588}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1706598186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706598184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1706598187}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1706598187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706598184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 0.41960785}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1706598188
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706598184}
+  m_CullTransparentMesh: 1
 --- !u!1 &2072177458 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9078442560890639579, guid: 52571f68872914e24837210513edea1d, type: 3}
