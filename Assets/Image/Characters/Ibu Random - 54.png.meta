@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7f2fd6c9d0f384296a3536a3ad33f99c
+guid: e162842caa2fb92b78f3b280978bf4d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3869027281874818704
-    second: Ibu Random - 54_0
+      213: 4076776338438264780
+    second: Ibu Random -54_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ibu Random - 54_0
+      name: Ibu Random -54_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 48
-        width: 394
-        height: 915
+        x: 0
+        y: 109
+        width: 1025
+        height: 2291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0796e85af247e4ac0800000000000000
-      internalID: -3869027281874818704
+      spriteID: cc79459ea7e939830800000000000000
+      internalID: 4076776338438264780
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ibu Random - 54_0: -3869027281874818704
+      Ibu Random -54_0: 4076776338438264780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 45a969a3c5a75f9e7aeff29cb350e19f
+guid: 81f14bec6caa7d3acbc6352ff3e8fe2c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5629568408057641456
-    second: Kakek Random - 54_0
+      213: -1408322070158103623
+    second: Kakek Random -54_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kakek Random - 54_0
+      name: Kakek Random -54_0
       rect:
         serializedVersion: 2
-        x: 130
-        y: 68
-        width: 278
-        height: 947
+        x: 0
+        y: 0
+        width: 776
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f97901f3ae302e40800000000000000
-      internalID: 5629568408057641456
+      spriteID: 9bb22eee982a47ce0800000000000000
+      internalID: -1408322070158103623
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kakek Random - 54_0: 5629568408057641456
+      Kakek Random -54_0: -1408322070158103623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

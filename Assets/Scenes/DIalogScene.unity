@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0028687}
+  m_AnchoredPosition: {x: 0.000059128, y: 137}
   m_SizeDelta: {x: 1520, y: 376.4527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &354432369
@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85b379a697c0c08e9a765ac496129415, type: 2}
+  m_sharedMaterial: {fileID: -1213106026920187390, guid: 85b379a697c0c08e9a765ac496129415, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1080,10 +1080,10 @@ MonoBehaviour:
     sprite: {fileID: -8353289306917566752, guid: 5c7eff1c3a03a7bab930f2a928caafe8, type: 3}
   - characterId: admin_ridwan_40
     poseId: 1
-    sprite: {fileID: 7053252787692154065, guid: 92d33d774ec2ed3f99289849352cb677, type: 3}
+    sprite: {fileID: -5413749100487154600, guid: 95f4f4978e32046ee8f7035e43f3e22d, type: 3}
   - characterId: ibu_surti_40
     poseId: 1
-    sprite: {fileID: 8792996086851425353, guid: 73172acac38ed644293f9c9dfa33d9e9, type: 3}
+    sprite: {fileID: -1616548539234719075, guid: fa79811d701b0a63296780058b43c73f, type: 3}
   - characterId: bu_ageng_43
     poseId: 1
     sprite: {fileID: -2404361548617024721, guid: 2e38fb99d35240b9e85e5434f6ec51a6, type: 3}
@@ -1113,7 +1113,7 @@ MonoBehaviour:
     sprite: {fileID: -3869027281874818704, guid: 7f2fd6c9d0f384296a3536a3ad33f99c, type: 3}
   - characterId: kakek_random_54
     poseId: 1
-    sprite: {fileID: 5629568408057641456, guid: 45a969a3c5a75f9e7aeff29cb350e19f, type: 3}
+    sprite: {fileID: -1408322070158103623, guid: 81f14bec6caa7d3acbc6352ff3e8fe2c, type: 3}
   - characterId: raka_60
     poseId: 1
     sprite: {fileID: -5913970939158100550, guid: c0df0e36f235c8764821f37ca4767ba5, type: 3}
@@ -2862,6 +2862,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2958262986446477831, guid: 52571f68872914e24837210513edea1d, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958262986446477831, guid: 52571f68872914e24837210513edea1d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4692819461662342997, guid: 5951744e5f3bb6126ba7d05df740802e, type: 3}
+    - target: {fileID: 2958262986446477831, guid: 52571f68872914e24837210513edea1d, type: 3}
+      propertyPath: m_Color.a
+      value: 0.9411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958262986446477831, guid: 52571f68872914e24837210513edea1d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2958262986520364887, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2996,7 +3012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: startNode
-      value: Ending_Menghindari_Resiko
+      value: Permainan_Dimulai_1
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: yarnProject
@@ -3097,8 +3113,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Kembali
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55898862be554faceaa9fcaf11b19856, type: 2}
+  m_sharedMaterial: {fileID: -5699012424794560306, guid: 55898862be554faceaa9fcaf11b19856, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3122,7 +3138,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62.25
+  m_fontSize: 69.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

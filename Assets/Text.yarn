@@ -155,6 +155,8 @@ Tukang Kayu: Pak Raka, kami dukung Bapak.
 Tukang Kayu: Tapi izin tebang kayu kami macet sudah setahun. 
 Tukang Kayu: Pejabat sekarang minta uang pelicin setiap kali kami mengurus berkas.
 
+<<highlight Skema None>>
+Narator: Raka mendapatkan dukungan penuh dari warga, namun mereka mengeluhkan birokrasi perizinan yang mandek dan maraknya pungutan liar. Apa yang harus ia lakukan?
 <<highlight Skema A>>
 -> Kritik keras uang pelicin dan langsung berkomitmen membantu rakyat
     Raka: Wah, Pak, itu kasus yang bagus untuk diangkat!
@@ -174,6 +176,8 @@ Ibu Pedagang: Pak, pasar kami mau dibubarkan karena penataan kota.
 Ibu Pedagang: Katanya ada proyek bangunan mal.
 Ibu Pedagang: Tolong kami, Pak Raka... pasar kami mau digusur buat mal, tapi kami bingung harus pindah ke mana.
 
+<<highlight Skema None>>
+Narator: Raka dihadapkan pada keluhan pedagang pasar yang terancam digusur demi pembangunan mal tanpa solusi relokasi yang jelas. Apa yang harus ia lakukan?
 <<highlight Skema A>>
 -> Fokus pada hak kompensasi rakyat dan aspek legalitas relokasi pasar
     Raka: Berarti ada yang salah dari tempat jualan Ibu.
@@ -194,6 +198,9 @@ Pemuda: Pak Raka, kami lulusan SMK perkayuan.
 Pemuda: Tapi pabrik lebih suka impor kayu.
 Pemuda: Kenapa ya, Pak, masalah kayu di daerah kita kok ruwet banget akhir-akhir ini?
 
+<<highlight Skema None>>
+Narator: Raka mendengar keluhan dari lulusan SMK yang menganggur karena industri lokal lebih memilih impor kayu akibat karut-marutnya tata kelola perkayuan daerah. Apa yang harus ia lakukan?
+<<highlight Skema A>>
 -> Hubungkan masalah dengan birokrasi dan praktik uang pelicin yang dikeluhkan warga
     Raka: Sebelumnya Bapak tukang kayu mengatakan, 'Perizinan tebang kayu sedang terhambat dikarenakan oknum menginginkan uang pelicin bagi para penebang'.
     Raka: Mungkin karena hal itu, Dek.
@@ -223,6 +230,8 @@ Hartono: Pak Raka, selamat. Saya dan rekan-rekan pengusaha ingin mendukung penuh
 Hartono: Ada dana segar untuk kampanye, tim sukses, bahkan konsultan media.
 Hartono: Tentu saja, kami hanya berharap setelah terpilih Bapak bisa memperhatikan kebijakan ekspor kayu dan perizinan pabrik. Saling menguntungkan, bukan?
 
+<<highlight Skema None>>
+Narator: Raka mendapatkan tawaran dana kampanye yang besar dari kalangan pengusaha, namun tawaran tersebut datang dengan ikatan pamrih berupa konsesi kebijakan komoditas di masa depan. Apa yang harus ia lakukan?
 <<highlight Skema A>>
 -> Terima tawaran secara diplomatis untuk dipertimbangkan kembali
     Raka: Baik, Pak, terima kasih. Nanti saya pikirkan lagi ya.
@@ -234,6 +243,9 @@ Hartono: Tentu saja, kami hanya berharap setelah terpilih Bapak bisa memperhatik
 <<scene Skema PN17>>
 <<highlight Skema B>>
 Kontraktor: Saya siap menjadi mitra proyek jalan dan jembatan. Anggaran bisa kita atur bersama. Yang penting ada kesepakatan di awal.
+
+<<highlight Skema None>>
+Narator: Raka menerima tawaran kemitraan proyek infrastruktur dari pihak kontraktor, namun kerja sama tersebut mensyaratkan adanya kongkalikong dalam manipulasi anggaran sejak awal. Apa yang harus ia lakukan?
 <<highlight Skema A>>
 -> Tunda keputusan secara diplomatis dengan menyebutkan adanya tawaran dari Hartono
     Raka: Baik, Pak, terima kasih. Nanti saya pikirkan lagi ya. Hartono sudah mengajak.
@@ -245,6 +257,9 @@ Kontraktor: Saya siap menjadi mitra proyek jalan dan jembatan. Anggaran bisa kit
 <<scene Skema PN18>>
 <<highlight Skema B>>
 Oknum Dinas: Bapak butuh izin kampanye? Saya bisa mempermudah. Nanti kalau sudah jadi walikota, jangan lupa bagi-bagi jatah.
+
+<<highlight Skema None>>
+Narator: Raka ditawari kemudahan izin kampanye oleh oknum birokrasi, namun kemudahan tersebut harus dibayar dengan janji bagi-bagi jatah jabatan setelah ia terpilih menjadi walikota. Apa yang harus ia lakukan?
 <<highlight Skema A>>
 -> Tunda keputusan secara diplomatis dengan menyebutkan ajakan dari Hartono dan kontraktor
     Raka: Baik, Pak, terima kasih. Nanti saya pikirkan lagi ya. Hartono dan kontraktor sudah mengajak.
@@ -283,6 +298,7 @@ Narator: Ia pun bertemu dengan seorang nenek yang tengah berdangan di pasar.
 <<scene Skema BM1_3>>
 <<highlight Skema B>>
 Nenek: Nak Raka, saya sudah 20 tahun jualan di sini. Tapi tahun depan katanya pasar ini mau direlokasi.
+
 <<highlight Skema None>>
 Narator: Solusi apa yang harus diberikan Raka untuk menyelesaikan permasalahan sang Nenek akibat relokasi pasar ?
 <<highlight Skema A>>
@@ -303,6 +319,7 @@ Raka: Gorong-gorong tersumbat. Setiap hujan, air naik ke rumah-rumah.
 Raka: Kenapa terus dibiarkan ?
 <<highlight Skema B>>
 Pak Danang: Sudah tiga tahun kami lapor ke lurah, Pak. Tidak pernah ada tindakan.
+
 <<highlight Skema None>>
 Narator: Apa keputusan yang harus diambil Raka untuk mengatasi permasalah gorong-gorong ini ?
 <<highlight Skema A>>
@@ -316,6 +333,7 @@ Narator: Apa keputusan yang harus diambil Raka untuk mengatasi permasalah gorong
 <<scene Skema BM1_6>>
 <<highlight Skema B>>
 Bu Lastri: Jadi Bapak janji akan perbaiki?
+
 <<highlight Skema None>>
 Narator: Seorang warga meminta janji perbaikan gorong-gorong !
 <<highlight Skema A>>
@@ -347,6 +365,7 @@ Narator: Minggu ke-2. Raka memenuhi undangan Koperasi Mekar Jaya.
 Pak Darmo: Pak Raka, kami sudah lama berjuang. Harga kayu ditentukan oleh tengkulak. 
 Pak Darmo: Kalau kami jual murah, mereka beli. Kalau kami naikkan, mereka tidak mau. Pabrik juga lebih suka impor. 
 Pak Darmo: Apa solusinya?
+
 <<highlight Skema None>>
 Narator: Perwakilan dari pimpinan pengusaha kayu ingin meminta saran dari Raka karena mereka berharap Raka dapat memberikan solusi nyata untuk menghadapi gempuran kayu impor !
 <<highlight Skema A>>
@@ -605,6 +624,9 @@ Narator: TPS ketiga, Raka mendapat kemenangan.
 <<scene Skema BH_13>>
 <<highlight Skema B>>
 Relawan: Pak, sepertinya berat. Suara Budi masih unggul jauh.
+
+<<highlight Skema None>>
+Narator: Raka dihadapkan pada realitas politik di mana elektabilitasnya masih tertinggal jauh dari sang rival utama. Apa yang harus ia lakukan?
 <<highlight Skema A>>
 -> Fokus pada perjuangan yang telah dilakukan dan siap menerima hasil apa pun
     Raka: Kita tunggu sampai selesai. Apa pun hasilnya, saya sudah berjuang.
@@ -613,7 +635,7 @@ Relawan: Pak, sepertinya berat. Suara Budi masih unggul jauh.
 
 <<scene Skema BH_14>>
 <<highlight Skema B>>
-Petugas: Dari Kecamatan Lembah Hijau, total suara: Raka 890, Budi 340. Raka unggul 550 suara.
+Petugas: Dari Kecamatan Lembah Hijau, total suara: Raka 340, Budi 240. Raka unggul 100 suara.
 <<scene Skema BH_15>>
 Narator: Aula langsung ramai. Suara dari daerah terpencil menjadi titik balik.
 Narator: Selisih mengecil, lalu imbang. Semua mata menunggu TPS terakhir.
@@ -628,7 +650,7 @@ Narator: Aula meledak. Raka menang dengan 52 persen suara.
 <<highlight Skema A>>
 Ibu Surti: Nak, saya pilih Bapak bukan karena sembako. Saya pilih karena Bapak selalu ada ketika kami susah.
 <<scene Skema E3_2>>
-Narator: Kota BOLO tidak berubah dalam semalam. Tapi sesuatu yang penting telah berubah: harapan.
+Narator: Raka telah berhasil memenangkan kontestasi politik, namun ia kini berada di persimpangan jalan untuk menentukan arah kepemimpinannya melalui pidato kemenangan pertamanya !
 <<scene Skema E3_3>>
 -> Berpidato dengan gaya rendah hati, fokus pada kolaborasi dan pengawasan rakyat
     Raka: Saudara-saudara, saya tidak akan pernah melupakan hari ini.

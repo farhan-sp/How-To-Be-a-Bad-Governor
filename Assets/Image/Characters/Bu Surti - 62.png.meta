@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 871db799fa0b4716e87e3dbd88a77bf3
+guid: d84083d829fff5f8fa9a5479c17491f8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4923648818743155154
-    second: Bu Surti - 62_0
+      213: -5979484029240208659
+    second: Bu Surti -62_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bu Surti - 62_0
+      name: Bu Surti -62_0
       rect:
         serializedVersion: 2
-        x: 68
-        y: 11
-        width: 412
-        height: 993
+        x: 0
+        y: 26
+        width: 1254
+        height: 2374
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e26ea086c7fababb0800000000000000
-      internalID: -4923648818743155154
+      spriteID: de21401c4fa940da0800000000000000
+      internalID: -5979484029240208659
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bu Surti - 62_0: -4923648818743155154
+      Bu Surti -62_0: -5979484029240208659
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -116,10 +116,10 @@ TextureImporter:
       name: Bu Surti - 87_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 18
-        width: 399
-        height: 974
+        x: 0
+        y: 41
+        width: 1064
+        height: 2359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

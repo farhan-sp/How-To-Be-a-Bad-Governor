@@ -116,10 +116,10 @@ TextureImporter:
       name: 78 - Wartawan_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 532
-        height: 965
+        x: 0
+        y: 0
+        width: 1383
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

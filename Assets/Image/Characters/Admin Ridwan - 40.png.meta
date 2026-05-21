@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 92d33d774ec2ed3f99289849352cb677
+guid: 95f4f4978e32046ee8f7035e43f3e22d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7053252787692154065
-    second: Admin Ridwan - 40_0
+      213: -5413749100487154600
+    second: Admin Ridwan -40_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Admin Ridwan - 40_0
+      name: Admin Ridwan -40_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 11
-        width: 466
-        height: 1016
+        x: 0
+        y: 25
+        width: 1263
+        height: 2375
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dcac696a0032e160800000000000000
-      internalID: 7053252787692154065
+      spriteID: 8546f5a50ef7ed4b0800000000000000
+      internalID: -5413749100487154600
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Admin Ridwan - 40_0: 7053252787692154065
+      Admin Ridwan -40_0: -5413749100487154600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
